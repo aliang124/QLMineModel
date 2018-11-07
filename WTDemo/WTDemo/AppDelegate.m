@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "QLMineViewController.h"
 
 @interface AppDelegate ()
 
@@ -46,7 +47,7 @@
     itMine.titleText = @"我的";
     itMine.normalImage = @"tabbar_profile";
     itMine.selectImage = @"tabbar_profile_highlighted";
-    itMine.vc = [[WTViewController alloc] init];
+    itMine.vc = [[QLMineViewController alloc] init];
     
     WTTabbarController *tab = [[WTTabbarController alloc] init];
     tab.itemsArray = [NSArray arrayWithObjects:itIndex,itCare,itTieBa,itMine, nil];
