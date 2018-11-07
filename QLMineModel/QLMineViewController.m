@@ -42,6 +42,24 @@
     it1.hasArrow = YES;
     [section0 addItem:it1];
     
+    WTIconTextItem *it2 = [[WTIconTextItem alloc] init];
+    it2.iconImg = [WTUtil createImageFromColor:[UIColor redColor]];
+    it2.textString = @"关于我们";
+    it2.hasArrow = YES;
+    [section0 addItem:it2];
+    
+    WTIconTextItem *it3 = [[WTIconTextItem alloc] init];
+    it3.iconImg = [WTUtil createImageFromColor:[UIColor redColor]];
+    it3.textString = @"帮助反馈";
+    it3.hasArrow = YES;
+    [section0 addItem:it3];
+    
+    WTIconTextItem *it4 = [[WTIconTextItem alloc] init];
+    it4.iconImg = [WTUtil createImageFromColor:[UIColor redColor]];
+    it4.textString = @"设置";
+    it4.hasArrow = YES;
+    [section0 addItem:it4];
+    
     [sectionArray addObject:section0];
     [self.formManager replaceSectionsWithSectionsFromArray:sectionArray];
 
