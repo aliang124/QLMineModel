@@ -14,6 +14,7 @@
         self.cellHeight = 120;
         self.bgColor = [UIColor blueColor];
         self.hasBottomLine = NO;
+        self.canHighlighted = NO;
     }
     return self;
 }
@@ -58,8 +59,6 @@
     [self.contentView addSubview:arrowImg];
     
 }
-
-- (void)setHighlighted:(BOOL)highlighted animated:(BOOL)animated{}
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated{}
 

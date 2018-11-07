@@ -8,6 +8,7 @@
 
 #import "QLMineViewController.h"
 #import "QLMineHeadCell.h"
+#import "WTIconTextCell.h"
 
 @interface QLMineViewController ()
 @end
@@ -18,6 +19,7 @@
     [super viewDidLoad];
     self.navBar.leftItemList = [NSArray array];
     self.formManager[@"QLMineHeadItem"] = @"QLMineHeadCell";
+    self.formManager[@"WTIconTextItem"] = @"WTIconTextCell";
 
     [self setControllerTitle];
     [self initForm];
@@ -33,6 +35,12 @@
     
     QLMineHeadItem *itHead = [[QLMineHeadItem alloc] init];
     [section0 addItem:itHead];
+    
+    WTIconTextItem *it1 = [[WTIconTextItem alloc] init];
+    it1.iconImg = [WTUtil createImageFromColor:[UIColor redColor]];
+    it1.textString = @"宝宝档案";
+    it1.hasArrow = YES;
+    [section0 addItem:it1];
     
     [sectionArray addObject:section0];
     [self.formManager replaceSectionsWithSectionsFromArray:sectionArray];
