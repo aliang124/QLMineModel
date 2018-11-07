@@ -82,6 +82,10 @@
 		50DADCF62192854400DA8BFE /* QLMineModel */ = {
 			isa = PBXGroup;
 			children = (
+				50DADD0E2192E53600DA8BFE /* ABoutMe */,
+				50DADD0F2192E53600DA8BFE /* BabyRecord */,
+				50DADD112192E53600DA8BFE /* FeedBack */,
+				50DADD102192E53600DA8BFE /* Setting */,
 				50DADD062192B40D00DA8BFE /* Cell */,
 				50DADCF82192854400DA8BFE /* QLMineViewController.h */,
 				50DADCF72192854400DA8BFE /* QLMineViewController.m */,
@@ -97,6 +101,34 @@
 				50DADD082192B46700DA8BFE /* QLMineHeadCell.m */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		50DADD0E2192E53600DA8BFE /* ABoutMe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ABoutMe;
+			sourceTree = "<group>";
+		};
+		50DADD0F2192E53600DA8BFE /* BabyRecord */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BabyRecord;
+			sourceTree = "<group>";
+		};
+		50DADD102192E53600DA8BFE /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		50DADD112192E53600DA8BFE /* FeedBack */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FeedBack;
 			sourceTree = "<group>";
 		};
 		B160F7A7F7133FFEFB7FE33C /* Frameworks */ = {

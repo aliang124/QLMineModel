@@ -15,6 +15,22 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/aliang124/QLMineModel.git", :tag => "#{s.version}" }
   s.source_files  = "QLMineModel/*.{h,m}"
 
+  s.subspec 'ABoutMe' do |ss|
+  ss.source_files = 'QLMineModel/ABoutMe/**/*.{h,m,c,mm}'
+  end
+
+  s.subspec 'BabyRecord' do |ss|
+  ss.source_files = 'QLMineModel/BabyRecord/**/*.{h,m,c,mm}'
+  end
+
+  s.subspec 'FeedBack' do |ss|
+  ss.source_files = 'QLMineModel/FeedBack/**/*.{h,m,c,mm}'
+  end
+
+  s.subspec 'Setting' do |ss|
+  ss.source_files = 'QLMineModel/Setting/**/*.{h,m,c,mm}'
+  end
+
   s.subspec 'Cell' do |ss|
   ss.source_files = 'QLMineModel/Cell/**/*.{h,m,c,mm}'
   end
