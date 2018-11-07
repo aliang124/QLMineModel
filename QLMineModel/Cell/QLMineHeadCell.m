@@ -6,7 +6,7 @@
 //  Copyright © 2017年 jienliang. All rights reserved.
 //
 #import "QLMineHeadCell.h"
-#import "NSBundle+WTBaseCore.h"
+#import "WTBaseCore.h"
 
 @implementation QLMineHeadItem
 - (id)init{
