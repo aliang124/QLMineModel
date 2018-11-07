@@ -15,4 +15,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/aliang124/QLMineModel.git", :tag => "#{s.version}" }
   s.source_files  = "QLMineModel/*.{h,m}"
 
+  s.subspec 'Cell' do |ss|
+  ss.source_files = 'QLMineModel/Cell/**/*.{h,m,c,mm}'
+  end
+
 end
