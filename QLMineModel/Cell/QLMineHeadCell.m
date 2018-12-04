@@ -55,7 +55,7 @@
     [self.contentView addSubview:userTipLab];
     //右箭头
     arrowImg = [[UIImageView alloc] initWithFrame:CGRectMake(userNameLab.right+9, 34, 12, 12)];
-    [arrowImg setImage:[NSBundle getImageFromBoundle:@"Arrow_Right"]];
+    [arrowImg setImage:[UIImage imageNamed:@"WTBaseCore/Arrow_Right"]];
     [self.contentView addSubview:arrowImg];
     
 }

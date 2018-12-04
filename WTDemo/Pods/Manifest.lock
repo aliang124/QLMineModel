@@ -1,36 +1,18 @@
 PODS:
-  - AFNetworking (3.1.0):
-    - AFNetworking/NSURLSession (= 3.1.0)
-    - AFNetworking/Reachability (= 3.1.0)
-    - AFNetworking/Security (= 3.1.0)
-    - AFNetworking/Serialization (= 3.1.0)
-    - AFNetworking/UIKit (= 3.1.0)
-  - AFNetworking/NSURLSession (3.1.0):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.1.0)
-  - AFNetworking/Security (3.1.0)
-  - AFNetworking/Serialization (3.1.0)
-  - AFNetworking/UIKit (3.1.0):
-    - AFNetworking/NSURLSession
-  - Aspects (1.4.1)
-  - DZNEmptyDataSet (1.8.1)
   - FDFullscreenPopGesture (1.1)
   - IQKeyboardManager (5.0.8)
-  - MJExtension (3.0.13)
   - QLBusiness (0.0.1):
     - QLBusiness/Cell (= 0.0.1)
+    - QLBusiness/Model (= 0.0.1)
+    - QLBusiness/Request (= 0.0.1)
     - QLBusiness/View (= 0.0.1)
   - QLBusiness/Cell (0.0.1)
+  - QLBusiness/Model (0.0.1)
+  - QLBusiness/Request (0.0.1)
   - QLBusiness/View (0.0.1)
   - WTBaseCore (0.0.1):
-    - AFNetworking (~> 3.1.0)
-    - Aspects (~> 1.4.1)
-    - DZNEmptyDataSet (~> 1.8.1)
     - FDFullscreenPopGesture (~> 1.1)
     - IQKeyboardManager (~> 5.0.7)
-    - MJExtension (~> 3.0.13)
     - WTBaseCore/CoreCell (= 0.0.1)
     - WTBaseCore/CoreController (= 0.0.1)
     - WTBaseCore/CoreNetworking (= 0.0.1)
@@ -40,135 +22,62 @@ PODS:
     - WTBaseCore/CoreUtil (= 0.0.1)
     - WTBaseCore/RETableViewManager (= 0.0.1)
     - WTBaseCore/WTAppDelegate (= 0.0.1)
-    - XAspect (~> 1.0.5)
-    - YYWebImage (~> 1.0.5)
+    - WTBaseCore/WTCustomNavBar (= 0.0.1)
   - WTBaseCore/CoreCell (0.0.1):
-    - AFNetworking (~> 3.1.0)
-    - Aspects (~> 1.4.1)
-    - DZNEmptyDataSet (~> 1.8.1)
     - FDFullscreenPopGesture (~> 1.1)
     - IQKeyboardManager (~> 5.0.7)
-    - MJExtension (~> 3.0.13)
-    - XAspect (~> 1.0.5)
-    - YYWebImage (~> 1.0.5)
   - WTBaseCore/CoreController (0.0.1):
-    - AFNetworking (~> 3.1.0)
-    - Aspects (~> 1.4.1)
-    - DZNEmptyDataSet (~> 1.8.1)
     - FDFullscreenPopGesture (~> 1.1)
     - IQKeyboardManager (~> 5.0.7)
-    - MJExtension (~> 3.0.13)
-    - XAspect (~> 1.0.5)
-    - YYWebImage (~> 1.0.5)
   - WTBaseCore/CoreNetworking (0.0.1):
-    - AFNetworking (~> 3.1.0)
-    - Aspects (~> 1.4.1)
-    - DZNEmptyDataSet (~> 1.8.1)
     - FDFullscreenPopGesture (~> 1.1)
     - IQKeyboardManager (~> 5.0.7)
-    - MJExtension (~> 3.0.13)
-    - XAspect (~> 1.0.5)
-    - YYWebImage (~> 1.0.5)
   - WTBaseCore/CoreRes (0.0.1):
-    - AFNetworking (~> 3.1.0)
-    - Aspects (~> 1.4.1)
-    - DZNEmptyDataSet (~> 1.8.1)
     - FDFullscreenPopGesture (~> 1.1)
     - IQKeyboardManager (~> 5.0.7)
-    - MJExtension (~> 3.0.13)
-    - XAspect (~> 1.0.5)
-    - YYWebImage (~> 1.0.5)
   - WTBaseCore/CoreString (0.0.1):
-    - AFNetworking (~> 3.1.0)
-    - Aspects (~> 1.4.1)
-    - DZNEmptyDataSet (~> 1.8.1)
     - FDFullscreenPopGesture (~> 1.1)
     - IQKeyboardManager (~> 5.0.7)
-    - MJExtension (~> 3.0.13)
-    - XAspect (~> 1.0.5)
-    - YYWebImage (~> 1.0.5)
   - WTBaseCore/CoreUI (0.0.1):
-    - AFNetworking (~> 3.1.0)
-    - Aspects (~> 1.4.1)
-    - DZNEmptyDataSet (~> 1.8.1)
     - FDFullscreenPopGesture (~> 1.1)
     - IQKeyboardManager (~> 5.0.7)
-    - MJExtension (~> 3.0.13)
-    - XAspect (~> 1.0.5)
-    - YYWebImage (~> 1.0.5)
   - WTBaseCore/CoreUtil (0.0.1):
-    - AFNetworking (~> 3.1.0)
-    - Aspects (~> 1.4.1)
-    - DZNEmptyDataSet (~> 1.8.1)
     - FDFullscreenPopGesture (~> 1.1)
     - IQKeyboardManager (~> 5.0.7)
-    - MJExtension (~> 3.0.13)
-    - XAspect (~> 1.0.5)
-    - YYWebImage (~> 1.0.5)
   - WTBaseCore/RETableViewManager (0.0.1):
-    - AFNetworking (~> 3.1.0)
-    - Aspects (~> 1.4.1)
-    - DZNEmptyDataSet (~> 1.8.1)
     - FDFullscreenPopGesture (~> 1.1)
     - IQKeyboardManager (~> 5.0.7)
-    - MJExtension (~> 3.0.13)
-    - XAspect (~> 1.0.5)
-    - YYWebImage (~> 1.0.5)
   - WTBaseCore/WTAppDelegate (0.0.1):
-    - AFNetworking (~> 3.1.0)
-    - Aspects (~> 1.4.1)
-    - DZNEmptyDataSet (~> 1.8.1)
     - FDFullscreenPopGesture (~> 1.1)
     - IQKeyboardManager (~> 5.0.7)
-    - MJExtension (~> 3.0.13)
-    - XAspect (~> 1.0.5)
-    - YYWebImage (~> 1.0.5)
-  - XAspect (1.0.5):
-    - XAspect/Core (= 1.0.5)
-    - XAspect/Macros (= 1.0.5)
-  - XAspect/Core (1.0.5):
-    - XAspect/Macros
-  - XAspect/Macros (1.0.5)
-  - YYCache (1.0.4)
-  - YYImage (1.0.4):
-    - YYImage/Core (= 1.0.4)
-  - YYImage/Core (1.0.4)
-  - YYWebImage (1.0.5):
-    - YYCache
-    - YYImage
+  - WTBaseCore/WTCustomNavBar (0.0.1):
+    - FDFullscreenPopGesture (~> 1.1)
+    - IQKeyboardManager (~> 5.0.7)
 
 DEPENDENCIES:
   - QLBusiness (from `https://github.com/aliang124/QLBusiness.git`)
-  - WTBaseCore (from `https://github.com/aliang124/WTBaseCore.git`)
+  - WTBaseCore (from `https://github.com/jienliang000/WTBaseCore.git`)
 
 EXTERNAL SOURCES:
   QLBusiness:
     :git: https://github.com/aliang124/QLBusiness.git
   WTBaseCore:
-    :git: https://github.com/aliang124/WTBaseCore.git
+    :git: https://github.com/jienliang000/WTBaseCore.git
 
 CHECKOUT OPTIONS:
   QLBusiness:
-    :commit: b1c19323fe24d855ff8e67b475c04e28aefca1a9
+    :commit: 338eb793ab7ca77a74e54aefa939bf94c9e44744
     :git: https://github.com/aliang124/QLBusiness.git
   WTBaseCore:
-    :commit: bd7872e711fd3c183fc4f768d7d3effc49b2046e
-    :git: https://github.com/aliang124/WTBaseCore.git
+    :commit: bd91b9653505c82de19127edb17898e4bac09ba4
+    :git: https://github.com/jienliang000/WTBaseCore.git
 
 SPEC CHECKSUMS:
-  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
-  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   IQKeyboardManager: 266cb7b1d11f94a3e71229d77f960f9a1b538e5b
-  MJExtension: 5932755f451458eefa24239358817f8d291240c7
-  QLBusiness: 748465106e906465bfdc82df6c62366512afee32
-  WTBaseCore: 4b0e235b1c38b46c9f44d8ec74e1fc436afe46cd
-  XAspect: db50bf487f92dbb8557a7a5365556966c8493af8
-  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
-  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
-  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+  QLBusiness: 65cf398bbc46a7ab97c8c09cc48050dcb42eecae
+  WTBaseCore: c46847e84d6a933554f3bed7ea1a94ed729131b3
 
-PODFILE CHECKSUM: 4b2b9869a51fe81fb8ee751e5da080fec45fabbb
+PODFILE CHECKSUM: 08901c5268b4eb504c0d82559ac29a8745c08a61
 
 COCOAPODS: 1.4.0
