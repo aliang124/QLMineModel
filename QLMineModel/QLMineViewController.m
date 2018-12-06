@@ -9,25 +9,45 @@
 #import "QLMineViewController.h"
 #import "QLMineHeadCell.h"
 #import "WTIconTextCell.h"
-
+#import "QLBusiness.h"
 @interface QLMineViewController ()
+{
+    UILabel *userNameLab;
+    UIImageView *iconImg;
+}
 @end
 
 @implementation QLMineViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navBar.leftItemList = [NSArray array];
     self.formManager[@"QLMineHeadItem"] = @"QLMineHeadCell";
     self.formManager[@"WTIconTextItem"] = @"WTIconTextCell";
-
-    [self setControllerTitle];
-    [self initForm];
+    self.navBar.hidden = YES;
+    
+    float iXStatus = 0;
+    if (iPhoneX) {
+        iXStatus = 24;
+    }
+    UIView *bgView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, WTScreenWidth, 148+24+iXStatus)];
+    bgView.backgroundColor = QL_NavBar_BgColor_Yellow;
+    [self.view addSubview:bgView];
+    
+    userNameLab = [[UILabel alloc] initWithFrame:CGRectMake(21, 24+35+iXStatus, WTScreenWidth-21-82, 19)];
+    userNameLab.font = WTFontSys(20);
+    userNameLab.text = @"天天兰兰";
+    userNameLab.textColor = QL_NavBar_TitleColor_Black;
+    [self.view addSubview:userNameLab];
+    
+    iconImg = [[UIImageView alloc] initWithFrame:CGRectMake(WTScreenWidth-82, 30+24+iXStatus, 60, 60)];
+    iconImg.layer.borderColor = [UIColor whiteColor].CGColor;
+    iconImg.layer.borderWidth = 2;
+    iconImg.layer.masksToBounds = YES;
+    iconImg.backgroundColor = [UIColor redColor];
+    [self.view addSubview:iconImg];
+//    [self initForm];
 }
 
-- (void)setControllerTitle {
-    self.navBar.title = @"我的";
-}
 
 - (void)initForm {
     NSMutableArray *sectionArray = [NSMutableArray array];
