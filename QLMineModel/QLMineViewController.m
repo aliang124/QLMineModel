@@ -13,6 +13,7 @@
 @interface QLMineViewController ()
 {
     UILabel *userNameLab;
+    UILabel *tipTextLab;
     UIImageView *iconImg;
 }
 @end
@@ -32,19 +33,39 @@
     UIView *bgView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, WTScreenWidth, 148+24+iXStatus)];
     bgView.backgroundColor = QL_NavBar_BgColor_Yellow;
     [self.view addSubview:bgView];
-    
+    //用户名
     userNameLab = [[UILabel alloc] initWithFrame:CGRectMake(21, 24+35+iXStatus, WTScreenWidth-21-82, 19)];
     userNameLab.font = WTFontSys(20);
     userNameLab.text = @"天天兰兰";
     userNameLab.textColor = QL_NavBar_TitleColor_Black;
     [self.view addSubview:userNameLab];
-    
+    ///头像
     iconImg = [[UIImageView alloc] initWithFrame:CGRectMake(WTScreenWidth-82, 30+24+iXStatus, 60, 60)];
     iconImg.layer.borderColor = [UIColor whiteColor].CGColor;
     iconImg.layer.borderWidth = 2;
     iconImg.layer.masksToBounds = YES;
     iconImg.backgroundColor = [UIColor redColor];
     [self.view addSubview:iconImg];
+    //说明
+    tipTextLab = [[UILabel alloc] initWithFrame:CGRectMake(21, userNameLab.bottom+18, 10, 9)];
+    tipTextLab.font = WTFontSys(10);
+    tipTextLab.text = @"查看或编辑个人主页";
+    tipTextLab.textColor = QL_NavBar_TitleColor_Black;
+    [self.view addSubview:tipTextLab];
+    [tipTextLab sizeToFit];
+    
+    UIImageView *arrowImg = [[UIImageView alloc] initWithFrame:CGRectMake(tipTextLab.right+11, tipTextLab.top, 6, 9)];
+    arrowImg.backgroundColor = [UIColor redColor];
+    [self.view addSubview:arrowImg];
+    
+    //工具栏
+    UIView *barView = [[UIView alloc] initWithFrame:CGRectMake(16, 24+108+iXStatus, WTScreenWidth-16-16, 80)];
+    barView.layer.cornerRadius = 3;
+    barView.layer.masksToBounds = YES;
+    barView.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:barView];
+
+    
 //    [self initForm];
 }
 

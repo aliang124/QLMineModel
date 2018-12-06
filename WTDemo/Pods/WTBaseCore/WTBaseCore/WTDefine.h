@@ -45,7 +45,7 @@
 /**
  *     @brief     view默认背景色.
  */
-#define WT_Color_ViewBackGround  WTColorHex(0xf4f4f4)
+#define WT_Color_ViewBackGround  WTColorHex(0xf5f5f2)
 /**
  *     @brief     文本黑色字体颜色.
  */
