@@ -37,7 +37,6 @@
     [self.contentView addSubview:iconImg];
     //图标
     arrowImg = [[UIImageView alloc] initWithFrame:CGRectMake(WTScreenWidth-30, 22, 6, 10)];
-    arrowImg.backgroundColor = [UIColor redColor];
     [self.contentView addSubview:arrowImg];
     //文本
     textLab = [[UILabel alloc] initWithFrame:CGRectMake(iconImg.right+12, 20, WTScreenWidth-iconImg.right-12-30-5, 12)];
@@ -63,7 +62,7 @@
 {
     [super cellWillAppear];
     [iconImg setImage:self.item.iconImg];
-    [arrowImg setImage:self.item.arrowImg];
+    [arrowImg setImage:[UIImage imageNamed:@"arrowImg"]];
     textLab.text = [WTUtil strRelay:self.item.textString];
 }
 

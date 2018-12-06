@@ -30,8 +30,8 @@
     if (iPhoneX) {
         iXStatus = 24;
     }
-    UIView *bgView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, WTScreenWidth, 148+24+iXStatus)];
-    bgView.backgroundColor = QL_NavBar_BgColor_Yellow;
+    UIImageView *bgView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, WTScreenWidth, 148+24+iXStatus)];
+    [bgView setImage:[UIImage imageNamed:@"mineBg"]];
     [self.view addSubview:bgView];
     //用户名
     userNameLab = [[UILabel alloc] initWithFrame:CGRectMake(21, 24+35+iXStatus, WTScreenWidth-21-82, 19)];
@@ -55,7 +55,7 @@
     [tipTextLab sizeToFit];
     
     UIImageView *arrowImg = [[UIImageView alloc] initWithFrame:CGRectMake(tipTextLab.right+11, tipTextLab.top, 6, 9)];
-    arrowImg.backgroundColor = [UIColor redColor];
+    [arrowImg setImage:[UIImage imageNamed:@"mineArrow"]];
     [self.view addSubview:arrowImg];
     
     //工具栏
@@ -79,7 +79,13 @@
     [barView addSubview:guanBtn];
     
     UIImageView *icon1 = [[UIImageView alloc] initWithFrame:CGRectMake((guanBtn.width-24)/2, 20, 24, 24)];
-    icon1.backgroundColor = [UIColor redColor];
+    if (idx==0) {
+        [icon1 setImage:[UIImage imageNamed:@"guanzhu"]];
+    } else if (idx==1) {
+        [icon1 setImage:[UIImage imageNamed:@"fensi"]];
+    } else if (idx==2) {
+        [icon1 setImage:[UIImage imageNamed:@"xiaoxi"]];
+    }
     [guanBtn addSubview:icon1];
     
     UILabel *titleLab = [[UILabel alloc] initWithFrame:CGRectMake(0, icon1.bottom+5, guanBtn.width, 11)];
@@ -100,22 +106,22 @@
     RETableViewSection *section0 = [RETableViewSection section];
     
     WTIconTextItem *it1 = [[WTIconTextItem alloc] init];
-    it1.iconImg = [WTUtil createImageFromColor:[UIColor redColor]];
+    it1.iconImg = [UIImage imageNamed:@"baby"];
     it1.textString = @"宝宝档案";
     [section0 addItem:it1];
     
     WTIconTextItem *it2 = [[WTIconTextItem alloc] init];
-    it2.iconImg = [WTUtil createImageFromColor:[UIColor redColor]];
+    it2.iconImg = [UIImage imageNamed:@"about"];
     it2.textString = @"关于我们";
     [section0 addItem:it2];
     
     WTIconTextItem *it3 = [[WTIconTextItem alloc] init];
-    it3.iconImg = [WTUtil createImageFromColor:[UIColor redColor]];
+    it3.iconImg = [UIImage imageNamed:@"help"];
     it3.textString = @"帮助反馈";
     [section0 addItem:it3];
     
     WTIconTextItem *it4 = [[WTIconTextItem alloc] init];
-    it4.iconImg = [WTUtil createImageFromColor:[UIColor redColor]];
+    it4.iconImg = [UIImage imageNamed:@"setting"];
     it4.textString = @"设置";
     [section0 addItem:it4];
     
