@@ -11,5 +11,7 @@
 
 #import "QLDefine.h"
 #import "WTIconTextCell.h"
+#import "QLViewController.h"
+#import "QLFormViewController.h"
 
 #endif

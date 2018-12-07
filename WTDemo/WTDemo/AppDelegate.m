@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "QLMineViewController.h"
-
+#import "QLViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -29,19 +29,19 @@
     itIndex.titleText = @"发现";
     itIndex.normalImage = @"tabbar_translate";
     itIndex.selectImage = @"tabbar_translate_highlighted";
-    itIndex.vc = [[WTViewController alloc] init];
+    itIndex.vc = [[QLViewController alloc] init];
     
     WTTabBarItem *itCare = [[WTTabBarItem alloc] init];
     itCare.titleText = @"关注";
     itCare.normalImage = @"tabbar_application";
     itCare.selectImage = @"tabbar_application_highlighted";
-    itCare.vc = [[WTViewController alloc] init];
+    itCare.vc = [[QLViewController alloc] init];
     
     WTTabBarItem *itTieBa = [[WTTabBarItem alloc] init];
     itTieBa.titleText = @"浪吧";
     itTieBa.normalImage = @"tabbar_application";
     itTieBa.selectImage = @"tabbar_application_highlighted";
-    itTieBa.vc = [[WTViewController alloc] init];
+    itTieBa.vc = [[QLViewController alloc] init];
     
     WTTabBarItem *itMine = [[WTTabBarItem alloc] init];
     itMine.titleText = @"我的";

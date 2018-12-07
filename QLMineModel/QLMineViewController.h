@@ -7,7 +7,8 @@
 //
 
 #import "WTBaseCore.h"
+#import "QLBusiness.h"
 
-@interface QLMineViewController : WTFormViewController
+@interface QLMineViewController : QLFormViewController
 
 @end

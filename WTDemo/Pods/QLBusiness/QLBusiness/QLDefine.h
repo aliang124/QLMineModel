@@ -8,6 +8,21 @@
 
 #ifndef QLBusiness_QLDefine_h
 #define QLBusiness_QLDefine_h
+/**
+ *     @brief     状态栏区域高度，如果是iPhoneX加上刘海区域高度
+ */
+#define WT_Height_StatusBar (iPhoneX ? 44.0f : 20.0f)
+/**
+ *     @brief     实际操作title区域和按钮区域高度
+ */
+#define WT_NavBar_Title_Height 48
+/**
+ *     @brief     总高度
+ */
+#define WT_NavBar_Height (WT_NavBar_Title_Height+WT_Height_StatusBar)
+
+
+
 //导航栏的黄色
 #define QL_NavBar_BgColor_Yellow WTColorHex(0xF8DC3D)
 //导航栏标题颜色黑色
