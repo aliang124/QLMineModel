@@ -10,6 +10,9 @@
 #import "QLMineHeadCell.h"
 #import "WTIconTextCell.h"
 #import "QLBusiness.h"
+#import "QLABoutViewController.h"
+#import "QLFeedBackViewController.h"
+
 @interface QLMineViewController ()
 {
     UILabel *userNameLab;
@@ -102,6 +105,7 @@
 }
 
 - (void)initForm {
+    WT(bself);
     NSMutableArray *sectionArray = [NSMutableArray array];
     RETableViewSection *section0 = [RETableViewSection section];
     
@@ -113,11 +117,19 @@
     WTIconTextItem *it2 = [[WTIconTextItem alloc] init];
     it2.iconImg = [UIImage imageNamed:@"about"];
     it2.textString = @"关于我们";
+    it2.selectionHandler = ^(id item) {
+        QLABoutViewController *aa = [QLABoutViewController new];
+        [bself.navigationController pushViewController:aa animated:YES];
+    };
     [section0 addItem:it2];
     
     WTIconTextItem *it3 = [[WTIconTextItem alloc] init];
     it3.iconImg = [UIImage imageNamed:@"help"];
     it3.textString = @"帮助反馈";
+    it3.selectionHandler = ^(id item) {
+        QLFeedBackViewController *aa = [QLFeedBackViewController new];
+        [bself.navigationController pushViewController:aa animated:YES];
+    };
     [section0 addItem:it3];
     
     WTIconTextItem *it4 = [[WTIconTextItem alloc] init];

@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		221AEC82A8DB30A6462C9440 /* libPods-WTDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A24F37922F2E1F5DE6CD53EC /* libPods-WTDemo.a */; };
+		502EB8B721BE0F8A0011A103 /* QLABoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 502EB8B621BE0F8A0011A103 /* QLABoutViewController.m */; };
+		502EB8BA21BE0F9C0011A103 /* QLFeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 502EB8B921BE0F9C0011A103 /* QLFeedBackViewController.m */; };
+		502EB8BD21BE0FAA0011A103 /* QLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 502EB8BC21BE0FAA0011A103 /* QLSettingViewController.m */; };
+		502EB8C021BE0FFC0011A103 /* QLBabyRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 502EB8BF21BE0FFC0011A103 /* QLBabyRecordViewController.m */; };
 		50DADCE12192811A00DA8BFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DADCE02192811A00DA8BFE /* AppDelegate.m */; };
 		50DADCE92192811B00DA8BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50DADCE82192811B00DA8BFE /* Assets.xcassets */; };
 		50DADCEC2192811B00DA8BFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DADCEA2192811B00DA8BFE /* LaunchScreen.storyboard */; };
@@ -17,6 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		502EB8B521BE0F8A0011A103 /* QLABoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLABoutViewController.h; sourceTree = "<group>"; };
+		502EB8B621BE0F8A0011A103 /* QLABoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLABoutViewController.m; sourceTree = "<group>"; };
+		502EB8B821BE0F9C0011A103 /* QLFeedBackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLFeedBackViewController.h; sourceTree = "<group>"; };
+		502EB8B921BE0F9C0011A103 /* QLFeedBackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLFeedBackViewController.m; sourceTree = "<group>"; };
+		502EB8BB21BE0FAA0011A103 /* QLSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLSettingViewController.h; sourceTree = "<group>"; };
+		502EB8BC21BE0FAA0011A103 /* QLSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLSettingViewController.m; sourceTree = "<group>"; };
+		502EB8BE21BE0FFC0011A103 /* QLBabyRecordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLBabyRecordViewController.h; sourceTree = "<group>"; };
+		502EB8BF21BE0FFC0011A103 /* QLBabyRecordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLBabyRecordViewController.m; sourceTree = "<group>"; };
 		50DADCDC2192811A00DA8BFE /* WTDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50DADCDF2192811A00DA8BFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		50DADCE02192811A00DA8BFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -106,6 +118,8 @@
 		50DADD0E2192E53600DA8BFE /* ABoutMe */ = {
 			isa = PBXGroup;
 			children = (
+				502EB8B521BE0F8A0011A103 /* QLABoutViewController.h */,
+				502EB8B621BE0F8A0011A103 /* QLABoutViewController.m */,
 			);
 			path = ABoutMe;
 			sourceTree = "<group>";
@@ -113,6 +127,8 @@
 		50DADD0F2192E53600DA8BFE /* BabyRecord */ = {
 			isa = PBXGroup;
 			children = (
+				502EB8BE21BE0FFC0011A103 /* QLBabyRecordViewController.h */,
+				502EB8BF21BE0FFC0011A103 /* QLBabyRecordViewController.m */,
 			);
 			path = BabyRecord;
 			sourceTree = "<group>";
@@ -120,6 +136,8 @@
 		50DADD102192E53600DA8BFE /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				502EB8BB21BE0FAA0011A103 /* QLSettingViewController.h */,
+				502EB8BC21BE0FAA0011A103 /* QLSettingViewController.m */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -127,6 +145,8 @@
 		50DADD112192E53600DA8BFE /* FeedBack */ = {
 			isa = PBXGroup;
 			children = (
+				502EB8B821BE0F9C0011A103 /* QLFeedBackViewController.h */,
+				502EB8B921BE0F9C0011A103 /* QLFeedBackViewController.m */,
 			);
 			path = FeedBack;
 			sourceTree = "<group>";
@@ -276,9 +296,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				502EB8C021BE0FFC0011A103 /* QLBabyRecordViewController.m in Sources */,
+				502EB8BD21BE0FAA0011A103 /* QLSettingViewController.m in Sources */,
 				50DADCEF2192811B00DA8BFE /* main.m in Sources */,
 				50DADCF92192854400DA8BFE /* QLMineViewController.m in Sources */,
 				50DADCE12192811A00DA8BFE /* AppDelegate.m in Sources */,
+				502EB8B721BE0F8A0011A103 /* QLABoutViewController.m in Sources */,
+				502EB8BA21BE0F9C0011A103 /* QLFeedBackViewController.m in Sources */,
 				50DADD092192B46700DA8BFE /* QLMineHeadCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
