@@ -30,9 +30,13 @@
 #define QL_UserName_TitleColor_Black WTColorHex(0x36342A)
 //描述字体颜色灰色
 #define QL_DescColor_Gray WTColorHex(0x63625C)
+#define QL_DateTextColor_Gray WTColorHex(0xC2C1BC)
 
 //多页面滑动的下面游标颜色
 #define QL_NavBar_CursorColor_Black WTColorHex(0x4D4207)
+#define QL_TagColor_Green WTColorHex(0xE5FBF7)
+#define QL_TagTextColor_Green WTColorHex(0x63625C)
+
 //线条颜色
 #define QL_TableView_LineColor WTColorHex(0xDDE5EA)
 #define QL_Border_LineColor WTColorHex(0xDBDBDB)
