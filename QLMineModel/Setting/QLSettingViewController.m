@@ -47,6 +47,36 @@
     itGroup1.dataArray = [NSArray arrayWithObjects:dic,dic1, nil];
     [section0 addItem:itGroup1];
     
+    //第三方绑定
+    QLSettingTitleItem *itTitle2 = [[QLSettingTitleItem alloc] init];
+    itTitle2.titleText = @"第三方绑定";
+    [section0 addItem:itTitle2];
+
+    NSMutableDictionary *dic3 = [NSMutableDictionary dictionary];
+    [dic3 setObject:@"微信" forKey:@"leftTitle"];
+    [dic3 setObject:@"未绑定" forKey:@"rightTitle"];
+    [dic3 setObject:@"weixin" forKey:@"IconImage"];
+    [dic3 setObject:@"3" forKey:@"ButtonType"];
+    
+    NSMutableDictionary *dic4 = [NSMutableDictionary dictionary];
+    [dic4 setObject:@"QQ" forKey:@"leftTitle"];
+    [dic4 setObject:@"已绑定" forKey:@"rightTitle"];
+    [dic4 setObject:@"QQ" forKey:@"IconImage"];
+    [dic4 setObject:@"3" forKey:@"ButtonType"];
+
+    NSMutableDictionary *dic5 = [NSMutableDictionary dictionary];
+    [dic5 setObject:@"微博" forKey:@"leftTitle"];
+    [dic5 setObject:@"未绑定" forKey:@"rightTitle"];
+    [dic5 setObject:@"weibo" forKey:@"IconImage"];
+    [dic5 setObject:@"4" forKey:@"ButtonType"];
+
+    QLSettingGroupItem *itGroup2 = [[QLSettingGroupItem alloc] init];
+    itGroup2.dataArray = [NSArray arrayWithObjects:dic3,dic4,dic5, nil];
+    [section0 addItem:itGroup2];
+
+    
+    
+    
     [sectionArray addObject:section0];
     [self.formManager replaceSectionsWithSectionsFromArray:sectionArray];
     [self.formTable reloadData];

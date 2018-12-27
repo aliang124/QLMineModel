@@ -31,7 +31,6 @@
 - (void)cellDidLoad
 {
     [super cellDidLoad];
-    [self performSelector:@selector(onCreateSubView) withObject:nil afterDelay:0.3];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated{}
@@ -40,6 +39,7 @@
 {
     [super cellWillAppear];
     self.backgroundColor = self.item.bgColor;
+    [self onCreateSubView];
 }
 
 - (void)layoutSubviews
@@ -88,13 +88,31 @@
         [btn addSubview:descLab];
         
         ButtonType btnType = [[WTUtil strRelay:dic[@"ButtonType"]] intValue];
-        if (btnType==ButtonType_LeftRightText) {
-            descLab.width = btn.width-16-16;
-        } else if (btnType==ButtonType_LeftRightTextArrow) {
+        if (btnType==ButtonType_LeftRightTextArrow ||
+            btnType==ButtonType_IconLeftRightTextArrow) {
             UIImageView *arrowImg = [[UIImageView alloc] initWithFrame:CGRectMake(btn.width-16-arrowWidth, (48-10)/2, arrowWidth, 10)];
             [arrowImg setImage:[UIImage imageNamed:@"arrowImg"]];
             [btn addSubview:arrowImg];
+        }
+        if (btnType==ButtonType_IconLeftRightTextArrow ||
+            btnType==ButtonType_IconLeftRightText) {
+            UIImageView *iconImg = [[UIImageView alloc] initWithFrame:CGRectMake(16, (48-26)/2, 26, 26)];
+            [iconImg setImage:[UIImage imageNamed:[WTUtil strRelay:dic[@"IconImage"]]]];
+            [btn addSubview:iconImg];
+        }
+        
+        if (btnType==ButtonType_LeftRightText) {
+            titleLab.left = 16;
+            descLab.width = btn.width-16-16;
+        } else if (btnType==ButtonType_LeftRightTextArrow) {
+            titleLab.left = 16;
             descLab.width = btn.width-16-16-arrowWidth-15;
+        } else if (btnType==ButtonType_IconLeftRightTextArrow) {
+            titleLab.left = 16+26+12;
+            descLab.width = btn.width-16-16-arrowWidth-15;
+        } else if (btnType==ButtonType_IconLeftRightText) {
+            titleLab.left = 16+26+12;
+            descLab.width = btn.width-16-16;
         }
     }
 }

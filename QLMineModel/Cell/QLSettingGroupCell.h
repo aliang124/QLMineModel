@@ -8,7 +8,9 @@
 #import "WTBaseCell.h"
 typedef NS_ENUM(NSInteger, ButtonType) {
     ButtonType_LeftRightText = 1,
-    ButtonType_LeftRightTextArrow = 2
+    ButtonType_LeftRightTextArrow = 2,
+    ButtonType_IconLeftRightTextArrow = 3,
+    ButtonType_IconLeftRightText = 4,
 };
 
 @interface QLSettingGroupItem : WTBaseItem
