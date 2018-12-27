@@ -26,6 +26,10 @@
       "source_files": "QLBusiness/View/**/*.{h,m,c,mm}"
     },
     {
+      "name": "Util",
+      "source_files": "QLBusiness/Util/**/*.{h,m,c,mm}"
+    },
+    {
       "name": "Model",
       "source_files": "QLBusiness/Model/**/*.{h,m,c,mm}"
     },

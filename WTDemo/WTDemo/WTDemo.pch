@@ -9,4 +9,5 @@
 #ifndef WTDemo_pch
 #define WTDemo_pch
 #import <WTBaseCore.h>
+#import <QLBusiness.h>
 #endif /* WTDemo_pch */

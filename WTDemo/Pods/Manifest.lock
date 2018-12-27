@@ -6,11 +6,13 @@ PODS:
     - QLBusiness/Controller (= 0.0.1)
     - QLBusiness/Model (= 0.0.1)
     - QLBusiness/Request (= 0.0.1)
+    - QLBusiness/Util (= 0.0.1)
     - QLBusiness/View (= 0.0.1)
   - QLBusiness/Cell (0.0.1)
   - QLBusiness/Controller (0.0.1)
   - QLBusiness/Model (0.0.1)
   - QLBusiness/Request (0.0.1)
+  - QLBusiness/Util (0.0.1)
   - QLBusiness/View (0.0.1)
   - WTBaseCore (0.0.1):
     - FDFullscreenPopGesture (~> 1.1)
@@ -68,7 +70,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   QLBusiness:
-    :commit: 326979fe6c23ce2eaa06b0a193d8160e8e0f1c8f
+    :commit: ad1ea8844bfe3ec321c04f72b5bf69fd42931d0c
     :git: https://github.com/aliang124/QLBusiness.git
   WTBaseCore:
     :commit: 86ce2b64e74215c73088c611023a3d4a4762cb15
@@ -77,7 +79,7 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   IQKeyboardManager: 266cb7b1d11f94a3e71229d77f960f9a1b538e5b
-  QLBusiness: cf65898ae78dcd54b6afa348601a1a76ddaac12b
+  QLBusiness: 7d07e4f87072e4c7a46d438dcbc3d07c84158858
   WTBaseCore: c46847e84d6a933554f3bed7ea1a94ed729131b3
 
 PODFILE CHECKSUM: 08901c5268b4eb504c0d82559ac29a8745c08a61

@@ -12,7 +12,7 @@
 #import "QLBusiness.h"
 #import "QLABoutViewController.h"
 #import "QLFeedBackViewController.h"
-
+#import "QLSettingViewController.h"
 @interface QLMineViewController ()
 {
     UILabel *userNameLab;
@@ -135,6 +135,10 @@
     WTIconTextItem *it4 = [[WTIconTextItem alloc] init];
     it4.iconImg = [UIImage imageNamed:@"setting"];
     it4.textString = @"设置";
+    it4.selectionHandler = ^(id item) {
+        QLSettingViewController *settingVc = [[QLSettingViewController alloc] init];
+        [bself.navigationController pushViewController:settingVc animated:YES];
+    };
     [section0 addItem:it4];
     
     [sectionArray addObject:section0];
