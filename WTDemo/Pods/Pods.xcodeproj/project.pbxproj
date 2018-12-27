@@ -14,37 +14,32 @@
 		0B488E13FDD29A5B1BEA025AB2F2B1D5 /* IQUIViewController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 983112C04D9A3239E36045110350988A /* IQUIViewController+Additions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0C383F7CDD1C4B3446BBAF27B3151B4B /* NSString+WTRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = CF5A5A0AA0105C55FE189122C9E8559D /* NSString+WTRegex.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0E54EE4CF29ED22476658A10745B8AEC /* IQUIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 829CA593CF4AB3EBCADA8713BEAC5AAE /* IQUIView+Hierarchy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1304CDD873A39A3DA1ED69B04F8B273D /* QLBusinessUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAFFCE29F9C4D5B9437A04C6EA7AAC7 /* QLBusinessUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		149E5412AC3CAF625BE3BDDD01FAAA4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */; };
 		150D39E0AB1374FF56F86BF33ED60B12 /* IQKeyboardManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A80E7BDCCD080EA382DB4060B0AD265 /* IQKeyboardManagerConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		15DBF5C221248C1E6CDEA0C3A02DC97A /* WTCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BA943940D269B41D6A8B57D78802FB51 /* WTCustomButton.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		179A6B02609B224AB2A599BBE2C215F6 /* QLBusiness-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3F3A85A459E8192C9CF4D1EC4562BB /* QLBusiness-dummy.m */; };
 		17B0E8364BC82F8CC3C49C877D323BED /* IQTitleBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B54D72685A0E2F067C56E5F839942DF /* IQTitleBarButtonItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		181DCFDF2CD3EF6ADABE517A4645419E /* WTFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C0CCBD267DA1D4E46A9EE32290F6B20 /* WTFile.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1A44FA1CB063971CCE6220370F262AD4 /* Pods-WTDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 704047001650852C5E516ECD46A0B570 /* Pods-WTDemo-dummy.m */; };
+		1AF658955C8EE6C99BAADA639EDDDA58 /* WTIconTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF32BF525A64251A1D1F15A3DA10BB5 /* WTIconTextCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1D7F38B0A917FFC07611EC2BC87D5742 /* RETableViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7886959F91DC5158D6535A85E8875F31 /* RETableViewManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1D8E7CAA94C61693AEED29380540C6AC /* REActionBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D73F216A731974AF1C3E9962AAF39D /* REActionBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1E00AD79DBB8D15ED92749772A3E0AF3 /* QLViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BDFF1DBD3699754E64C26EF117DECA5C /* QLViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1F1E3948CB7E9B60F07BDA5F4289292B /* WTViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DA740461F36F5D5FCD0107714B4B39D /* WTViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		20DE1ECC3FDFADA4E8783F9EAA832A56 /* RETableViewSection.h in Headers */ = {isa = PBXBuildFile; fileRef = EFE7037DEA2A900C25A0630B3B20641A /* RETableViewSection.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		22DA71435600BAD5AD79BCBC049230B2 /* QLFormViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AF20743D0751C6A42DC48EB29E9A872C /* QLFormViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		242212D10670A5685815C3060C839AAD /* WTWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD62577CE4E70E87A1DDDCBBF9CDB40D /* WTWebViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		256DCC057DFFB53C489407225E21EA3D /* WTTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE210A21130B36AFF0E96BD881E29E3 /* WTTabbarController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		262F09111C574E80A4C77C5FC75D2FC5 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A90A92B6FC1FD7A106998B15A684EC /* IQUITextFieldView+Additions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		28392F325DA875A7533639973D767C7B /* IQUIScrollView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E2383E400564374D71111DE3CFAF46 /* IQUIScrollView+Additions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2BB16271D790099B17C170F9606AE167 /* QLDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E3F3BC311FC6E5203366221BC36793 /* QLDropDownMenu.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		2D5FF0F4B2B562F5A1FFA3FCC4903473 /* WTToast.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC52ABE6E69BC437547D97865A68CE7 /* WTToast.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		33E19B81B2797252EB8483DD79498E72 /* IQKeyboardReturnKeyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 934F104E1E77458E8CF3770AC65870CC /* IQKeyboardReturnKeyHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		355FB502884A6E47E909A9EE3BF8B812 /* QLSettingButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AAB1C14B93D84115BF33D220E69C3B /* QLSettingButtonCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		37A8781DD73FCA2440BF48C1A30E112E /* RETableViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CBC1C912BC0E7891415B50066B51B36 /* RETableViewItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		388F1B673EC95A255A25FBA65AC1BA40 /* WTToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E5C755BCE66ECABD847D6D2C8598F11 /* WTToast.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		39763CDEBBFB5ACE008C25B3B07948F3 /* QLTabbarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8043C2CF055F35D375E80B6578D0434A /* QLTabbarController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3994487D39A6C42119DB99A8D12047F8 /* WTIconTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A61198913FFBBE1396E9698102AA598 /* WTIconTextCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3A164533BCDA0DD4093E9CAC7403E1C6 /* WTIconTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BE7A83F8F4FA81E3488B87071A17C01 /* WTIconTextCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3A5094DAEA16DDEB72667B687D08F82E /* WTUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 31D96033623FAC407C960AAFACA7B7AC /* WTUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3CBCF60AC808A8C29029A691EF1C6874 /* RETableViewCellStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F206ACF0EF314C49204A993C7374190 /* RETableViewCellStyle.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3CDA5D9F53A31EE253932860A85602B2 /* UIButton+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = 29DE2446811FCA5C55B6C77B43D76048 /* UIButton+Block.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3D51A7D14E04DEA3F615267326D9DF39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
 		3D6A517D9B67F9AC1964C2D419386401 /* WTImageUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C144B8603BF542E06676D9C7F1AB3DB /* WTImageUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3D84DA619A8A6E514B3F1ED12B92A7CE /* QLDropDownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = CC27B0C229E8741587C366BA64A5CF35 /* QLDropDownMenu.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3F82CE0F5F2C26E0B41D22C53B079BFC /* WTAlertUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 05A767115CF0D5A68FA423C062F651C7 /* WTAlertUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3F9B7B96F95416ABF95F00E750EDB4FC /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F1915B31A50283EC6D7BBE88C86C7A /* IQUIView+Hierarchy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		48F54BF003E3DBB5D1887BF8A89324FF /* RETableViewCellStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 291C4D6DB1BE5384A9486F30332804D7 /* RETableViewCellStyle.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -52,12 +47,14 @@
 		4AE64814725296619DEE41F8830993CB /* WTDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A481A7B102C8A6E8414D8EB4CB44102 /* WTDateUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4B0E2A3FCD260DDC14AC986F7DC9A433 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78958BC025E2AC930BA3596B1EB36CF1 /* IQTextView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4D213CA3C6256131073EB91F8C32F280 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C87DBC805C105215819FB937BE205291 /* UINavigationController+FDFullscreenPopGesture.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4E5A4A1708452F9BA306F185FC2C8553 /* QLDropDownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 15BC131E527A2D2396B6084CE60397CD /* QLDropDownMenu.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		51086D777216EC0854D33BF63965615B /* REActionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B03ACBCB6FA96BCC04B53F4D71F50384 /* REActionBar.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		577E61D77C433B5360D03A3F160FD9E3 /* WTBaseCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD21F00C9A5E68CFF7F988C71755DCEE /* WTBaseCore-dummy.m */; };
 		5844EF37B57DCAA24748F346B3BB586E /* IQToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9B695747BC4F5B123D9B54A4BB712D /* IQToolbar.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		588600DDC15D118919B4AFEC4B80C0F0 /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6669E01126BC2C75CAE4D04ADCF00D /* UIButton+Block.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		59034AC5FF1D14912F87D23613F81038 /* RETableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AB1A558144B03F6727D54272102850 /* RETableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		59D24ED7149E9CBF24456D55FD5D038A /* FDFullscreenPopGesture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA0AAA868BC2E19AE08FFCA08AE3596 /* FDFullscreenPopGesture-dummy.m */; };
+		5DE96C139447CC3C509766D1155A3759 /* QLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF781F34B418321AAF086720A2486C1 /* QLViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		617011EE23EB0C8EF6CA20D147054BEA /* WTFile.m in Sources */ = {isa = PBXBuildFile; fileRef = E120A0719BA05A7D3D52275BC82CD295 /* WTFile.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		629393440ABCD73AD3D16C75C633B585 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1ADD613E8872E6B71CFACBEB1BD0F3 /* IQNSArray+Sort.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		643FE5125D93CD32A3079C5C8209E5AB /* IQPreviousNextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B422727A888FE46B8D0CA3A4C0F6950 /* IQPreviousNextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -72,8 +69,8 @@
 		78042E0AF5E91F9EF04EDD975EDFCEA6 /* NSString+WTRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD793690C7837B7F9DA33B1684EBFC5 /* NSString+WTRegex.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		791A2717A409DD3A2CFB424E92C42C9E /* IQBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C02E5C5891B651B326F8228479B81AD /* IQBarButtonItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7BBAE335CA7667E51CFA81BF17DD861C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3292CC8DBF6352C2BF2B949CB548248F /* CoreGraphics.framework */; };
+		7D97DB53EB3E45B8AF62AF351F3261CE /* QLBusinessUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B070B445E955D7F705D43A14CB53AA6 /* QLBusinessUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		82D6A9213C8833DE4859C9CA77A9973D /* WTDateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FEF3D3E2F7753907F2D9A7A975560AA /* WTDateUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8538B1A2D7017148B763301B5B89F72B /* QLDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC40C23EE05747F0DA1F83D5FF2BDBB /* QLDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		87DADC8F5A3B498F88B56EAF7B16C5A2 /* WTDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EE60A1BD89B667F728E022D54E52629 /* WTDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8942C33EF7729F122696D5DD578EAB93 /* UIView+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = FFDAEC6285344009E2C859C629A3CDAD /* UIView+Category.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8BD6BB9FAD00041A71C4D8F1738E6874 /* back.png in Sources */ = {isa = PBXBuildFile; fileRef = 6B1CA8D2CBB544CFA1F4CF45D1F64D8E /* back.png */; };
@@ -81,20 +78,23 @@
 		8D11389B2095CC2B1DFFF3FDF8FE5343 /* RETableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 324EA8E9CE217933C5C3129F8FBAE437 /* RETableViewItem.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		8E3DC47D9C8F8C484B8B535FB46BF78A /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B515D75F9119FAE5BDC889B42CA84175 /* IQBarButtonItem.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		8FFE71B458361CF51BBEC5463DC5B56F /* WTBaseCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B213EB86C128717DD744B350DA18405 /* WTBaseCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9098784FA479C9A890062930643B00E6 /* QLDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 7594964B4079E7082F54FEF7014A1413 /* QLDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		91F08BF429646D7F4A1009F3596045BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
 		9216E6BF8AF8A584B78667EA7D41DE2F /* IQKeyboardManagerConstantsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = D56956BA3356599134159E5C0488D7CF /* IQKeyboardManagerConstantsInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9286F92C74055663EA2057F80483D4A6 /* QLTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64EB610BAA5A9D5AAAC7BE90B725425B /* QLTabbarController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		92D2DDF311B989E0B9C5D0E460241FC6 /* WTEmptyCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 222D81FC3B977840B76FAF732F45B8F2 /* WTEmptyCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		94D6FC9E345F03396C02EEF2AD6A25B7 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DD8B43FB17E61BEA83F81DB849F40C /* IQKeyboardReturnKeyHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9531C74D993F5AAD95DE16F3E535E89B /* RETableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 06989261B95E42E7A6FA923605CADB9A /* RETableViewSection.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9868B378D2C3AFEFF0858D65A70A4880 /* WTUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F636AD29C33BABFB84961F341467DD /* WTUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9B2048BC3640ACC73E645A82177EC222 /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD8D2194CC7AD253D9F532EAF163B77 /* UINavigationController+FDFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9E7C27261981AC9DFFE54857259839B2 /* WTIconTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 443F7DF618ADF1556A27A60EFDE107D6 /* WTIconTextCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9B6937CE8A0B246373A5961874D54B66 /* QLTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B61E7F0E519270AF168B942E7D994B /* QLTabbarController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9DB46174BD80AC1B6B42875D159F6F00 /* QLBusinessUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = E9867E35A9A6FD76DDFF4EC3CE5681B0 /* QLBusinessUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A4223E648086FEF52D8BEF6BC331EDC9 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C879D4267828F510EC7C76D30AB19C /* IQUIViewController+Additions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A8A450A8C49151F3C0220EABBBA75C9E /* IQKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D43FD1C87FB0D61596FEDD24A6225E4 /* IQKeyboardManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AB87D95E33B57A4C9B6C920FD1BF4B55 /* WTCustomButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C2AF8722DF4EDB78E3BEDB85CC84237 /* WTCustomButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B2BF54342CE4E6BF775219B25F0DB807 /* QLDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 92920D0EE42DCA10E1A21F9E047A9A45 /* QLDropDownMenu.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		B3A6235D661F70BB8D33265485FD1EA9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5F748DA8F98E61F788C3488D6BA25DD /* QuartzCore.framework */; };
 		B6211339CE0EF8EFB6C818ADCBF967FB /* IQUIView+IQKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 41817F0C32AE9D53E898092514B6BEAE /* IQUIView+IQKeyboardToolbar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B66CFBAB98CF69EDD5DD11FC96753DF1 /* QLTabbarController.h in Headers */ = {isa = PBXBuildFile; fileRef = C89046D118C462A2ECFEDF4D43DF57FB /* QLTabbarController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B69F47477A7A892F0185011363F212EA /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CD0AC5887C1534C942B5FD924105DC /* IQUIScrollView+Additions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		B853A0312440CFEE0886A68F08E67617 /* WTFormViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D723457F9EA2DFAE9FFDEDBA86FF9F5D /* WTFormViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BA5BD2CF1D885F9B974E015980AD957C /* WTCustomBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = DEE03DBA2C7B3F7EDA75CB1617509D25 /* WTCustomBarItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -104,17 +104,19 @@
 		BE401B85387FE3010F754FBA1C5473C4 /* WTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA198EC2931FFD5E66476FC076ACA138 /* WTAppDelegate.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		BE55E6CA41B94B735275119D91CC67C3 /* IQKeyboardManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2742A9A685518F19D2C7D11BDABE65 /* IQKeyboardManager-dummy.m */; };
 		BF8165F578E449953F94600BE6AA9114 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5509623D2211805943A1BDD17831762D /* IQKeyboardManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BF9029B8F5E243C52A62F53EA4A8CAE9 /* QLSettingButtonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B74A3D4B2BFBE7EAA326D27A045CCDA3 /* QLSettingButtonCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BFAA264F27F34074E4A3F0A1C68B7ABC /* WTCustomNavBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 423100BE17859152BB0C57D2BAB5D7F0 /* WTCustomNavBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C18E879662B54CCA5B9818E399753DCC /* RETableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5510D9D14D1427EA50694A279AB747C /* RETableViewManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C2BB4AD69433B10C2D930E85DB32F7DC /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = E86BE24A5E68B9C02EF2E1500BFE3126 /* IQToolbar.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C3C41A5A2E7397CF50CE5F1549AC480E /* RETableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BBAF23C0BB86F0AFAE82C8C4224402E6 /* RETableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C5EF0F57B50C9BC7D0041FE280BA4C4C /* IQUITextFieldView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DA36FD8EFA209E17ED9CBD84B5F4C09 /* IQUITextFieldView+Additions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C65DFAAB132D0821ACC142E040BDCF5B /* QLBusiness-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6F876F3CE7770539DA707247402263 /* QLBusiness-dummy.m */; };
+		CA2BCC25290AE24E77BF3BE4C56C26C1 /* QLFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7BEBA617CFA7614A2EE25E5508F319 /* QLFormViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		CC5C3FCAA72EE2BC0FD0F3DD0FD9DEC3 /* WTRegularUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 675361DB0EC527ED9A28DBCFF8297466 /* WTRegularUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		CC6A8DB44D165668FC79BBF6E3850B48 /* QLBusiness.h in Headers */ = {isa = PBXBuildFile; fileRef = D4AE1155D5DA67AFF5F6B7C558C12B79 /* QLBusiness.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CD0A66706F51A64B7FD0D683091E5683 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D75CE2B0DBF44F9B96494C126D21C772 /* UIView+Category.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		CE0899C819E2277DABC7941C12CF822A /* WTRegularUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DDF41293582DFA8D27733189F688AC1 /* WTRegularUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D13AA2298CCF8E17A418947B9457AA01 /* QLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87481822C4304498D7A9882555E04692 /* QLViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D46CC6EE7531AC388AE81F8984E2D306 /* WTLanguageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 00969304005BB4A67EDF65C8004E258E /* WTLanguageUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DA31BABEBAD656CF5EC2DE644C447DA9 /* QLBusiness.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CF8E131B4CBFF22DAAE2362F8FDD354 /* QLBusiness.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DC3F788B3CCFAAEC642ACC6AE1A236E5 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC7A8D0C43591D0431DE847F0F5C690 /* IQUIWindow+Hierarchy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		DDE205E61240E8F7EB1E7AC603BD8FA5 /* IQUIWindow+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 5043348F23EFE4E9F2D9AF408939D4A8 /* IQUIWindow+Hierarchy.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DF9C85A704647E63B1FACFCA357ABA02 /* WTAlertUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D9861662ADFDA70C967FA76DAE71F78F /* WTAlertUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -123,14 +125,14 @@
 		E3D78C20D648BB0234F93D8C9E69ED4D /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = E518B4312AF52914087DB2110F995771 /* IQUIView+IQKeyboardToolbar.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E503109B91F8B43C9922A70A34E1A805 /* UITextView+Placeholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 97B2641ACEF57645864C4BB36ED06D2E /* UITextView+Placeholder.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E53D259AFE91CA126CE5B7A966D97535 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
-		E7E4E28202F66C345AF76B630F1E9503 /* QLBusinessUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E1AD217D70006944C2CD22DFA96BD8F /* QLBusinessUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EA1D5AB75DDB7BD7F84E72614281902E /* NarBarUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9D6C69426F03377DB464F991BE732E /* NarBarUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EA3B33F9642D807F5F4785EBB1E95FDB /* QLFormViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EA16E5E781917D75CBDD2BEABB10D7CA /* QLFormViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EC5090D90507FA321B384490C04F022D /* NSString+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B4259805E30A871ECBEE367AAE0557 /* NSString+Category.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EC6A672BB91C446E9BB3B69A2C45C2A3 /* WTTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8600834B1EA546C757C85A0C9818B80C /* WTTextField.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		EDEE3E8EBD37F8CF1E68F2D1BDC50DA5 /* WTImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A4787489453E2A69A3FF3515FF047F01 /* WTImageUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F02A31ACCF6E887A25A8456D229BCBB9 /* WTCustomNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A420B1B6923ED64AD76C774C46FC6E /* WTCustomNavBar.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F65005F3BA971FE1877ADDE49A494052 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 156CC13183E55E6D6EE2793A1F4FBBDD /* IQTitleBarButtonItem.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F9BB39258533EA08F2D96E8C7E345094 /* QLFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFB987147D7F51986D67800B00F0E08 /* QLFormViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FBA9F5C17FA37538D8463C8457C970F6 /* QLViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 728C12B6B65A4E9AE2D604FF5D490A9C /* QLViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -185,11 +187,14 @@
 		06989261B95E42E7A6FA923605CADB9A /* RETableViewSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewSection.m; path = WTBaseCore/RETableViewManager/RETableViewSection.m; sourceTree = "<group>"; };
 		09ED0CFDA77AAF5858C3804E8CE0F515 /* WTViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTViewController.m; path = WTBaseCore/CoreController/WTViewController.m; sourceTree = "<group>"; };
 		0D7E12A5D372A53C0DD1DF8045937222 /* IQKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
+		0EF781F34B418321AAF086720A2486C1 /* QLViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLViewController.m; path = QLBusiness/Controller/QLViewController.m; sourceTree = "<group>"; };
 		0FC0E646CAEE434A8098C84273453DD6 /* IQKeyboardManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManager.xcconfig; sourceTree = "<group>"; };
 		156CC13183E55E6D6EE2793A1F4FBBDD /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTitleBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		15BC131E527A2D2396B6084CE60397CD /* QLDropDownMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLDropDownMenu.h; path = QLBusiness/View/QLDropDownMenu.h; sourceTree = "<group>"; };
 		1A80E7BDCCD080EA382DB4060B0AD265 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstants.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
 		1AE85312CEF53C54D0509044128047F2 /* Pods-WTDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WTDemo-resources.sh"; sourceTree = "<group>"; };
-		1B3F3A85A459E8192C9CF4D1EC4562BB /* QLBusiness-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QLBusiness-dummy.m"; sourceTree = "<group>"; };
+		1B070B445E955D7F705D43A14CB53AA6 /* QLBusinessUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLBusinessUtil.m; path = QLBusiness/Util/QLBusinessUtil.m; sourceTree = "<group>"; };
+		1B7BEBA617CFA7614A2EE25E5508F319 /* QLFormViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLFormViewController.m; path = QLBusiness/Controller/QLFormViewController.m; sourceTree = "<group>"; };
 		1C2AF8722DF4EDB78E3BEDB85CC84237 /* WTCustomButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTCustomButton.h; path = WTBaseCore/CoreUI/WTCustomButton.h; sourceTree = "<group>"; };
 		1EBD2CC4AE8DE6AA117849A9E4A79975 /* WTBaseCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTBaseCore.h; path = WTBaseCore/WTBaseCore.h; sourceTree = "<group>"; };
 		222D81FC3B977840B76FAF732F45B8F2 /* WTEmptyCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTEmptyCell.h; path = WTBaseCore/CoreCell/WTEmptyCell.h; sourceTree = "<group>"; };
@@ -200,15 +205,15 @@
 		2DDF41293582DFA8D27733189F688AC1 /* WTRegularUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTRegularUtil.h; path = WTBaseCore/CoreUtil/WTRegularUtil.h; sourceTree = "<group>"; };
 		2F206ACF0EF314C49204A993C7374190 /* RETableViewCellStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewCellStyle.h; path = WTBaseCore/RETableViewManager/RETableViewCellStyle.h; sourceTree = "<group>"; };
 		2FEF3D3E2F7753907F2D9A7A975560AA /* WTDateUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTDateUtil.h; path = WTBaseCore/CoreUtil/WTDateUtil.h; sourceTree = "<group>"; };
+		31AAB1C14B93D84115BF33D220E69C3B /* QLSettingButtonCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLSettingButtonCell.m; path = QLBusiness/Cell/QLSettingButtonCell.m; sourceTree = "<group>"; };
 		31D96033623FAC407C960AAFACA7B7AC /* WTUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTUtil.h; path = WTBaseCore/CoreUtil/WTUtil.h; sourceTree = "<group>"; };
 		324EA8E9CE217933C5C3129F8FBAE437 /* RETableViewItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewItem.m; path = WTBaseCore/RETableViewManager/RETableViewItem.m; sourceTree = "<group>"; };
 		3292CC8DBF6352C2BF2B949CB548248F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		356709F9811863AADC3F8E768EC952C3 /* QLBusiness.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QLBusiness.xcconfig; sourceTree = "<group>"; };
 		3C9B695747BC4F5B123D9B54A4BB712D /* IQToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQToolbar.h; path = IQKeyboardManager/IQToolbar/IQToolbar.h; sourceTree = "<group>"; };
 		3D8DE5747C6AFB1FD9BFEF7B81C1A16F /* libIQKeyboardManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libIQKeyboardManager.a; path = libIQKeyboardManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		41817F0C32AE9D53E898092514B6BEAE /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+IQKeyboardToolbar.h"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
 		423100BE17859152BB0C57D2BAB5D7F0 /* WTCustomNavBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTCustomNavBar.h; path = WTBaseCore/WTCustomNavBar/WTCustomNavBar.h; sourceTree = "<group>"; };
-		427E6F56F753667A23CF07FC39A13A15 /* QLBusiness-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QLBusiness-prefix.pch"; sourceTree = "<group>"; };
-		443F7DF618ADF1556A27A60EFDE107D6 /* WTIconTextCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTIconTextCell.m; path = QLBusiness/Cell/WTIconTextCell.m; sourceTree = "<group>"; };
 		45DD8B43FB17E61BEA83F81DB849F40C /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardReturnKeyHandler.m; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
 		46A420B1B6923ED64AD76C774C46FC6E /* WTCustomNavBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTCustomNavBar.m; path = WTBaseCore/WTCustomNavBar/WTCustomNavBar.m; sourceTree = "<group>"; };
 		487FAF3A42FC2CC97A9FD8708CEC4496 /* WTTabbarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTTabbarController.h; path = WTBaseCore/CoreController/WTTabbarController.h; sourceTree = "<group>"; };
@@ -224,19 +229,20 @@
 		5FA3E9B62F2C09221D8FBBB18F28FAAE /* WTBaseCore.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WTBaseCore.bundle; path = WTBaseCore/CoreRes/WTBaseCore.bundle; sourceTree = "<group>"; };
 		608A4BB73051B5CDFE7481CC97E241B5 /* NarBarUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NarBarUtil.m; path = WTBaseCore/WTCustomNavBar/NarBarUtil.m; sourceTree = "<group>"; };
 		622C8F9FCD5F17D37327213CD885E742 /* Pods-WTDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WTDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		64EB610BAA5A9D5AAAC7BE90B725425B /* QLTabbarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLTabbarController.m; path = QLBusiness/Controller/QLTabbarController.m; sourceTree = "<group>"; };
 		66F1915B31A50283EC6D7BBE88C86C7A /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
 		675361DB0EC527ED9A28DBCFF8297466 /* WTRegularUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTRegularUtil.m; path = WTBaseCore/CoreUtil/WTRegularUtil.m; sourceTree = "<group>"; };
 		69F2BC818DEC54EE964732EFAFBBB514 /* WTFormViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTFormViewController.m; path = WTBaseCore/CoreController/WTFormViewController.m; sourceTree = "<group>"; };
-		6AFB987147D7F51986D67800B00F0E08 /* QLFormViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLFormViewController.m; path = QLBusiness/Controller/QLFormViewController.m; sourceTree = "<group>"; };
 		6B1CA8D2CBB544CFA1F4CF45D1F64D8E /* back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = back.png; path = WTBaseCore/WTCustomNavBar/back.png; sourceTree = "<group>"; };
+		6BE7A83F8F4FA81E3488B87071A17C01 /* WTIconTextCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTIconTextCell.h; path = QLBusiness/Cell/WTIconTextCell.h; sourceTree = "<group>"; };
 		6DA740461F36F5D5FCD0107714B4B39D /* WTViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTViewController.h; path = WTBaseCore/CoreController/WTViewController.h; sourceTree = "<group>"; };
-		6E1AD217D70006944C2CD22DFA96BD8F /* QLBusinessUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLBusinessUtil.h; path = QLBusiness/Util/QLBusinessUtil.h; sourceTree = "<group>"; };
 		6E5C755BCE66ECABD847D6D2C8598F11 /* WTToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTToast.h; path = WTBaseCore/CoreUI/WTToast.h; sourceTree = "<group>"; };
 		704047001650852C5E516ECD46A0B570 /* Pods-WTDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WTDemo-dummy.m"; sourceTree = "<group>"; };
-		74E3F3BC311FC6E5203366221BC36793 /* QLDropDownMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLDropDownMenu.m; path = QLBusiness/View/QLDropDownMenu.m; sourceTree = "<group>"; };
+		71343E9D26DCB4D4A8B36A24BA6AE048 /* QLBusiness-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QLBusiness-prefix.pch"; sourceTree = "<group>"; };
+		728C12B6B65A4E9AE2D604FF5D490A9C /* QLViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLViewController.h; path = QLBusiness/Controller/QLViewController.h; sourceTree = "<group>"; };
+		7594964B4079E7082F54FEF7014A1413 /* QLDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLDefine.h; path = QLBusiness/QLDefine.h; sourceTree = "<group>"; };
 		7886959F91DC5158D6535A85E8875F31 /* RETableViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewManager.h; path = WTBaseCore/RETableViewManager/RETableViewManager.h; sourceTree = "<group>"; };
 		78958BC025E2AC930BA3596B1EB36CF1 /* IQTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTextView.m; path = IQKeyboardManager/IQTextView/IQTextView.m; sourceTree = "<group>"; };
+		78B61E7F0E519270AF168B942E7D994B /* QLTabbarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLTabbarController.m; path = QLBusiness/Controller/QLTabbarController.m; sourceTree = "<group>"; };
 		7B422727A888FE46B8D0CA3A4C0F6950 /* IQPreviousNextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQPreviousNextView.h; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.h; sourceTree = "<group>"; };
 		7B54D72685A0E2F067C56E5F839942DF /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTitleBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.h; sourceTree = "<group>"; };
 		7C0CCBD267DA1D4E46A9EE32290F6B20 /* WTFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTFile.h; path = WTBaseCore/CoreUtil/WTFile.h; sourceTree = "<group>"; };
@@ -246,20 +252,19 @@
 		7E2742A9A685518F19D2C7D11BDABE65 /* IQKeyboardManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManager-dummy.m"; sourceTree = "<group>"; };
 		7E6669E01126BC2C75CAE4D04ADCF00D /* UIButton+Block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Block.m"; path = "WTBaseCore/CoreUI/UIButton+Block.m"; sourceTree = "<group>"; };
 		803E1DB3970F040E72F1FBB67D3133B9 /* NSString+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Category.m"; path = "WTBaseCore/CoreString/NSString+Category.m"; sourceTree = "<group>"; };
-		8043C2CF055F35D375E80B6578D0434A /* QLTabbarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLTabbarController.h; path = QLBusiness/Controller/QLTabbarController.h; sourceTree = "<group>"; };
 		8230694E7A01CDE3B35EDFE1DBB576FB /* WTLanguageUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTLanguageUtil.h; path = WTBaseCore/CoreUtil/WTLanguageUtil.h; sourceTree = "<group>"; };
 		829CA593CF4AB3EBCADA8713BEAC5AAE /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+Hierarchy.h"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
 		8600834B1EA546C757C85A0C9818B80C /* WTTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTTextField.m; path = WTBaseCore/CoreUI/WTTextField.m; sourceTree = "<group>"; };
-		87481822C4304498D7A9882555E04692 /* QLViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLViewController.m; path = QLBusiness/Controller/QLViewController.m; sourceTree = "<group>"; };
 		88B29ECE59F5315B1EFC49D47EE199D8 /* WTWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTWebViewController.h; path = WTBaseCore/CoreController/WTWebViewController.h; sourceTree = "<group>"; };
+		8CF8E131B4CBFF22DAAE2362F8FDD354 /* QLBusiness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLBusiness.h; path = QLBusiness/QLBusiness.h; sourceTree = "<group>"; };
 		8D43FD1C87FB0D61596FEDD24A6225E4 /* IQKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManager.h; path = IQKeyboardManager/IQKeyboardManager.h; sourceTree = "<group>"; };
 		8F2A7C4D050B11C582FD61C99B496C81 /* WTBaseCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WTBaseCore.xcconfig; sourceTree = "<group>"; };
+		92920D0EE42DCA10E1A21F9E047A9A45 /* QLDropDownMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLDropDownMenu.m; path = QLBusiness/View/QLDropDownMenu.m; sourceTree = "<group>"; };
 		934F104E1E77458E8CF3770AC65870CC /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardReturnKeyHandler.h; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97B2641ACEF57645864C4BB36ED06D2E /* UITextView+Placeholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+Placeholder.h"; path = "WTBaseCore/CoreUI/UITextView+Placeholder.h"; sourceTree = "<group>"; };
 		983112C04D9A3239E36045110350988A /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIViewController+Additions.h"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.h"; sourceTree = "<group>"; };
 		98E5BB91ED888E7A0D66AEE988514075 /* libPods-WTDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WTDemo.a"; path = "libPods-WTDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A61198913FFBBE1396E9698102AA598 /* WTIconTextCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTIconTextCell.h; path = QLBusiness/Cell/WTIconTextCell.h; sourceTree = "<group>"; };
 		9C02E5C5891B651B326F8228479B81AD /* IQBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.h; sourceTree = "<group>"; };
 		9C788A2C3898B8D93D86629947E0A26A /* IQNSArray+Sort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQNSArray+Sort.h"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.h"; sourceTree = "<group>"; };
 		9DA36FD8EFA209E17ED9CBD84B5F4C09 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUITextFieldView+Additions.h"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
@@ -270,33 +275,30 @@
 		A8D865806112123A7E206E1BD0186C6C /* libWTBaseCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWTBaseCore.a; path = libWTBaseCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB2864F9CFA5571309DA4D1ADF07197 /* WTAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTAppDelegate.h; path = WTBaseCore/WTAppDelegate/WTAppDelegate.h; sourceTree = "<group>"; };
 		ABD3DD39202F9BDBCDB1CB5319170710 /* libFDFullscreenPopGesture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFDFullscreenPopGesture.a; path = libFDFullscreenPopGesture.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF20743D0751C6A42DC48EB29E9A872C /* QLFormViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLFormViewController.h; path = QLBusiness/Controller/QLFormViewController.h; sourceTree = "<group>"; };
 		B03ACBCB6FA96BCC04B53F4D71F50384 /* REActionBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REActionBar.m; path = WTBaseCore/RETableViewManager/REActionBar.m; sourceTree = "<group>"; };
 		B515D75F9119FAE5BDC889B42CA84175 /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
+		B74A3D4B2BFBE7EAA326D27A045CCDA3 /* QLSettingButtonCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLSettingButtonCell.h; path = QLBusiness/Cell/QLSettingButtonCell.h; sourceTree = "<group>"; };
 		B7F636AD29C33BABFB84961F341467DD /* WTUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTUtil.m; path = WTBaseCore/CoreUtil/WTUtil.m; sourceTree = "<group>"; };
 		BA943940D269B41D6A8B57D78802FB51 /* WTCustomButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTCustomButton.m; path = WTBaseCore/CoreUI/WTCustomButton.m; sourceTree = "<group>"; };
 		BBAF23C0BB86F0AFAE82C8C4224402E6 /* RETableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewCell.h; path = WTBaseCore/RETableViewManager/RETableViewCell.h; sourceTree = "<group>"; };
 		BC2316240BAFED1F8E75F6E76D84CBF0 /* WTBaseCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTBaseCell.m; path = WTBaseCore/CoreCell/WTBaseCell.m; sourceTree = "<group>"; };
 		BD21F00C9A5E68CFF7F988C71755DCEE /* WTBaseCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WTBaseCore-dummy.m"; sourceTree = "<group>"; };
-		BDFF1DBD3699754E64C26EF117DECA5C /* QLViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLViewController.h; path = QLBusiness/Controller/QLViewController.h; sourceTree = "<group>"; };
 		BEA4D3B73136B27229EA556A48279BA1 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManager/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
 		BF5B02F1F6F2A120D32F11416DCCAFCF /* WTCustomBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTCustomBarItem.m; path = WTBaseCore/WTCustomNavBar/WTCustomBarItem.m; sourceTree = "<group>"; };
 		C1C879D4267828F510EC7C76D30AB19C /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIViewController+Additions.m"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.m"; sourceTree = "<group>"; };
 		C213F5696D0523EA660A7FBDDF669C8D /* Pods-WTDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C5B3465C5CB2FEA997A58F148453B3DB /* WTTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTTextField.h; path = WTBaseCore/CoreUI/WTTextField.h; sourceTree = "<group>"; };
 		C87DBC805C105215819FB937BE205291 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+FDFullscreenPopGesture.m"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
-		CAC40C23EE05747F0DA1F83D5FF2BDBB /* QLDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLDefine.h; path = QLBusiness/QLDefine.h; sourceTree = "<group>"; };
+		C89046D118C462A2ECFEDF4D43DF57FB /* QLTabbarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLTabbarController.h; path = QLBusiness/Controller/QLTabbarController.h; sourceTree = "<group>"; };
 		CB4B883E60C64036B67F79956E2CBCA4 /* WTBaseCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTBaseCore-prefix.pch"; sourceTree = "<group>"; };
 		CBD8D2194CC7AD253D9F532EAF163B77 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FDFullscreenPopGesture.h"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
-		CC27B0C229E8741587C366BA64A5CF35 /* QLDropDownMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLDropDownMenu.h; path = QLBusiness/View/QLDropDownMenu.h; sourceTree = "<group>"; };
 		CF5A5A0AA0105C55FE189122C9E8559D /* NSString+WTRegex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+WTRegex.h"; path = "WTBaseCore/CoreString/NSString+WTRegex.h"; sourceTree = "<group>"; };
-		D4AE1155D5DA67AFF5F6B7C558C12B79 /* QLBusiness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLBusiness.h; path = QLBusiness/QLBusiness.h; sourceTree = "<group>"; };
 		D56956BA3356599134159E5C0488D7CF /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstantsInternal.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
 		D723457F9EA2DFAE9FFDEDBA86FF9F5D /* WTFormViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTFormViewController.h; path = WTBaseCore/CoreController/WTFormViewController.h; sourceTree = "<group>"; };
 		D75CE2B0DBF44F9B96494C126D21C772 /* UIView+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Category.m"; path = "WTBaseCore/CoreUI/UIView+Category.m"; sourceTree = "<group>"; };
 		D9861662ADFDA70C967FA76DAE71F78F /* WTAlertUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTAlertUtil.m; path = WTBaseCore/CoreUtil/WTAlertUtil.m; sourceTree = "<group>"; };
 		DAA0AAA868BC2E19AE08FFCA08AE3596 /* FDFullscreenPopGesture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FDFullscreenPopGesture-dummy.m"; sourceTree = "<group>"; };
-		DAAFFCE29F9C4D5B9437A04C6EA7AAC7 /* QLBusinessUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLBusinessUtil.m; path = QLBusiness/Util/QLBusinessUtil.m; sourceTree = "<group>"; };
+		DB6F876F3CE7770539DA707247402263 /* QLBusiness-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QLBusiness-dummy.m"; sourceTree = "<group>"; };
 		DEE03DBA2C7B3F7EDA75CB1617509D25 /* WTCustomBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTCustomBarItem.h; path = WTBaseCore/WTCustomNavBar/WTCustomBarItem.h; sourceTree = "<group>"; };
 		E120A0719BA05A7D3D52275BC82CD295 /* WTFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTFile.m; path = WTBaseCore/CoreUtil/WTFile.m; sourceTree = "<group>"; };
 		E518B4312AF52914087DB2110F995771 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+IQKeyboardToolbar.m"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
@@ -304,18 +306,20 @@
 		E6EDD35E9F6E534DBE23A4663AB92F1A /* Pods-WTDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WTDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		E86BE24A5E68B9C02EF2E1500BFE3126 /* IQToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQToolbar.m; path = IQKeyboardManager/IQToolbar/IQToolbar.m; sourceTree = "<group>"; };
 		E89BED906C31E8956D9AF02AF1D021F5 /* IQTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTextView.h; path = IQKeyboardManager/IQTextView/IQTextView.h; sourceTree = "<group>"; };
+		E9867E35A9A6FD76DDFF4EC3CE5681B0 /* QLBusinessUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLBusinessUtil.h; path = QLBusiness/Util/QLBusinessUtil.h; sourceTree = "<group>"; };
+		EA16E5E781917D75CBDD2BEABB10D7CA /* QLFormViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLFormViewController.h; path = QLBusiness/Controller/QLFormViewController.h; sourceTree = "<group>"; };
 		EAC7A8D0C43591D0431DE847F0F5C690 /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIWindow+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
 		EC5DD71D715A6D89A7B5CDEFB4B104E3 /* libQLBusiness.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libQLBusiness.a; path = libQLBusiness.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC9D6C69426F03377DB464F991BE732E /* NarBarUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NarBarUtil.h; path = WTBaseCore/WTCustomNavBar/NarBarUtil.h; sourceTree = "<group>"; };
 		ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EEC52ABE6E69BC437547D97865A68CE7 /* WTToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTToast.m; path = WTBaseCore/CoreUI/WTToast.m; sourceTree = "<group>"; };
 		EFE7037DEA2A900C25A0630B3B20641A /* RETableViewSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewSection.h; path = WTBaseCore/RETableViewManager/RETableViewSection.h; sourceTree = "<group>"; };
-		F11892866286E0EDFAAA5023F4E51C66 /* QLBusiness.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QLBusiness.xcconfig; sourceTree = "<group>"; };
 		F5510D9D14D1427EA50694A279AB747C /* RETableViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewManager.m; path = WTBaseCore/RETableViewManager/RETableViewManager.m; sourceTree = "<group>"; };
 		F5B4259805E30A871ECBEE367AAE0557 /* NSString+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Category.h"; path = "WTBaseCore/CoreString/NSString+Category.h"; sourceTree = "<group>"; };
 		F9E2383E400564374D71111DE3CFAF46 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIScrollView+Additions.h"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
 		FA198EC2931FFD5E66476FC076ACA138 /* WTAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTAppDelegate.m; path = WTBaseCore/WTAppDelegate/WTAppDelegate.m; sourceTree = "<group>"; };
 		FAD793690C7837B7F9DA33B1684EBFC5 /* NSString+WTRegex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+WTRegex.m"; path = "WTBaseCore/CoreString/NSString+WTRegex.m"; sourceTree = "<group>"; };
+		FBF32BF525A64251A1D1F15A3DA10BB5 /* WTIconTextCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTIconTextCell.m; path = QLBusiness/Cell/WTIconTextCell.m; sourceTree = "<group>"; };
 		FD62577CE4E70E87A1DDDCBBF9CDB40D /* WTWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTWebViewController.m; path = WTBaseCore/CoreController/WTWebViewController.m; sourceTree = "<group>"; };
 		FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		FE1E03AFD1EB4201BA993391D1FDCB6D /* FDFullscreenPopGesture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDFullscreenPopGesture-prefix.pch"; sourceTree = "<group>"; };
@@ -378,28 +382,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		282EA20778145F2D2D16C7EFF88A790C /* Controller */ = {
+		2DA1744C40510F045CC763FF6795E4F5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AF20743D0751C6A42DC48EB29E9A872C /* QLFormViewController.h */,
-				6AFB987147D7F51986D67800B00F0E08 /* QLFormViewController.m */,
-				8043C2CF055F35D375E80B6578D0434A /* QLTabbarController.h */,
-				64EB610BAA5A9D5AAAC7BE90B725425B /* QLTabbarController.m */,
-				BDFF1DBD3699754E64C26EF117DECA5C /* QLViewController.h */,
-				87481822C4304498D7A9882555E04692 /* QLViewController.m */,
-			);
-			name = Controller;
-			sourceTree = "<group>";
-		};
-		413CF569638AA963385E0006981391C7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F11892866286E0EDFAAA5023F4E51C66 /* QLBusiness.xcconfig */,
-				1B3F3A85A459E8192C9CF4D1EC4562BB /* QLBusiness-dummy.m */,
-				427E6F56F753667A23CF07FC39A13A15 /* QLBusiness-prefix.pch */,
+				356709F9811863AADC3F8E768EC952C3 /* QLBusiness.xcconfig */,
+				DB6F876F3CE7770539DA707247402263 /* QLBusiness-dummy.m */,
+				71343E9D26DCB4D4A8B36A24BA6AE048 /* QLBusiness-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/QLBusiness";
+			sourceTree = "<group>";
+		};
+		552C0DE191F51822986C0178D09EDD1F /* QLBusiness */ = {
+			isa = PBXGroup;
+			children = (
+				8CF8E131B4CBFF22DAAE2362F8FDD354 /* QLBusiness.h */,
+				7594964B4079E7082F54FEF7014A1413 /* QLDefine.h */,
+				8FBF8950A2D6F4C0145CAD92F5FE5E05 /* Cell */,
+				6A494EDB1CC099B89A9EC7F2652970D1 /* Controller */,
+				2DA1744C40510F045CC763FF6795E4F5 /* Support Files */,
+				6E8ED0CD66696939068BA5DDCE5D1FA3 /* Util */,
+				A2B92689F7C7BDC1A533FBF97F30D38B /* View */,
+			);
+			name = QLBusiness;
+			path = QLBusiness;
 			sourceTree = "<group>";
 		};
 		64E06D42471B3CDAC0CB1533A14340A4 /* WTCustomNavBar */ = {
@@ -422,6 +428,28 @@
 				EECFA04AD27097A7FC4F09C2DDA3730B /* Pods-WTDemo */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6A494EDB1CC099B89A9EC7F2652970D1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EA16E5E781917D75CBDD2BEABB10D7CA /* QLFormViewController.h */,
+				1B7BEBA617CFA7614A2EE25E5508F319 /* QLFormViewController.m */,
+				C89046D118C462A2ECFEDF4D43DF57FB /* QLTabbarController.h */,
+				78B61E7F0E519270AF168B942E7D994B /* QLTabbarController.m */,
+				728C12B6B65A4E9AE2D604FF5D490A9C /* QLViewController.h */,
+				0EF781F34B418321AAF086720A2486C1 /* QLViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6E8ED0CD66696939068BA5DDCE5D1FA3 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E9867E35A9A6FD76DDFF4EC3CE5681B0 /* QLBusinessUtil.h */,
+				1B070B445E955D7F705D43A14CB53AA6 /* QLBusinessUtil.m */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -482,6 +510,17 @@
 				FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		8FBF8950A2D6F4C0145CAD92F5FE5E05 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B74A3D4B2BFBE7EAA326D27A045CCDA3 /* QLSettingButtonCell.h */,
+				31AAB1C14B93D84115BF33D220E69C3B /* QLSettingButtonCell.m */,
+				6BE7A83F8F4FA81E3488B87071A17C01 /* WTIconTextCell.h */,
+				FBF32BF525A64251A1D1F15A3DA10BB5 /* WTIconTextCell.m */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 		97465652D418D42089FA3129A5DA3A32 /* CoreUtil */ = {
@@ -547,6 +586,15 @@
 			path = "../Target Support Files/WTBaseCore";
 			sourceTree = "<group>";
 		};
+		A2B92689F7C7BDC1A533FBF97F30D38B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15BC131E527A2D2396B6084CE60397CD /* QLDropDownMenu.h */,
+				92920D0EE42DCA10E1A21F9E047A9A45 /* QLDropDownMenu.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		AA056032C01DE6761B31A872CF7763D3 /* CoreCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -598,15 +646,6 @@
 			path = IQKeyboardManager;
 			sourceTree = "<group>";
 		};
-		B26C2DF843FD54532F4A4C5DC93D37F3 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				CC27B0C229E8741587C366BA64A5CF35 /* QLDropDownMenu.h */,
-				74E3F3BC311FC6E5203366221BC36793 /* QLDropDownMenu.m */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
 		B5BF64AA6B057F7F8E50783E201CE216 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -616,21 +655,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/IQKeyboardManager";
-			sourceTree = "<group>";
-		};
-		B8A452DD18E6129ED70C94182FC12A89 /* QLBusiness */ = {
-			isa = PBXGroup;
-			children = (
-				D4AE1155D5DA67AFF5F6B7C558C12B79 /* QLBusiness.h */,
-				CAC40C23EE05747F0DA1F83D5FF2BDBB /* QLDefine.h */,
-				E6222FB8D2B88CBB116E5DCD7E044670 /* Cell */,
-				282EA20778145F2D2D16C7EFF88A790C /* Controller */,
-				413CF569638AA963385E0006981391C7 /* Support Files */,
-				DCC074CF0B2E02FA6C3A4E4D5449117A /* Util */,
-				B26C2DF843FD54532F4A4C5DC93D37F3 /* View */,
-			);
-			name = QLBusiness;
-			path = QLBusiness;
 			sourceTree = "<group>";
 		};
 		C7153914B28A9F90BF9F2BE370AED499 /* CoreController */ = {
@@ -662,7 +686,7 @@
 			children = (
 				ECE045978354B3A1F47DDEAF4DC56206 /* FDFullscreenPopGesture */,
 				AF970864151CC88A9C2018D56846E193 /* IQKeyboardManager */,
-				B8A452DD18E6129ED70C94182FC12A89 /* QLBusiness */,
+				552C0DE191F51822986C0178D09EDD1F /* QLBusiness */,
 				97EBB150C0B636BB0635DAF3C172BE7E /* WTBaseCore */,
 			);
 			name = Pods;
@@ -687,15 +711,6 @@
 			name = RETableViewManager;
 			sourceTree = "<group>";
 		};
-		DCC074CF0B2E02FA6C3A4E4D5449117A /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				6E1AD217D70006944C2CD22DFA96BD8F /* QLBusinessUtil.h */,
-				DAAFFCE29F9C4D5B9437A04C6EA7AAC7 /* QLBusinessUtil.m */,
-			);
-			name = Util;
-			sourceTree = "<group>";
-		};
 		DCE82A489F0CDA3AC730B3B175804CAE /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -706,15 +721,6 @@
 				A8D865806112123A7E206E1BD0186C6C /* libWTBaseCore.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E6222FB8D2B88CBB116E5DCD7E044670 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				9A61198913FFBBE1396E9698102AA598 /* WTIconTextCell.h */,
-				443F7DF618ADF1556A27A60EFDE107D6 /* WTIconTextCell.m */,
-			);
-			name = Cell;
 			sourceTree = "<group>";
 		};
 		ECE045978354B3A1F47DDEAF4DC56206 /* FDFullscreenPopGesture */ = {
@@ -777,26 +783,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B1CEC7BB800AECCC436DF4300EAE23A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CC6A8DB44D165668FC79BBF6E3850B48 /* QLBusiness.h in Headers */,
-				E7E4E28202F66C345AF76B630F1E9503 /* QLBusinessUtil.h in Headers */,
-				8538B1A2D7017148B763301B5B89F72B /* QLDefine.h in Headers */,
-				3D84DA619A8A6E514B3F1ED12B92A7CE /* QLDropDownMenu.h in Headers */,
-				22DA71435600BAD5AD79BCBC049230B2 /* QLFormViewController.h in Headers */,
-				39763CDEBBFB5ACE008C25B3B07948F3 /* QLTabbarController.h in Headers */,
-				1E00AD79DBB8D15ED92749772A3E0AF3 /* QLViewController.h in Headers */,
-				3994487D39A6C42119DB99A8D12047F8 /* WTIconTextCell.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6528D49BBCDEB5E0F7B2BDF1992AD226 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9B2048BC3640ACC73E645A82177EC222 /* UINavigationController+FDFullscreenPopGesture.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FE2960675D672AAEA32775E85E0E33 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA31BABEBAD656CF5EC2DE644C447DA9 /* QLBusiness.h in Headers */,
+				9DB46174BD80AC1B6B42875D159F6F00 /* QLBusinessUtil.h in Headers */,
+				9098784FA479C9A890062930643B00E6 /* QLDefine.h in Headers */,
+				4E5A4A1708452F9BA306F185FC2C8553 /* QLDropDownMenu.h in Headers */,
+				EA3B33F9642D807F5F4785EBB1E95FDB /* QLFormViewController.h in Headers */,
+				BF9029B8F5E243C52A62F53EA4A8CAE9 /* QLSettingButtonCell.h in Headers */,
+				B66CFBAB98CF69EDD5DD11FC96753DF1 /* QLTabbarController.h in Headers */,
+				FBA9F5C17FA37538D8463C8457C970F6 /* QLViewController.h in Headers */,
+				3A164533BCDA0DD4093E9CAC7403E1C6 /* WTIconTextCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -866,9 +873,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 041AC99941D8551C84CFD9BBD2650E51 /* Build configuration list for PBXNativeTarget "QLBusiness" */;
 			buildPhases = (
-				B8FFE7294950C4C0C76712C8E222C41B /* Sources */,
+				DFFD49F011BA25C22E9AB744DE3B75C8 /* Sources */,
 				1A14968DEBE1AB14CFDD41992B41D9BF /* Frameworks */,
-				4B1CEC7BB800AECCC436DF4300EAE23A /* Headers */,
+				91FE2960675D672AAEA32775E85E0E33 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -1021,20 +1028,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8FFE7294950C4C0C76712C8E222C41B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				179A6B02609B224AB2A599BBE2C215F6 /* QLBusiness-dummy.m in Sources */,
-				1304CDD873A39A3DA1ED69B04F8B273D /* QLBusinessUtil.m in Sources */,
-				2BB16271D790099B17C170F9606AE167 /* QLDropDownMenu.m in Sources */,
-				F9BB39258533EA08F2D96E8C7E345094 /* QLFormViewController.m in Sources */,
-				9286F92C74055663EA2057F80483D4A6 /* QLTabbarController.m in Sources */,
-				D13AA2298CCF8E17A418947B9457AA01 /* QLViewController.m in Sources */,
-				9E7C27261981AC9DFFE54857259839B2 /* WTIconTextCell.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D7C932479C1FCEB09BB1AD1D3D44A87C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1054,6 +1047,21 @@
 				E3D78C20D648BB0234F93D8C9E69ED4D /* IQUIView+IQKeyboardToolbar.m in Sources */,
 				A4223E648086FEF52D8BEF6BC331EDC9 /* IQUIViewController+Additions.m in Sources */,
 				DC3F788B3CCFAAEC642ACC6AE1A236E5 /* IQUIWindow+Hierarchy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFD49F011BA25C22E9AB744DE3B75C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65DFAAB132D0821ACC142E040BDCF5B /* QLBusiness-dummy.m in Sources */,
+				7D97DB53EB3E45B8AF62AF351F3261CE /* QLBusinessUtil.m in Sources */,
+				B2BF54342CE4E6BF775219B25F0DB807 /* QLDropDownMenu.m in Sources */,
+				CA2BCC25290AE24E77BF3BE4C56C26C1 /* QLFormViewController.m in Sources */,
+				355FB502884A6E47E909A9EE3BF8B812 /* QLSettingButtonCell.m in Sources */,
+				9B6937CE8A0B246373A5961874D54B66 /* QLTabbarController.m in Sources */,
+				5DE96C139447CC3C509766D1155A3759 /* QLViewController.m in Sources */,
+				1AF658955C8EE6C99BAADA639EDDDA58 /* WTIconTextCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1334,7 +1342,7 @@
 		};
 		CF0042F2B533763E9FE9AF865D28CCF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F11892866286E0EDFAAA5023F4E51C66 /* QLBusiness.xcconfig */;
+			baseConfigurationReference = 356709F9811863AADC3F8E768EC952C3 /* QLBusiness.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1413,7 +1421,7 @@
 		};
 		FC2B602B45BEFF4C1BCEB86214A38E0C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F11892866286E0EDFAAA5023F4E51C66 /* QLBusiness.xcconfig */;
+			baseConfigurationReference = 356709F9811863AADC3F8E768EC952C3 /* QLBusiness.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

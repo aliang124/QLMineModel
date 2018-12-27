@@ -10,6 +10,7 @@
 #import "QLSettingTitleCell.h"
 #import "QLSettingGroupCell.h"
 #import "QLSettingGroupCell1.h"
+
 @interface QLSettingViewController ()
 
 @end
@@ -23,6 +24,8 @@
     self.formManager[@"QLSettingTitleItem"] = @"QLSettingTitleCell";
     self.formManager[@"QLSettingGroupItem"] = @"QLSettingGroupCell";
     self.formManager[@"QLSettingGroupItem1"] = @"QLSettingGroupCell1";
+    self.formManager[@"QLSettingButtonItem"] = @"QLSettingButtonCell";
+    
     [self initForm];
 }
 
@@ -81,7 +84,6 @@
     itTitle3.titleText = @"消息";
     [section0 addItem:itTitle3];
 
-    /////
     NSMutableDictionary *dic6 = [NSMutableDictionary dictionary];
     [dic6 setObject:@"系统消息" forKey:@"leftTitle"];
     [dic6 setObject:@"平台活动 / 系统通知" forKey:@"rightTitle"];
@@ -96,6 +98,12 @@
     itGroup3.dataArray = [NSArray arrayWithObjects:dic6,dic7, nil];
     [section0 addItem:itGroup3];
 
+    [section0 addItem:[WTEmptyItem initWithHeight:16]];
+    
+    QLSettingButtonItem *itBtn = [[QLSettingButtonItem alloc] init];
+    itBtn.titleText = @"确定";
+    [section0 addItem:itBtn];
+    
     [sectionArray addObject:section0];
     [self.formManager replaceSectionsWithSectionsFromArray:sectionArray];
     [self.formTable reloadData];
