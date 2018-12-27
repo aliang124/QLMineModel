@@ -9,6 +9,7 @@
 #import "QLSettingViewController.h"
 #import "QLSettingTitleCell.h"
 #import "QLSettingGroupCell.h"
+#import "QLSettingGroupCell1.h"
 @interface QLSettingViewController ()
 
 @end
@@ -21,6 +22,7 @@
     self.navBar.title = @"设置";
     self.formManager[@"QLSettingTitleItem"] = @"QLSettingTitleCell";
     self.formManager[@"QLSettingGroupItem"] = @"QLSettingGroupCell";
+    self.formManager[@"QLSettingGroupItem1"] = @"QLSettingGroupCell1";
     [self initForm];
 }
 
@@ -74,9 +76,26 @@
     itGroup2.dataArray = [NSArray arrayWithObjects:dic3,dic4,dic5, nil];
     [section0 addItem:itGroup2];
 
+    //消息
+    QLSettingTitleItem *itTitle3 = [[QLSettingTitleItem alloc] init];
+    itTitle3.titleText = @"消息";
+    [section0 addItem:itTitle3];
+
+    /////
+    NSMutableDictionary *dic6 = [NSMutableDictionary dictionary];
+    [dic6 setObject:@"系统消息" forKey:@"leftTitle"];
+    [dic6 setObject:@"平台活动 / 系统通知" forKey:@"rightTitle"];
+    [dic6 setObject:@"1" forKey:@"hasChecked"];
     
-    
-    
+    NSMutableDictionary *dic7 = [NSMutableDictionary dictionary];
+    [dic7 setObject:@"用户消息" forKey:@"leftTitle"];
+    [dic7 setObject:@"用户回帖 / 评价回复 / 私信" forKey:@"rightTitle"];
+    [dic7 setObject:@"0" forKey:@"hasChecked"];
+
+    QLSettingGroupItem1 *itGroup3 = [[QLSettingGroupItem1 alloc] init];
+    itGroup3.dataArray = [NSArray arrayWithObjects:dic6,dic7, nil];
+    [section0 addItem:itGroup3];
+
     [sectionArray addObject:section0];
     [self.formManager replaceSectionsWithSectionsFromArray:sectionArray];
     [self.formTable reloadData];
