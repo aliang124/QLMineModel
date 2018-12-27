@@ -8,10 +8,6 @@
 
 #import "QLViewController.h"
 
-NS_ASSUME_NONNULL_BEGIN
-
-@interface QLBabyRecordViewController : QLViewController
+@interface QLBabyRecordViewController : QLFormViewController
 
 @end
-
-NS_ASSUME_NONNULL_END

@@ -67,6 +67,10 @@
     [arrowImg setImage:[UIImage imageNamed:@"mineArrow"]];
     [self.view addSubview:arrowImg];
     
+    UIButton *userInfoBtn = [[UIButton alloc] initWithFrame:CGRectMake(userNameLab.left, userNameLab.top, arrowImg.right-userNameLab.left, 50)];
+    [userInfoBtn addTarget:self action:@selector(editUserInfo) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:userInfoBtn];
+    
     //工具栏
     UIView *barView = [[UIView alloc] initWithFrame:CGRectMake(16, 24+108+iXStatus, WTScreenWidth-16-16, 80)];
     barView.layer.cornerRadius = 3;
@@ -170,5 +174,10 @@
         QLMessageViewController *message = [[QLMessageViewController alloc] init];
         [self.navigationController pushViewController:message animated:YES];
     }
+}
+
+- (void)editUserInfo {
+    QLUserInfoViewController *info = [[QLUserInfoViewController alloc] init];
+    [self.navigationController pushViewController:info animated:YES];
 }
 @end
