@@ -11,7 +11,7 @@
 @implementation QLSettingTitleItem
 - (id)init{
     if (self = [super init]) {
-        self.cellHeight = 120;
+        self.cellHeight = 43;
         self.bgColor = [UIColor whiteColor];
         self.hasBottomLine = NO;
         self.canHighlighted = NO;
