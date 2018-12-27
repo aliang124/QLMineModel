@@ -21,6 +21,16 @@
     self.navBar.title = @"个人资料";
     self.formManager[@"QLUserInfoItem"] = @"QLUserInfoCell";
     self.formManager[@"QLUserIconItem"] = @"QLUserIconCel";
+    
+    WTCustomBarItem *itRight = [[WTCustomBarItem alloc] init];
+    itRight.itemStyle = 0;
+    itRight.itemTitle = @"个人主页";
+    itRight.itemTextColor = QL_NavBar_TitleColor_Black;
+    itRight.itemTextFont = [UIFont systemFontOfSize:14];
+    itRight.onClick = ^{
+    };
+    self.navBar.rightItemList = [NSArray arrayWithObject:itRight];
+    
     [self initForm];
 }
 
