@@ -8,6 +8,7 @@
 
 #import "QLUserInfoViewController.h"
 #import "QLUserInfoCell.h"
+#import "QLUserIconCel.h"
 @interface QLUserInfoViewController ()
 
 @end
@@ -19,6 +20,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.navBar.title = @"个人资料";
     self.formManager[@"QLUserInfoItem"] = @"QLUserInfoCell";
+    self.formManager[@"QLUserIconItem"] = @"QLUserIconCel";
     [self initForm];
 }
 
@@ -28,6 +30,12 @@
     RETableViewSection *section0 = [RETableViewSection section];
     
     [section0 addItem:[WTEmptyItem initWithHeight:16]];
+
+    QLUserIconItem *itIcon = [[QLUserIconItem alloc] init];
+    itIcon.leftText = @"账号头像";
+    [section0 addItem:itIcon];
+    
+    [section0 addItem:[WTEmptyItem initWithHeight:12]];
 
     QLUserInfoItem *itNick = [[QLUserInfoItem alloc] init];
     itNick.leftText = @"你的昵称";
