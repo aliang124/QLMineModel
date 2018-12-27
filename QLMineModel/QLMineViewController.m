@@ -13,6 +13,12 @@
 #import "QLABoutViewController.h"
 #import "QLFeedBackViewController.h"
 #import "QLSettingViewController.h"
+#import "QLBabyRecordViewController.h"
+#import "QLUserInfoViewController.h"
+#import "QLMessageViewController.h"
+#import "QLGuanZhuViewController.h"
+#import "QLFunsViewController.h"
+
 @interface QLMineViewController ()
 {
     UILabel *userNameLab;
@@ -79,6 +85,8 @@
 
 - (void)createItem:(int)idx barView:(UIView *)barView {
     UIButton *guanBtn = [[UIButton alloc] initWithFrame:CGRectMake((idx*barView.width)/3, 0, barView.width/3, 80)];
+    guanBtn.tag = idx;
+    [guanBtn addTarget:self action:@selector(btnPress:) forControlEvents:UIControlEventTouchUpInside];
     [barView addSubview:guanBtn];
     
     UIImageView *icon1 = [[UIImageView alloc] initWithFrame:CGRectMake((guanBtn.width-24)/2, 20, 24, 24)];
@@ -112,6 +120,10 @@
     WTIconTextItem *it1 = [[WTIconTextItem alloc] init];
     it1.iconImg = [UIImage imageNamed:@"baby"];
     it1.textString = @"宝宝档案";
+    it1.selectionHandler = ^(id item) {
+        QLBabyRecordViewController *baby = [[QLBabyRecordViewController alloc] init];
+        [bself.navigationController pushViewController:baby animated:YES];
+    };
     [section0 addItem:it1];
     
     WTIconTextItem *it2 = [[WTIconTextItem alloc] init];
@@ -145,5 +157,18 @@
     [self.formManager replaceSectionsWithSectionsFromArray:sectionArray];
 
     [self.formTable reloadData];
+}
+
+- (void)btnPress:(UIButton *)btn {
+    if (btn.tag == 0) {
+        QLGuanZhuViewController *guan = [[QLGuanZhuViewController alloc] init];
+        [self.navigationController pushViewController:guan animated:YES];
+    } else if (btn.tag == 1) {
+        QLFunsViewController *funs = [[QLFunsViewController alloc] init];
+        [self.navigationController pushViewController:funs animated:YES];
+    } else if (btn.tag == 2) {
+        QLMessageViewController *message = [[QLMessageViewController alloc] init];
+        [self.navigationController pushViewController:message animated:YES];
+    }
 }
 @end

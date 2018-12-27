@@ -31,6 +31,22 @@ Pod::Spec.new do |s|
   ss.source_files = 'QLMineModel/Setting/**/*.{h,m,c,mm}'
   end
 
+  s.subspec 'UserInfo' do |ss|
+  ss.source_files = 'QLMineModel/UserInfo/**/*.{h,m,c,mm}'
+  end
+
+  s.subspec 'GuanZhu' do |ss|
+  ss.source_files = 'QLMineModel/UserInfo/**/*.{h,m,c,mm}'
+  end
+
+  s.subspec 'Funs' do |ss|
+  ss.source_files = 'QLMineModel/Funs/**/*.{h,m,c,mm}'
+  end
+
+  s.subspec 'Message' do |ss|
+  ss.source_files = 'QLMineModel/Message/**/*.{h,m,c,mm}'
+  end
+
   s.subspec 'Cell' do |ss|
   ss.source_files = 'QLMineModel/Cell/**/*.{h,m,c,mm}'
   end
