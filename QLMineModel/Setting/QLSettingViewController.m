@@ -101,7 +101,7 @@
     [section0 addItem:[WTEmptyItem initWithHeight:16]];
     
     QLSettingButtonItem *itBtn = [[QLSettingButtonItem alloc] init];
-    itBtn.titleText = @"确定";
+    itBtn.titleText = @"退出登录";
     [section0 addItem:itBtn];
     
     [sectionArray addObject:section0];
