@@ -60,11 +60,13 @@ PODS:
     - IQKeyboardManager (~> 5.0.7)
   - WTImagePicker (0.0.1):
     - TZImagePickerController (~> 2.0.0.7)
+  - WTPagerController (0.0.1)
 
 DEPENDENCIES:
   - QLBusiness (from `https://github.com/aliang124/QLBusiness.git`)
   - WTBaseCore (from `https://github.com/jienliang000/WTBaseCore.git`)
   - WTImagePicker (from `https://github.com/jienliang000/WTImagePicker.git`)
+  - WTPagerController (from `https://github.com/jienliang000/WTPagerController.git`)
 
 EXTERNAL SOURCES:
   QLBusiness:
@@ -73,6 +75,8 @@ EXTERNAL SOURCES:
     :git: https://github.com/jienliang000/WTBaseCore.git
   WTImagePicker:
     :git: https://github.com/jienliang000/WTImagePicker.git
+  WTPagerController:
+    :git: https://github.com/jienliang000/WTPagerController.git
 
 CHECKOUT OPTIONS:
   QLBusiness:
@@ -84,6 +88,9 @@ CHECKOUT OPTIONS:
   WTImagePicker:
     :commit: 7b473ee5106cfb41c14f7e23419b742e6d2420b6
     :git: https://github.com/jienliang000/WTImagePicker.git
+  WTPagerController:
+    :commit: 445fc81659f788bd92c3a61e5ffefe2f0a08561f
+    :git: https://github.com/jienliang000/WTPagerController.git
 
 SPEC CHECKSUMS:
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
@@ -92,7 +99,8 @@ SPEC CHECKSUMS:
   TZImagePickerController: 9bf89512bb6de53e87897f2e17e607c126a199d6
   WTBaseCore: c46847e84d6a933554f3bed7ea1a94ed729131b3
   WTImagePicker: 57ba815ef694d36943967aeecd415f5760e8a7e6
+  WTPagerController: 77388a87329eb5a9f48707f3e9830a4516732208
 
-PODFILE CHECKSUM: 7db8326d36acc86158367e16b77feb9b0cea8a7f
+PODFILE CHECKSUM: eaa42e2e9fae63378f1f5187411f217a07d3c42a
 
 COCOAPODS: 1.4.0

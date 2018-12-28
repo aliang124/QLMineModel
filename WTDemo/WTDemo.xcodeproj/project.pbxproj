@@ -18,6 +18,7 @@
 		501026FD21D4FADB0084F3C1 /* QLUserInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 501026FC21D4FADB0084F3C1 /* QLUserInfoCell.m */; };
 		5010270021D504660084F3C1 /* QLUserIconCel.m in Sources */ = {isa = PBXBuildFile; fileRef = 501026FF21D504660084F3C1 /* QLUserIconCel.m */; };
 		5027755921D5B77B00C02C3F /* QLFunsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5027755821D5B77B00C02C3F /* QLFunsCell.m */; };
+		5027755C21D5C09A00C02C3F /* QLGuanZhuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5027755A21D5C09A00C02C3F /* QLGuanZhuCell.m */; };
 		502EB8B721BE0F8A0011A103 /* QLABoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 502EB8B621BE0F8A0011A103 /* QLABoutViewController.m */; };
 		502EB8BA21BE0F9C0011A103 /* QLFeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 502EB8B921BE0F9C0011A103 /* QLFeedBackViewController.m */; };
 		502EB8BD21BE0FAA0011A103 /* QLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 502EB8BC21BE0FAA0011A103 /* QLSettingViewController.m */; };
@@ -51,6 +52,8 @@
 		501026FF21D504660084F3C1 /* QLUserIconCel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLUserIconCel.m; sourceTree = "<group>"; };
 		5027755721D5B77B00C02C3F /* QLFunsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLFunsCell.h; sourceTree = "<group>"; };
 		5027755821D5B77B00C02C3F /* QLFunsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLFunsCell.m; sourceTree = "<group>"; };
+		5027755A21D5C09A00C02C3F /* QLGuanZhuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLGuanZhuCell.m; sourceTree = "<group>"; };
+		5027755B21D5C09A00C02C3F /* QLGuanZhuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLGuanZhuCell.h; sourceTree = "<group>"; };
 		502EB8B521BE0F8A0011A103 /* QLABoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLABoutViewController.h; sourceTree = "<group>"; };
 		502EB8B621BE0F8A0011A103 /* QLABoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLABoutViewController.m; sourceTree = "<group>"; };
 		502EB8B821BE0F9C0011A103 /* QLFeedBackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLFeedBackViewController.h; sourceTree = "<group>"; };
@@ -179,6 +182,8 @@
 		50DADD062192B40D00DA8BFE /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				5027755B21D5C09A00C02C3F /* QLGuanZhuCell.h */,
+				5027755A21D5C09A00C02C3F /* QLGuanZhuCell.m */,
 				5027755721D5B77B00C02C3F /* QLFunsCell.h */,
 				5027755821D5B77B00C02C3F /* QLFunsCell.m */,
 				501026FE21D504660084F3C1 /* QLUserIconCel.h */,
@@ -389,6 +394,7 @@
 				501026FA21D4F6AB0084F3C1 /* QLMessageViewController.m in Sources */,
 				501026E721D4CF800084F3C1 /* QLSettingGroupCell1.m in Sources */,
 				50DADCEF2192811B00DA8BFE /* main.m in Sources */,
+				5027755C21D5C09A00C02C3F /* QLGuanZhuCell.m in Sources */,
 				501026F421D4F6680084F3C1 /* QLFunsViewController.m in Sources */,
 				5010270021D504660084F3C1 /* QLUserIconCel.m in Sources */,
 				50DADCF92192854400DA8BFE /* QLMineViewController.m in Sources */,
