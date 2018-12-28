@@ -16,5 +16,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navBar.title = @"关注";
+    [self initForm];
+}
+
+- (void)initForm {
+    WT(bself);
+    NSMutableArray *sectionArray = [NSMutableArray array];
+    RETableViewSection *section0 = [RETableViewSection section];
+    
+    
+    [sectionArray addObject:section0];
+    [self.formManager replaceSectionsWithSectionsFromArray:sectionArray];
+    
+    [self.formTable reloadData];
 }
 @end
