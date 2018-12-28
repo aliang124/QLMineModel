@@ -20,6 +20,7 @@
 		5027755921D5B77B00C02C3F /* QLFunsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5027755821D5B77B00C02C3F /* QLFunsCell.m */; };
 		5027755C21D5C09A00C02C3F /* QLGuanZhuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5027755A21D5C09A00C02C3F /* QLGuanZhuCell.m */; };
 		5027756321D5EF0000C02C3F /* QLMineChildInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5027756221D5EF0000C02C3F /* QLMineChildInfoCell.m */; };
+		5027756621D5F24000C02C3F /* QLModifyPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5027756421D5F24000C02C3F /* QLModifyPasswordViewController.m */; };
 		502EB8B721BE0F8A0011A103 /* QLABoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 502EB8B621BE0F8A0011A103 /* QLABoutViewController.m */; };
 		502EB8BA21BE0F9C0011A103 /* QLFeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 502EB8B921BE0F9C0011A103 /* QLFeedBackViewController.m */; };
 		502EB8BD21BE0FAA0011A103 /* QLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 502EB8BC21BE0FAA0011A103 /* QLSettingViewController.m */; };
@@ -57,6 +58,8 @@
 		5027755B21D5C09A00C02C3F /* QLGuanZhuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLGuanZhuCell.h; sourceTree = "<group>"; };
 		5027756121D5EF0000C02C3F /* QLMineChildInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLMineChildInfoCell.h; sourceTree = "<group>"; };
 		5027756221D5EF0000C02C3F /* QLMineChildInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLMineChildInfoCell.m; sourceTree = "<group>"; };
+		5027756421D5F24000C02C3F /* QLModifyPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLModifyPasswordViewController.m; sourceTree = "<group>"; };
+		5027756521D5F24000C02C3F /* QLModifyPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLModifyPasswordViewController.h; sourceTree = "<group>"; };
 		502EB8B521BE0F8A0011A103 /* QLABoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLABoutViewController.h; sourceTree = "<group>"; };
 		502EB8B621BE0F8A0011A103 /* QLABoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLABoutViewController.m; sourceTree = "<group>"; };
 		502EB8B821BE0F9C0011A103 /* QLFeedBackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLFeedBackViewController.h; sourceTree = "<group>"; };
@@ -228,6 +231,8 @@
 		50DADD102192E53600DA8BFE /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				5027756521D5F24000C02C3F /* QLModifyPasswordViewController.h */,
+				5027756421D5F24000C02C3F /* QLModifyPasswordViewController.m */,
 				502EB8BB21BE0FAA0011A103 /* QLSettingViewController.h */,
 				502EB8BC21BE0FAA0011A103 /* QLSettingViewController.m */,
 			);
@@ -391,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				501026F721D4F6920084F3C1 /* QLGuanZhuViewController.m in Sources */,
+				5027756621D5F24000C02C3F /* QLModifyPasswordViewController.m in Sources */,
 				5027755921D5B77B00C02C3F /* QLFunsCell.m in Sources */,
 				5027756321D5EF0000C02C3F /* QLMineChildInfoCell.m in Sources */,
 				501026F121D4F64C0084F3C1 /* QLUserInfoViewController.m in Sources */,
