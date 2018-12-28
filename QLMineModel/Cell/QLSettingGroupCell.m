@@ -118,6 +118,8 @@
 }
 
 - (void)btnPress:(UIButton *)bbb {
-    NSLog(@"aaaaaaaaa");
+    if (self.item.btnPress) {
+        self.item.btnPress((int)bbb.tag);
+    }
 }
 @end

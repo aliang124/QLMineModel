@@ -15,6 +15,8 @@ typedef NS_ENUM(NSInteger, ButtonType) {
 
 @interface QLSettingGroupItem : WTBaseItem
 @property (nonatomic,copy) NSArray *dataArray;
+@property (nonatomic,copy) void (^btnPress)(int);
+
 @end
 
 @interface QLSettingGroupCell : WTBaseCell

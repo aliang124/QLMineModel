@@ -10,7 +10,7 @@
 #import "QLSettingTitleCell.h"
 #import "QLSettingGroupCell.h"
 #import "QLSettingGroupCell1.h"
-
+#import "QLModifyPasswordViewController.h"
 @interface QLSettingViewController ()
 
 @end
@@ -50,6 +50,12 @@
 
     QLSettingGroupItem *itGroup1 = [[QLSettingGroupItem alloc] init];
     itGroup1.dataArray = [NSArray arrayWithObjects:dic,dic1, nil];
+    itGroup1.btnPress = ^(int i) {
+        if (i==1) {
+            QLModifyPasswordViewController *pass = [[QLModifyPasswordViewController alloc] init];
+            [bself.navigationController pushViewController:pass animated:YES];
+        }
+    };
     [section0 addItem:itGroup1];
     
     //第三方绑定
