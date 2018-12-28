@@ -8,6 +8,6 @@
 
 #import "QLViewController.h"
 
-@interface QLModifyPasswordViewController : QLFormViewController
+@interface QLModifyPasswordViewController : QLViewController
 
 @end
