@@ -7,12 +7,13 @@
 //
 
 #import "QLFunsViewController.h"
-
+#import "QLFunsCell.h"
 @implementation QLFunsViewController
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     self.navBar.title = @"粉丝";
+    self.formManager[@"QLFunsItem"] = @"QLFunsCell";
     [self initForm];
 }
 
@@ -21,6 +22,10 @@
     NSMutableArray *sectionArray = [NSMutableArray array];
     RETableViewSection *section0 = [RETableViewSection section];
     
+    for (int i = 0; i < 10; i++) {
+        QLFunsItem *itFuns = [[QLFunsItem alloc] init];
+        [section0 addItem:itFuns];
+    }
     
     [sectionArray addObject:section0];
     [self.formManager replaceSectionsWithSectionsFromArray:sectionArray];
