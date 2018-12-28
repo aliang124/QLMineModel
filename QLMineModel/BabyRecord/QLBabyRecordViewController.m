@@ -7,6 +7,7 @@
 //
 
 #import "QLBabyRecordViewController.h"
+#import "QLMineChildInfoCell.h"
 
 @interface QLBabyRecordViewController ()
 
@@ -16,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     self.navBar.title = @"宝贝档案";
+    self.formManager[@"QLMineChildInfoItem"] = @"QLMineChildInfoCell";
     [self initForm];
 }
 
@@ -25,7 +28,16 @@
     NSMutableArray *sectionArray = [NSMutableArray array];
     RETableViewSection *section0 = [RETableViewSection section];
     
+    [section0 addItem:[WTEmptyItem initWithHeight:16]];
+
+    QLMineChildInfoItem *itOne = [[QLMineChildInfoItem alloc] init];
+    [section0 addItem:itOne];
     
+    [section0 addItem:[WTEmptyItem initWithHeight:12]];
+
+    QLMineChildInfoItem *itTwo = [[QLMineChildInfoItem alloc] init];
+    [section0 addItem:itTwo];
+
     [sectionArray addObject:section0];
     [self.formManager replaceSectionsWithSectionsFromArray:sectionArray];
     

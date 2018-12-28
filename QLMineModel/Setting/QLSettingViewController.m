@@ -44,8 +44,8 @@
     [dic setObject:@"1" forKey:@"ButtonType"];
 
     NSMutableDictionary *dic1 = [NSMutableDictionary dictionary];
-    [dic1 setObject:@"预产期" forKey:@"leftTitle"];
-    [dic1 setObject:@"2018-08-11" forKey:@"rightTitle"];
+    [dic1 setObject:@"修改密码" forKey:@"leftTitle"];
+    [dic1 setObject:@"修改" forKey:@"rightTitle"];
     [dic1 setObject:@"2" forKey:@"ButtonType"];
 
     QLSettingGroupItem *itGroup1 = [[QLSettingGroupItem alloc] init];
