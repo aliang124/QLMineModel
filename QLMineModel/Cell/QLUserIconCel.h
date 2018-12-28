@@ -9,6 +9,7 @@
 
 @interface QLUserIconItem : RETableViewItem
 @property (nonatomic,copy) NSString *leftText;
+@property (nonatomic,weak) UIViewController *weakController;
 @end
 
 @interface QLUserIconCel : RETableViewCell

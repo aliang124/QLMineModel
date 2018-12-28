@@ -9,6 +9,7 @@
 #import "QLUserInfoViewController.h"
 #import "QLUserInfoCell.h"
 #import "QLUserIconCel.h"
+
 @interface QLUserInfoViewController ()
 
 @end
@@ -43,6 +44,7 @@
 
     QLUserIconItem *itIcon = [[QLUserIconItem alloc] init];
     itIcon.leftText = @"账号头像";
+    itIcon.weakController = self;
     [section0 addItem:itIcon];
     
     [section0 addItem:[WTEmptyItem initWithHeight:12]];

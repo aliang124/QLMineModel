@@ -7,6 +7,7 @@
 //
 #import "QLUserIconCel.h"
 #import "WTBaseCore.h"
+#import "WTImagePickerUtil.h"
 
 @implementation QLUserIconItem
 - (id)init{
@@ -22,8 +23,8 @@
 {
     UIButton *bgBtn;
     UILabel *leftLab;
-    UIImageView *iconImg;
 }
+@property (nonatomic,strong) UIImageView *iconImg;
 @end
 
 @implementation QLUserIconCel
@@ -38,6 +39,7 @@
     bgBtn.layer.borderColor = WTColorHex(0xECECE6).CGColor;
     bgBtn.layer.borderWidth = 1;
     [bgBtn setImage:[WTUtil createImageFromColor:[UIColor whiteColor]] forState:UIControlStateNormal];
+    [bgBtn addTarget:self action:@selector(btnPress) forControlEvents:UIControlEventTouchUpInside];
     [self.contentView addSubview:bgBtn];
     
     leftLab = [[UILabel alloc] initWithFrame:CGRectMake(16, 0, 300, 64)];
@@ -49,11 +51,10 @@
     [arrowImg setImage:[UIImage imageNamed:@"arrowImg"]];
     [bgBtn addSubview:arrowImg];
 
-    iconImg = [[UIImageView alloc] initWithFrame:CGRectMake(arrowImg.left-40-16, 12, 40, 40)];
-    iconImg.backgroundColor = [UIColor redColor];
-    iconImg.layer.cornerRadius = 20;
-    iconImg.layer.masksToBounds = YES;
-    [bgBtn addSubview:iconImg];
+    _iconImg = [[UIImageView alloc] initWithFrame:CGRectMake(arrowImg.left-40-16, 12, 40, 40)];
+    _iconImg.layer.cornerRadius = 20;
+    _iconImg.layer.masksToBounds = YES;
+    [bgBtn addSubview:_iconImg];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated{}
@@ -69,4 +70,13 @@
     [super layoutSubviews];
 }
 
+- (void)btnPress {
+    WT(weakSelf);
+    [[WTImagePickerUtil shareInstance] showImagePicker:WTImagePickerUtilTypeActionSingleCrop inViewController:self.item.weakController];
+    [[WTImagePickerUtil shareInstance] setDidFinishPickingPhotosHandle:^(NSArray<UIImage *> *photos, NSArray *assets) {
+        if (photos.count>0) {
+            [weakSelf.iconImg setImage:photos[0]];
+        }
+    }];
+}
 @end
