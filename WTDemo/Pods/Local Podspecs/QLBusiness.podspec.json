@@ -11,6 +11,11 @@
     "ios": "8.0"
   },
   "requires_arc": true,
+  "dependencies": {
+    "MBProgressHUD": [
+
+    ]
+  },
   "source": {
     "git": "https://github.com/aliang124/QLBusiness.git",
     "tag": "0.0.1"

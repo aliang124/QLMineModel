@@ -6,6 +6,8 @@
 //  Copyright © 2017年 jienliang. All rights reserved.
 //
 #import "WTBaseCell.h"
+#import "WTBaseCore.h"
+#import "QLBusiness.h"
 
 @interface QLGuanZhuItem : RETableViewItem
 @end

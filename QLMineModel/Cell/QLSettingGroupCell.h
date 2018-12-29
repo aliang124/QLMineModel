@@ -6,6 +6,9 @@
 //  Copyright © 2017年 jienliang. All rights reserved.
 //
 #import "WTBaseCell.h"
+#import "WTBaseCore.h"
+#import "QLBusiness.h"
+
 typedef NS_ENUM(NSInteger, ButtonType) {
     ButtonType_LeftRightText = 1,
     ButtonType_LeftRightTextArrow = 2,
