@@ -134,7 +134,7 @@
     it2.iconImg = [UIImage imageNamed:@"about"];
     it2.textString = @"关于我们";
     it2.selectionHandler = ^(id item) {
-        QLABoutViewController *aa = [QLABoutViewController new];
+        QLABoutViewController *aa = [[QLABoutViewController alloc] initWithUrlString:@"http://www.163.com"];
         [bself.navigationController pushViewController:aa animated:YES];
     };
     [section0 addItem:it2];

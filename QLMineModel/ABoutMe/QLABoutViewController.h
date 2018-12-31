@@ -7,6 +7,6 @@
 //
 #import "WTBaseCore.h"
 #import "QLBusiness.h"
-@interface QLABoutViewController : QLViewController
+@interface QLABoutViewController : WTWebViewController
 
 @end
