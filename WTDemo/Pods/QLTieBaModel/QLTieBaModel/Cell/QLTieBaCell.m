@@ -37,6 +37,12 @@
     UIImageView *netImg1;
     UIImageView *netImg2;
     UIImageView *netImg3;
+    //底部
+    UILabel *tagLab;
+    UILabel *liuYanCountLab;
+    UIImageView *liuYanIcon;
+    UILabel *liulanCountLab;
+    UIImageView *liulanIcon;
 }
 @end
 
@@ -49,6 +55,7 @@
     bgView = [[UIButton alloc] initWithFrame:CGRectMake(8, 0, WTScreenWidth-8-8, 8)];
     [bgView setBackgroundImage:[WTUtil createImageFromColor:[UIColor whiteColor]] forState:UIControlStateNormal];
     [bgView setBackgroundImage:[WTUtil createImageFromColor:WTColorHex(0xcccccc)] forState:UIControlStateHighlighted];
+    [bgView addTarget:self action:@selector(btnPress) forControlEvents:UIControlEventTouchUpInside];
     [self.contentView addSubview:bgView];
     //用户信息区域
     iconImg = [[UIImageView alloc] initWithFrame:CGRectMake(12, 10, 30, 30)];
@@ -101,6 +108,34 @@
     netImg3 = [[UIImageView alloc] initWithFrame:CGRectMake(netImg2.right+10, netImg1.top, width, height)];
     netImg3.backgroundColor = [UIColor redColor];
     [bgView addSubview:netImg3];
+    //底部tagLab
+    tagLab = [[UILabel alloc] initWithFrame:CGRectMake(12, 0, 10, 14)];
+    tagLab.font = WTFontSys(10);
+    tagLab.textColor = QL_TagTextColor_Green;
+    tagLab.backgroundColor = WTColorHex(0xE5FBF7);
+    tagLab.textAlignment = NSTextAlignmentCenter;
+    [bgView addSubview:tagLab];
+    
+    //留言数
+    liuYanCountLab = [[UILabel alloc] initWithFrame:CGRectMake(bgView.width-12, netImg1.bottom+9, 9, 7)];
+    liuYanCountLab.font = WTFontSys(10);
+    liuYanCountLab.textColor = QL_DescColor_Gray;
+    [bgView addSubview:liuYanCountLab];
+    
+    liuYanIcon = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 10, 10)];
+    [liuYanIcon setImage:[UIImage imageNamed:@"liuyan"]];
+    
+    //浏览数
+    liulanCountLab = [[UILabel alloc] initWithFrame:CGRectMake(bgView.width-12, netImg1.bottom+9, 9, 7)];
+    liulanCountLab.font = WTFontSys(10);
+    liulanCountLab.textColor = QL_DescColor_Gray;
+    [bgView addSubview:liulanCountLab];
+    
+    liulanIcon = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 10, 10)];
+    [liulanIcon setImage:[UIImage imageNamed:@"liulan"]];
+    [bgView addSubview:liulanIcon];
+    
+    [bgView addSubview:liuYanIcon];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated{}
@@ -126,17 +161,45 @@
         [descLab sizeToFit];
         self.item.descTextHeight = descLab.height;
     }
-    
     descLab.top = titleLab.bottom+7;
     netImg1.top = descLab.bottom+7;
     netImg2.top = descLab.bottom+7;
     netImg3.top = descLab.bottom+7;
     bgView.height = netImg1.bottom+32;
+    //
+    tagLab.top = netImg1.bottom+6;
+    tagLab.text = @"吃喝玩乐";
+    [tagLab sizeToFit];
+    tagLab.width = tagLab.width + 8;
+    tagLab.height = tagLab.height + 4;
+    //留言数
+    liuYanCountLab.text = @"1212";
+    liuYanCountLab.top = netImg1.bottom+9;
+    [liuYanCountLab sizeToFit];
+    liuYanCountLab.left = bgView.width-12-liuYanCountLab.width;
+    
+    liuYanIcon.top = netImg1.bottom+9;
+    liuYanIcon.left = liuYanCountLab.left-5-10;
+    //浏览数
+    liulanCountLab.text = @"1212";
+    liulanCountLab.top = netImg1.bottom+9;
+    [liulanCountLab sizeToFit];
+    liulanCountLab.left = liuYanIcon.left-16-liulanCountLab.width;
+    
+    liulanIcon.top = netImg1.bottom+9;
+    liulanIcon.left = liulanCountLab.left-5-10;
+    
     self.item.cellHeight = bgView.height;
 }
 
 - (void)layoutSubviews
 {
     [super layoutSubviews];
+}
+
+- (void)btnPress {
+    if (self.item.selectionHandler) {
+        self.item.selectionHandler(self.item);
+    }
 }
 @end

@@ -8,8 +8,7 @@
 
 #import "QLSubTieBaViewController.h"
 #import "QLTieBaCell.h"
-#import "WTBaseCore.h"
-#import "QLBusiness.h"
+#import "QLTieBaDetailViewController.h"
 
 @implementation QLSubTieBaViewController
 - (void)viewDidLoad {
@@ -22,6 +21,7 @@
 }
 
 - (void)initForm {
+    WT(weakSelf);
     NSMutableArray *sectionArray = [NSMutableArray array];
     RETableViewSection *section0 = [RETableViewSection section];
     
@@ -32,6 +32,10 @@
         [section0 addItem:itE];
         
         QLTieBaItem *it = [[QLTieBaItem alloc] init];
+        it.selectionHandler = ^(id item) {
+            QLTieBaDetailViewController *detail = [[QLTieBaDetailViewController alloc] init];
+            [weakSelf.navigationController pushViewController:detail animated:YES];
+        };
         [section0 addItem:it];
     }
     WTEmptyItem *itE = [[WTEmptyItem alloc] init];

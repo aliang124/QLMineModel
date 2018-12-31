@@ -39,7 +39,7 @@
 //多页面滑动的下面游标颜色
 #define QL_NavBar_CursorColor_Black WTColorHex(0x4D4207)
 #define QL_TagColor_Green WTColorHex(0xE5FBF7)
-#define QL_TagTextColor_Green WTColorHex(0x63625C)
+#define QL_TagTextColor_Green WTColorHex(0x10BE9F)
 
 //线条颜色
 #define QL_TableView_LineColor WTColorHex(0xDDE5EA)

@@ -10,6 +10,7 @@
 #import "WTBaseCore.h"
 #import "QLBusiness.h"
 #import "QLMerchantListCell.h"
+#import "QLMerchantDetailViewController.h"
 @interface QLMerchantListViewController ()<QLDropDownMenuDataSource,QLDropDownMenuDelegate>
 {
     NSMutableArray *_data1;
@@ -118,11 +119,16 @@
 }
 
 - (void)initForm {
+    WT(weakSelf);
     NSMutableArray *sectionArray = [NSMutableArray array];
     RETableViewSection *section0 = [RETableViewSection section];
     
     for (int i = 0; i < 210; i++) {
         QLMerchantListItem *it = [[QLMerchantListItem alloc] init];
+        it.selectionHandler = ^(id item) {
+            QLMerchantDetailViewController *detail = [[QLMerchantDetailViewController alloc] init];
+            [weakSelf.navigationController pushViewController:detail animated:YES];
+        };
         [section0 addItem:it];
     }
     

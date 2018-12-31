@@ -22,15 +22,23 @@
     [super viewDidLoad];
     self.navBar.leftItemList = [NSArray array];
     WT(bself);
+    
     WTCustomBarItem *searchIt = [[WTCustomBarItem alloc] init];
     searchIt.itemStyle = 1;
-    searchIt.itemImage = [UIImage imageNamed:@"WTBaseCore.bundle/back"];
+    searchIt.itemImage = [UIImage imageNamed:@"sousu"];
     searchIt.imgSize = CGSizeMake(23, 23);
     searchIt.onClick = ^(void) {
         QLMerchantListViewController *list = [[QLMerchantListViewController alloc] init];
         [bself.navigationController pushViewController:list animated:YES];
     };
-    self.navBar.rightItemList = [NSArray arrayWithObject:searchIt];
+    
+    WTCustomBarItem *msgIt = [[WTCustomBarItem alloc] init];
+    msgIt.itemStyle = 1;
+    msgIt.itemImage = [UIImage imageNamed:@"xiaoxi"];
+    msgIt.imgSize = CGSizeMake(23, 23);
+    msgIt.onClick = ^(void) {
+    };
+    self.navBar.rightItemList = [NSArray arrayWithObjects:msgIt,searchIt, nil];
     [self.navBar setNeedsLayout];
 
     [self setControllerTitle];

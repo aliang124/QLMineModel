@@ -56,7 +56,11 @@ PODS:
   - QLLoginModel/View (0.0.1)
   - QLTieBaModel (0.0.1):
     - QLTieBaModel/Cell (= 0.0.1)
+    - QLTieBaModel/Detail (= 0.0.1)
+    - QLTieBaModel/Merchant (= 0.0.1)
   - QLTieBaModel/Cell (0.0.1)
+  - QLTieBaModel/Detail (0.0.1)
+  - QLTieBaModel/Merchant (0.0.1)
   - TZImagePickerController (2.0.0.9)
   - WTBaseCore (0.0.1):
     - FDFullscreenPopGesture (~> 1.1)
@@ -165,7 +169,7 @@ CHECKOUT OPTIONS:
     :commit: 727656369ad82ca2e04e22a759662b7baee2f8dd
     :git: https://github.com/aliang124/QLADLaunchModel.git
   QLBusiness:
-    :commit: 287f1c42e4d060b2fb7df1d9f7883c41063f0709
+    :commit: d5a3736587f0bb8005b279919a3c119c9f747042
     :git: https://github.com/aliang124/QLBusiness.git
   QLCareModel:
     :commit: c054a43cb9f5484cf15b1eaf356773dada960d3c
@@ -177,10 +181,10 @@ CHECKOUT OPTIONS:
     :commit: eb7f71cb1bd09960b1755169d8a3c0a6f55b3993
     :git: https://github.com/aliang124/QLLoginModel.git
   QLTieBaModel:
-    :commit: 9e7431e7240e13720d98fadf5581eef2eeb15e82
+    :commit: 437a210517d7bbb977e22e76d91d94f3a6b6dfb5
     :git: https://github.com/aliang124/QLTieBaModel.git
   WTBaseCore:
-    :commit: 86ce2b64e74215c73088c611023a3d4a4762cb15
+    :commit: c555c980d4f979fd2131f0ee31e844e0f80f6276
     :git: https://github.com/jienliang000/WTBaseCore.git
   WTCyclePagerView:
     :commit: 5806905a2b767426934cd0a72b2acb121d860fa3
@@ -210,7 +214,7 @@ SPEC CHECKSUMS:
   QLCareModel: d3bbba4b7aae0df90b6153ab9496bf22f301a799
   QLHomeModel: 06f1346e68eccd47f8918c17b8a658fe73c29766
   QLLoginModel: bb784275404ed62657b46ecd84d574a7ec4d3acb
-  QLTieBaModel: b3fd197ee42ab59828af9f61a7ee0c08150475a3
+  QLTieBaModel: a9af3f6dbc8844c9325d169d4941e9b649bc7c10
   TZImagePickerController: 9bf89512bb6de53e87897f2e17e607c126a199d6
   WTBaseCore: c46847e84d6a933554f3bed7ea1a94ed729131b3
   WTCyclePagerView: d08fe21d23d29a01f1e8a597f3a3d5e1583c6262
