@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navBar.title = @"意见反馈";
+    self.navBar.statusBarHeight = WT_Height_StatusBar;
+    self.navBar.navBarTitleHeight = WT_NavBar_Title_Height;
     [self.navBar setNeedsLayout];
 }
 @end

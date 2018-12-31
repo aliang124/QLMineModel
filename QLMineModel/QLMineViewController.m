@@ -143,7 +143,7 @@
     it3.iconImg = [UIImage imageNamed:@"help"];
     it3.textString = @"帮助反馈";
     it3.selectionHandler = ^(id item) {
-        QLFeedBackViewController *aa = [QLFeedBackViewController new];
+        QLFeedBackViewController *aa = [[QLFeedBackViewController alloc] initWithUrlString:@"http://www.baidu.com"];
         [bself.navigationController pushViewController:aa animated:YES];
     };
     [section0 addItem:it3];
