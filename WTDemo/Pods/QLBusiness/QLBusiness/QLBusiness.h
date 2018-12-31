@@ -19,5 +19,7 @@
 
 #import "QLViewController.h"
 #import "QLFormViewController.h"
+#import "QLTabbarController.h"
+#import "QLGuideViewController.h"
 
 #endif

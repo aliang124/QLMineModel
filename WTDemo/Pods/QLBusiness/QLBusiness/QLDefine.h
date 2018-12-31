@@ -21,6 +21,10 @@
  */
 #define WT_NavBar_Height (WT_NavBar_Title_Height+WT_Height_StatusBar)
 
+#define QL_SafeArea_TOP (iPhoneX ? 44 : 0)
+#define QL_SafeArea_BOTTOM (iPhoneX ? 34 : 0)
+#define QL_TabBar_HEIGHT ((!iPhoneX) ? 56 : (56 + QL_SafeArea_BOTTOM))
+
 
 
 //导航栏的黄色
