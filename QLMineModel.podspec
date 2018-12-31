@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'GuanZhu' do |ss|
-  ss.source_files = 'QLMineModel/UserInfo/**/*.{h,m,c,mm}'
+  ss.source_files = 'QLMineModel/GuanZhu/**/*.{h,m,c,mm}'
   end
 
   s.subspec 'Funs' do |ss|
