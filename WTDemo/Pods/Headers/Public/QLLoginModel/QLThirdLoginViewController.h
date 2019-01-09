@@ -1,1 +1,1 @@
-../../../QLLoginModel/QLLoginModel/QLThirdLoginViewController.h
+../../../QLLoginModel/QLLoginModel/Controller/QLThirdLoginViewController.h

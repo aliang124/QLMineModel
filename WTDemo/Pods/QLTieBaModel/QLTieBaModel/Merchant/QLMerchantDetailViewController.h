@@ -6,6 +6,7 @@
 //  Copyright © 2018年 计恩良. All rights reserved.
 //
 
-#import "QLFormViewController.h"
+#import "WTBaseCore.h"
+#import "QLBusiness.h"
 @interface QLMerchantDetailViewController : QLFormViewController
 @end

@@ -25,6 +25,7 @@
 		502EB8BA21BE0F9C0011A103 /* QLFeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 502EB8B921BE0F9C0011A103 /* QLFeedBackViewController.m */; };
 		502EB8BD21BE0FAA0011A103 /* QLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 502EB8BC21BE0FAA0011A103 /* QLSettingViewController.m */; };
 		502EB8C021BE0FFC0011A103 /* QLBabyRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 502EB8BF21BE0FFC0011A103 /* QLBabyRecordViewController.m */; };
+		503A80D821E628FC00201601 /* QLMineNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 503A80D621E628FC00201601 /* QLMineNetWork.m */; };
 		50DADCE12192811A00DA8BFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DADCE02192811A00DA8BFE /* AppDelegate.m */; };
 		50DADCE92192811B00DA8BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50DADCE82192811B00DA8BFE /* Assets.xcassets */; };
 		50DADCEC2192811B00DA8BFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DADCEA2192811B00DA8BFE /* LaunchScreen.storyboard */; };
@@ -68,6 +69,8 @@
 		502EB8BC21BE0FAA0011A103 /* QLSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLSettingViewController.m; sourceTree = "<group>"; };
 		502EB8BE21BE0FFC0011A103 /* QLBabyRecordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLBabyRecordViewController.h; sourceTree = "<group>"; };
 		502EB8BF21BE0FFC0011A103 /* QLBabyRecordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLBabyRecordViewController.m; sourceTree = "<group>"; };
+		503A80D621E628FC00201601 /* QLMineNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLMineNetWork.m; sourceTree = "<group>"; };
+		503A80D721E628FC00201601 /* QLMineNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLMineNetWork.h; sourceTree = "<group>"; };
 		50DADCDC2192811A00DA8BFE /* WTDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50DADCDF2192811A00DA8BFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		50DADCE02192811A00DA8BFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -133,6 +136,15 @@
 			path = UserInfo;
 			sourceTree = "<group>";
 		};
+		503A80D521E628FC00201601 /* NetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				503A80D721E628FC00201601 /* QLMineNetWork.h */,
+				503A80D621E628FC00201601 /* QLMineNetWork.m */,
+			);
+			path = NetWorking;
+			sourceTree = "<group>";
+		};
 		50DADCD32192811A00DA8BFE = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +181,7 @@
 		50DADCF62192854400DA8BFE /* QLMineModel */ = {
 			isa = PBXGroup;
 			children = (
+				503A80D521E628FC00201601 /* NetWorking */,
 				501026ED21D4F6110084F3C1 /* Funs */,
 				501026EB21D4F6110084F3C1 /* GuanZhu */,
 				501026EC21D4F6110084F3C1 /* Message */,
@@ -399,6 +412,7 @@
 				5027756621D5F24000C02C3F /* QLModifyPasswordViewController.m in Sources */,
 				5027755921D5B77B00C02C3F /* QLFunsCell.m in Sources */,
 				5027756321D5EF0000C02C3F /* QLMineChildInfoCell.m in Sources */,
+				503A80D821E628FC00201601 /* QLMineNetWork.m in Sources */,
 				501026F121D4F64C0084F3C1 /* QLUserInfoViewController.m in Sources */,
 				502EB8C021BE0FFC0011A103 /* QLBabyRecordViewController.m in Sources */,
 				501026FD21D4FADB0084F3C1 /* QLUserInfoCell.m in Sources */,

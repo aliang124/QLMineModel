@@ -24,6 +24,14 @@
     {
       "name": "Util",
       "source_files": "QLLoginModel/Util/**/*.{h,m,c,mm}"
+    },
+    {
+      "name": "NetWorking",
+      "source_files": "QLLoginModel/NetWorking/**/*.{h,m,c,mm}"
+    },
+    {
+      "name": "Controller",
+      "source_files": "QLLoginModel/Controller/**/*.{h,m,c,mm}"
     }
   ]
 }

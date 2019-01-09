@@ -8,7 +8,11 @@
 
 #import "WTBaseCore.h"
 #import "QLBusiness.h"
+typedef void(^loginCompletionHandler)(void);
 
 @interface QLLoginViewController : QLViewController
 @property (nonatomic,copy) NSString *titleText;
+//登录完成回调
+@property (nonatomic, copy) loginCompletionHandler loginCompletionHandler;
+
 @end

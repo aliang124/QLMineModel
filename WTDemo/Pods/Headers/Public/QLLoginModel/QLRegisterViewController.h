@@ -1,1 +1,1 @@
-../../../QLLoginModel/QLLoginModel/QLRegisterViewController.h
+../../../QLLoginModel/QLLoginModel/Controller/QLRegisterViewController.h

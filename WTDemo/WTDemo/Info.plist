@@ -76,5 +76,11 @@
 		<string>weibosdk</string>
 		<string>weibosdk2.5</string>
 	</array>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>访问您的相册</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>访问您的相册</string>
+	<key>NSCameraUsageDescription</key>
+	<string>打开您的相机</string>
 </dict>
 </plist>

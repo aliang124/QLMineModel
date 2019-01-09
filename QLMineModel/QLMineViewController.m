@@ -18,6 +18,7 @@
 #import "QLMessageViewController.h"
 #import "QLGuanZhuViewController.h"
 #import "QLFunsViewController.h"
+#import "QLMineNetWork.h"
 
 @interface QLMineViewController ()
 {
@@ -45,7 +46,7 @@
     //用户名
     userNameLab = [[UILabel alloc] initWithFrame:CGRectMake(21, 24+35+iXStatus, WTScreenWidth-21-82, 19)];
     userNameLab.font = WTFontSys(20);
-    userNameLab.text = @"天天兰兰";
+    userNameLab.text = [QLLoginInfo sharedInstance].username;
     userNameLab.textColor = QL_NavBar_TitleColor_Black;
     [self.view addSubview:userNameLab];
     ///头像
@@ -85,6 +86,12 @@
     self.formTable.height = WTScreenHeight-WT_TabBar_Height-228-iXStatus;
     self.formTable.scrollEnabled = NO;
     [self initForm];
+    
+    [QLMineNetWork getAccountCenterInfo:@"" password:@"" successHandler:^(id json) {
+        NSLog(@"bbbbbb");
+    } failHandler:^(NSString *message) {
+        NSLog(@"aaaaaa");
+    }];
 }
 
 - (void)createItem:(int)idx barView:(UIView *)barView {

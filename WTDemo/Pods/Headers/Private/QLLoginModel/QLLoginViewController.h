@@ -1,1 +1,1 @@
-../../../QLLoginModel/QLLoginModel/QLLoginViewController.h
+../../../QLLoginModel/QLLoginModel/Controller/QLLoginViewController.h

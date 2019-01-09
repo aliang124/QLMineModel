@@ -5,8 +5,8 @@
 //  Created by jienliang on 2017/12/5.
 //  Copyright © 2017年 jienliang. All rights reserved.
 //
-#import "WTBaseCell.h"
-
+#import "WTBaseCore.h"
+#import "QLBusiness.h"
 @interface QLTieBaItem : WTBaseItem
 @property (nonatomic,copy) NSString *userIconUrl;//头像
 @property (nonatomic,copy) NSString *userName;//用户名

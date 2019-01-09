@@ -50,8 +50,12 @@ PODS:
     - QLHomeModel/Cell (= 0.0.1)
   - QLHomeModel/Cell (0.0.1)
   - QLLoginModel (0.0.1):
+    - QLLoginModel/Controller (= 0.0.1)
+    - QLLoginModel/NetWorking (= 0.0.1)
     - QLLoginModel/Util (= 0.0.1)
     - QLLoginModel/View (= 0.0.1)
+  - QLLoginModel/Controller (0.0.1)
+  - QLLoginModel/NetWorking (0.0.1)
   - QLLoginModel/Util (0.0.1)
   - QLLoginModel/View (0.0.1)
   - QLTieBaModel (0.0.1):
@@ -169,7 +173,7 @@ CHECKOUT OPTIONS:
     :commit: 727656369ad82ca2e04e22a759662b7baee2f8dd
     :git: https://github.com/aliang124/QLADLaunchModel.git
   QLBusiness:
-    :commit: d5a3736587f0bb8005b279919a3c119c9f747042
+    :commit: 3830dd99c637b6feb8e9324745903f1e3abc4bc8
     :git: https://github.com/aliang124/QLBusiness.git
   QLCareModel:
     :commit: c054a43cb9f5484cf15b1eaf356773dada960d3c
@@ -178,13 +182,13 @@ CHECKOUT OPTIONS:
     :commit: 80c04a960eb8ba0628296065baf327626858e9a9
     :git: https://github.com/aliang124/QLHomeModel.git
   QLLoginModel:
-    :commit: eb7f71cb1bd09960b1755169d8a3c0a6f55b3993
+    :commit: 82046af62689d0428e1ec2ff45331776a9723701
     :git: https://github.com/aliang124/QLLoginModel.git
   QLTieBaModel:
-    :commit: 437a210517d7bbb977e22e76d91d94f3a6b6dfb5
+    :commit: a6153fb1871a5f5e644263a4e12487f1c7cb3179
     :git: https://github.com/aliang124/QLTieBaModel.git
   WTBaseCore:
-    :commit: c555c980d4f979fd2131f0ee31e844e0f80f6276
+    :commit: 0d8f618f74695250952f05ba5176711d79a7621c
     :git: https://github.com/jienliang000/WTBaseCore.git
   WTCyclePagerView:
     :commit: 5806905a2b767426934cd0a72b2acb121d860fa3
@@ -213,7 +217,7 @@ SPEC CHECKSUMS:
   QLBusiness: 8637f6aafab46698e06cb2ce7dab93a23662ed3f
   QLCareModel: d3bbba4b7aae0df90b6153ab9496bf22f301a799
   QLHomeModel: 06f1346e68eccd47f8918c17b8a658fe73c29766
-  QLLoginModel: bb784275404ed62657b46ecd84d574a7ec4d3acb
+  QLLoginModel: ba379e60d2afe6170803201999d962c047387abb
   QLTieBaModel: a9af3f6dbc8844c9325d169d4941e9b649bc7c10
   TZImagePickerController: 9bf89512bb6de53e87897f2e17e607c126a199d6
   WTBaseCore: c46847e84d6a933554f3bed7ea1a94ed729131b3

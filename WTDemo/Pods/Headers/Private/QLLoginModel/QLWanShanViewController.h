@@ -1,1 +1,1 @@
-../../../QLLoginModel/QLLoginModel/QLWanShanViewController.h
+../../../QLLoginModel/QLLoginModel/Controller/QLWanShanViewController.h

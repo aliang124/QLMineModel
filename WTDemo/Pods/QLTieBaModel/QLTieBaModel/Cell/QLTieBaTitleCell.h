@@ -5,8 +5,8 @@
 //  Created by jienliang on 2017/12/5.
 //  Copyright © 2017年 jienliang. All rights reserved.
 //
-#import "WTBaseCell.h"
-
+#import "WTBaseCore.h"
+#import "QLBusiness.h"
 @interface QLTieBaTitleItem : WTBaseItem
 @property (nonatomic,copy) NSString *titleText;//标题
 @property (nonatomic,copy) UIFont *titleFont;
