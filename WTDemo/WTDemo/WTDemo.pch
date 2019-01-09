@@ -10,4 +10,6 @@
 #define WTDemo_pch
 #import <WTBaseCore.h>
 #import <QLBusiness.h>
+#import "UIImageView+WebImage.h"
+
 #endif /* WTDemo_pch */
