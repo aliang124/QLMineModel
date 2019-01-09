@@ -7,6 +7,8 @@
 //
 //个人中心
 #define QL_NetWorking_AccountCenter @"/account/index"
+//基本信息
+#define QL_NetWorking_AccountMemberInfo @"/account/member-info"
 
 #import "QLMineNetWork.h"
 #import "WTBaseCore.h"
@@ -15,6 +17,18 @@
 @implementation QLMineNetWork
 + (void)getAccountCenterInfo:(void (^)(id json))successHandler failHandler:(void (^)(NSString *message))failHandler {
     [QLNetWorkingUtil postDataWithHost:QL_Net_Host Path:QL_NetWorking_AccountCenter Param:nil success:^(id json) {
+        if (successHandler) {
+            successHandler(json);
+        }
+    } fail:^(NSString *message) {
+        if (failHandler) {
+            failHandler(message);
+        }
+    }];
+}
+
++ (void)getAccountMemberInfo:(void (^)(id json))successHandler failHandler:(void (^)(NSString *message))failHandler {
+    [QLNetWorkingUtil postDataWithHost:QL_Net_Host Path:QL_NetWorking_AccountMemberInfo Param:nil success:^(id json) {
         if (successHandler) {
             successHandler(json);
         }

@@ -11,6 +11,7 @@
 
 @interface QLUserIconItem : RETableViewItem
 @property (nonatomic,copy) NSString *leftText;
+@property (nonatomic,copy) NSString *iconUrl;
 @property (nonatomic,weak) UIViewController *weakController;
 @end
 

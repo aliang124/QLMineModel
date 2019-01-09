@@ -63,6 +63,7 @@
 {
     [super cellWillAppear];
     leftLab.text = [WTUtil strRelay:self.item.leftText];
+    [_iconImg setWebImageWithUrl:self.item.iconUrl placeHolder:nil];
 }
 
 - (void)layoutSubviews

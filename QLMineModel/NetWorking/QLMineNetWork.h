@@ -13,6 +13,9 @@
 /*  获取个人中心数据
  */
 + (void)getAccountCenterInfo:(void (^)(id json))successHandler failHandler:(void (^)(NSString *message))failHandler;
+/*  获取个人资料
+ */
++ (void)getAccountMemberInfo:(void (^)(id json))successHandler failHandler:(void (^)(NSString *message))failHandler;
 /*  登录
  ** phone:手机号
  ** pass:登录密码

@@ -178,7 +178,7 @@ CHECKOUT OPTIONS:
     :commit: 727656369ad82ca2e04e22a759662b7baee2f8dd
     :git: https://github.com/aliang124/QLADLaunchModel.git
   QLBusiness:
-    :commit: 80453234d13cbd36ea03a5ae95320d125a0db6bd
+    :commit: ca4c1686ec94aa4294bdb9b64bf33535394a88e6
     :git: https://github.com/aliang124/QLBusiness.git
   QLCareModel:
     :commit: c054a43cb9f5484cf15b1eaf356773dada960d3c
