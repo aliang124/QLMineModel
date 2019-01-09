@@ -38,6 +38,7 @@
     bgBtn.layer.borderColor = WTColorHex(0xECECE6).CGColor;
     bgBtn.layer.borderWidth = 1;
     [bgBtn setImage:[WTUtil createImageFromColor:[UIColor whiteColor]] forState:UIControlStateNormal];
+    [bgBtn addTarget:self action:@selector(btnPress) forControlEvents:UIControlEventTouchUpInside];
     [self.contentView addSubview:bgBtn];
     
     leftLab = [[UILabel alloc] initWithFrame:CGRectMake(16, 0, 0, 13)];
@@ -77,4 +78,9 @@
     [super layoutSubviews];
 }
 
+- (void)btnPress {
+    if (self.item.btnPressHandler) {
+        self.item.btnPressHandler(self.item);
+    }
+}
 @end

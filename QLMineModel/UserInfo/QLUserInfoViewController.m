@@ -7,9 +7,11 @@
 //
 
 #import "QLUserInfoViewController.h"
+#import "QLNickNameViewController.h"
 #import "QLUserInfoCell.h"
 #import "QLUserIconCel.h"
 #import "QLMineNetWork.h"
+
 @interface QLUserInfoViewController ()
 @property (nonatomic,copy) NSDictionary *accountInfo;
 @end
@@ -58,6 +60,11 @@
     QLUserInfoItem *itNick = [[QLUserInfoItem alloc] init];
     itNick.leftText = @"你的昵称";
     itNick.rightText = [WTUtil strRelay:self.accountInfo[@"nickName"]];
+    itNick.btnPressHandler = ^(QLUserInfoItem *item) {
+        QLNickNameViewController *vc = [[QLNickNameViewController alloc] init];
+        vc.nickName = item.rightText;
+        [bself.navigationController pushViewController:vc animated:YES];
+    };
     [section0 addItem:itNick];
     
     [section0 addItem:[WTEmptyItem initWithHeight:12]];

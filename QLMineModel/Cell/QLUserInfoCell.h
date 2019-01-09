@@ -12,6 +12,8 @@
 @interface QLUserInfoItem : RETableViewItem
 @property (nonatomic,copy) NSString *leftText;
 @property (nonatomic,copy) NSString *rightText;
+@property (copy, readwrite, nonatomic) void (^btnPressHandler)(id item);
+
 @end
 
 @interface QLUserInfoCell : RETableViewCell
