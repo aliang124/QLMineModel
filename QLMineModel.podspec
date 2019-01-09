@@ -51,8 +51,8 @@ Pod::Spec.new do |s|
   ss.source_files = 'QLMineModel/Cell/**/*.{h,m,c,mm}'
   end
 
-  s.subspec 'QLMineNetWork' do |ss|
-  ss.source_files = 'QLMineModel/QLMineNetWork/**/*.{h,m,c,mm}'
+  s.subspec 'NetWorking' do |ss|
+  ss.source_files = 'QLMineModel/NetWorking/**/*.{h,m,c,mm}'
   end
 
 end
