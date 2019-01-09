@@ -19,6 +19,7 @@
 #import "QLGuanZhuViewController.h"
 #import "QLFunsViewController.h"
 #import "QLMineNetWork.h"
+#import "UIImageView+WebImage.h"
 
 @interface QLMineViewController ()
 {
@@ -100,6 +101,7 @@
 
 - (void)updateInfo {
     userNameLab.text = [WTUtil strRelay:self.accountCenterInfo[@"nickName"]];
+    [iconImg setWebImageWithUrl:[WTUtil strRelay:self.accountCenterInfo[@"image"]] placeHolder:nil];
 }
 
 - (void)createItem:(int)idx barView:(UIView *)barView {
