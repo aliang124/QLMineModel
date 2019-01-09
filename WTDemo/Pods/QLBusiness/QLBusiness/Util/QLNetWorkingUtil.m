@@ -71,11 +71,15 @@
         for (int k = 0; k < [files count]; k++) {
             NSDictionary *dic = [files objectAtIndex:k];
             NSString *key = [[dic allKeys] objectAtIndex:0];
-            NSData *fileData = [NSData dataWithContentsOfFile:[WTUtil strRelay:dic[key]]];
-            NSString *fileName = [WTUtil strRelay:dic[key]];
-            fileName = [fileName lastPathComponent];
+            id date = dic[key];
+            NSData *fileData = nil;
+            if ([date isKindOfClass:[NSString class]]) {
+                fileData = [NSData dataWithContentsOfFile:date];
+            } else if ([date isKindOfClass:[UIImage class]]) {
+                fileData = UIImagePNGRepresentation(date);
+            }
             if (fileData) {
-                [formData appendPartWithFileData:fileData name:key fileName:[WTUtil strRelay:fileName] mimeType:@"*/*"];
+                [formData appendPartWithFileData:fileData name:key fileName:key mimeType:@"*/*"];
             }
         }
     } progress:^(NSProgress * _Nonnull uploadProgress) {
