@@ -9,6 +9,7 @@
 #import "WTBaseCore.h"
 #import "WTImagePickerUtil.h"
 #import "QLMineNetWork.h"
+#import "UIImageView+WebImage.h"
 
 @implementation QLUserIconItem
 - (id)init{

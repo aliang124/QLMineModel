@@ -19,6 +19,7 @@
 #import "QLGuanZhuViewController.h"
 #import "QLFunsViewController.h"
 #import "QLMineNetWork.h"
+#import "UIImageView+WebImage.h"
 
 @interface QLMineViewController ()
 {
