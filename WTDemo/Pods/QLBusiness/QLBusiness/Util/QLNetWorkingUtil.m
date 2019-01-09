@@ -9,7 +9,7 @@
 #import "QLNetWorkingUtil.h"
 #import <AFNetworking.h>
 #import "WTBaseCore.h"
-
+#import "QLLoginInfo.h"
 @implementation QLNetWorkingUtil
 + (void)postDataWithHost:(NSString *)host Path:(NSString *)path Param:(NSDictionary *)param success:(void (^)(id json))success fail:(void (^)(NSString *message))fail
 {
@@ -19,7 +19,11 @@
     
     AFHTTPRequestSerializer *_requestSerializer = [AFHTTPRequestSerializer serializer];
     [_requestSerializer setTimeoutInterval:30];
-    [_requestSerializer setValue:@"Bearer" forHTTPHeaderField:@"Authorization"];
+    NSString *auth = @"Bearer";
+    if (![WTUtil strNilOrEmpty:[QLLoginInfo sharedInstance].token]) {
+        auth = [NSString stringWithFormat:@"%@ %@",auth,[QLLoginInfo sharedInstance].token];
+    }
+    [_requestSerializer setValue:auth forHTTPHeaderField:@"Authorization"];
     [_requestSerializer setValue:@"Ios" forHTTPHeaderField:@"clientType"];
     
     manager.requestSerializer = _requestSerializer;

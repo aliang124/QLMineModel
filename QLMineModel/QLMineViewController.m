@@ -26,6 +26,7 @@
     UILabel *tipTextLab;
     UIImageView *iconImg;
 }
+@property (nonatomic,copy) NSDictionary *accountCenterInfo;
 @end
 
 @implementation QLMineViewController
@@ -54,7 +55,6 @@
     iconImg.layer.borderColor = [UIColor whiteColor].CGColor;
     iconImg.layer.borderWidth = 2;
     iconImg.layer.masksToBounds = YES;
-    iconImg.backgroundColor = [UIColor redColor];
     [self.view addSubview:iconImg];
     //说明
     tipTextLab = [[UILabel alloc] initWithFrame:CGRectMake(21, userNameLab.bottom+18, 10, 9)];
@@ -86,12 +86,20 @@
     self.formTable.height = WTScreenHeight-WT_TabBar_Height-228-iXStatus;
     self.formTable.scrollEnabled = NO;
     [self initForm];
-    
-    [QLMineNetWork getAccountCenterInfo:@"" password:@"" successHandler:^(id json) {
-        NSLog(@"bbbbbb");
+    [self getAccountInfo];
+}
+
+- (void)getAccountInfo {
+    [QLMineNetWork getAccountCenterInfo:^(id json) {
+        self.accountCenterInfo = json;
+        [self updateInfo];
     } failHandler:^(NSString *message) {
-        NSLog(@"aaaaaa");
+        [WTToast makeText:message];
     }];
+}
+
+- (void)updateInfo {
+    userNameLab.text = [WTUtil strRelay:self.accountCenterInfo[@"nickName"]];
 }
 
 - (void)createItem:(int)idx barView:(UIView *)barView {

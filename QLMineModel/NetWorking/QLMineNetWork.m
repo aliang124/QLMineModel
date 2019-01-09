@@ -13,10 +13,8 @@
 #import "QLBusiness.h"
 
 @implementation QLMineNetWork
-+ (void)getAccountCenterInfo:(NSString *)phone password:(NSString *)pass successHandler:(void (^)(id json))successHandler failHandler:(void (^)(NSString *message))failHandler {
-    NSMutableDictionary *param = [NSMutableDictionary dictionary];
-    [param setObject:phone forKey:@"phone"];
-    [QLNetWorkingUtil postDataWithHost:QL_Net_Host Path:QL_NetWorking_AccountCenter Param:param success:^(id json) {
++ (void)getAccountCenterInfo:(void (^)(id json))successHandler failHandler:(void (^)(NSString *message))failHandler {
+    [QLNetWorkingUtil postDataWithHost:QL_Net_Host Path:QL_NetWorking_AccountCenter Param:nil success:^(id json) {
         if (successHandler) {
             successHandler(json);
         }

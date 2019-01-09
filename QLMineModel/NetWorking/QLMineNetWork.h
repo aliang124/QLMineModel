@@ -11,10 +11,8 @@
 
 @interface QLMineNetWork : NSObject
 /*  获取个人中心数据
- ** phone:手机号
- ** pass:登录密码
  */
-+ (void)getAccountCenterInfo:(NSString *)phone password:(NSString *)pass successHandler:(void (^)(id json))successHandler failHandler:(void (^)(NSString *message))failHandler;
++ (void)getAccountCenterInfo:(void (^)(id json))successHandler failHandler:(void (^)(NSString *message))failHandler;
 /*  登录
  ** phone:手机号
  ** pass:登录密码

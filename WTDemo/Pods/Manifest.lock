@@ -119,6 +119,8 @@ PODS:
   - WTPhotoBrowser (0.0.1):
     - CKYPhotoBrowser (~> 1.0.0)
     - YYWebImage (~> 1.0.5)
+  - WTWebImage (0.0.1):
+    - YYWebImage (~> 1.0.5)
   - YYCache (1.0.4)
   - YYImage (1.0.4):
     - YYImage/Core (= 1.0.4)
@@ -141,6 +143,7 @@ DEPENDENCIES:
   - WTImagePicker (from `https://github.com/jienliang000/WTImagePicker.git`)
   - WTPagerController (from `https://github.com/jienliang000/WTPagerController.git`)
   - WTPhotoBrowser (from `https://github.com/jienliang000/WTPhotoBrowser.git`)
+  - WTWebImage (from `https://github.com/jienliang000/WTWebImage.git`)
 
 EXTERNAL SOURCES:
   QLADLaunchModel:
@@ -167,13 +170,15 @@ EXTERNAL SOURCES:
     :git: https://github.com/jienliang000/WTPagerController.git
   WTPhotoBrowser:
     :git: https://github.com/jienliang000/WTPhotoBrowser.git
+  WTWebImage:
+    :git: https://github.com/jienliang000/WTWebImage.git
 
 CHECKOUT OPTIONS:
   QLADLaunchModel:
     :commit: 727656369ad82ca2e04e22a759662b7baee2f8dd
     :git: https://github.com/aliang124/QLADLaunchModel.git
   QLBusiness:
-    :commit: 3830dd99c637b6feb8e9324745903f1e3abc4bc8
+    :commit: 80453234d13cbd36ea03a5ae95320d125a0db6bd
     :git: https://github.com/aliang124/QLBusiness.git
   QLCareModel:
     :commit: c054a43cb9f5484cf15b1eaf356773dada960d3c
@@ -205,6 +210,9 @@ CHECKOUT OPTIONS:
   WTPhotoBrowser:
     :commit: 01251aa583b0ef238e03b59499b28c54b8bb5245
     :git: https://github.com/jienliang000/WTPhotoBrowser.git
+  WTWebImage:
+    :commit: dfd91514f3b46329c95c03802b55340d13308a87
+    :git: https://github.com/jienliang000/WTWebImage.git
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
@@ -226,10 +234,11 @@ SPEC CHECKSUMS:
   WTImagePicker: 57ba815ef694d36943967aeecd415f5760e8a7e6
   WTPagerController: 77388a87329eb5a9f48707f3e9830a4516732208
   WTPhotoBrowser: 678ba949d51b9657f6ecc511feeb2f002833baf7
+  WTWebImage: b7b7d007c097bba573355141b58f135166567017
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: 413f28dfd56a1a7621eae8a59fc7ba43d76481a8
+PODFILE CHECKSUM: 736ee7c940526101e14132b291aa22e895c9d076
 
 COCOAPODS: 1.4.0
