@@ -45,6 +45,10 @@
     {
       "name": "Controller",
       "source_files": "QLBusiness/Controller/**/*.{h,m,c,mm}"
+    },
+    {
+      "name": "AddressPicker",
+      "source_files": "QLBusiness/AddressPicker/**/*.{h,m,plist}"
     }
   ]
 }
