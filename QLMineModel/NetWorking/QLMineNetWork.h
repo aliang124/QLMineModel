@@ -20,9 +20,4 @@
  ** info:个人信息字典
  */
 + (void)updateUserInfo:(NSDictionary *)info successHandler:(void (^)(id json))successHandler failHandler:(void (^)(NSString *message))failHandler;
-/*  登录
- ** phone:手机号
- ** pass:登录密码
- */
-+ (void)loginWithPhone:(NSString *)phone password:(NSString *)pass successHandler:(void (^)(id json))successHandler failHandler:(void (^)(NSString *message))failHandler;
 @end

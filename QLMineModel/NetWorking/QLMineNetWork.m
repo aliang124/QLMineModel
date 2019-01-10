@@ -53,19 +53,4 @@
     }];
 }
 
-+ (void)loginWithPhone:(NSString *)phone password:(NSString *)pass successHandler:(void (^)(id json))successHandler failHandler:(void (^)(NSString *message))failHandler {
-    NSMutableDictionary *param = [NSMutableDictionary dictionary];
-    [param setObject:phone forKey:@"phone"];
-    [param setObject:pass forKey:@"password"];
-    [param setObject:@"1111111111" forKey:@"clientId"];
-    [QLNetWorkingUtil postDataWithHost:QL_Net_Host Path:QL_NetWorking_AccountCenter Param:param success:^(id json) {
-        if (successHandler) {
-            successHandler(json);
-        }
-    } fail:^(NSString *message) {
-        if (failHandler) {
-            failHandler(message);
-        }
-    }];
-}
 @end
