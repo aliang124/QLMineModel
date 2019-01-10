@@ -18,9 +18,8 @@
 + (void)getAccountMemberInfo:(void (^)(id json))successHandler failHandler:(void (^)(NSString *message))failHandler;
 /*  登录
  ** info:个人信息字典
- ** icon:头像
  */
-+ (void)updateUserInfo:(NSDictionary *)info image:(UIImage *)icon successHandler:(void (^)(id json))successHandler failHandler:(void (^)(NSString *message))failHandler;
++ (void)updateUserInfo:(NSDictionary *)info successHandler:(void (^)(id json))successHandler failHandler:(void (^)(NSString *message))failHandler;
 /*  登录
  ** phone:手机号
  ** pass:登录密码

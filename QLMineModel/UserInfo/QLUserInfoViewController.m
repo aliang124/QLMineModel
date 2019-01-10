@@ -11,6 +11,8 @@
 #import "QLUserInfoCell.h"
 #import "QLUserIconCel.h"
 #import "QLMineNetWork.h"
+#import "CZHAddressPickerView.h"
+#import "AddressPickerHeader.h"
 
 @interface QLUserInfoViewController ()
 @property (nonatomic,copy) NSDictionary *accountInfo;
@@ -75,6 +77,9 @@
         ![WTUtil strNilOrEmpty:self.accountInfo[@"city"]]) {
         itAddress.rightText = [NSString stringWithFormat:@"%@-%@",[WTUtil strRelay:self.accountInfo[@"province"]],[WTUtil strRelay:self.accountInfo[@"city"]]];
     }
+    itAddress.btnPressHandler = ^(QLUserInfoItem *item) {
+        [bself checkAddress:item];
+    };
     [section0 addItem:itAddress];
 
     [sectionArray addObject:section0];
@@ -83,4 +88,37 @@
     [self.formTable reloadData];
 }
 
+- (void)checkAddress:(QLUserInfoItem *)item {
+    NSString *address = item.rightText;
+    NSString *defaultProvince = @"";
+    NSString *defaultCity = @"";
+    if (![WTUtil strNilOrEmpty:address] && [address containsString:@"-"]) {
+        NSArray *ar = [address componentsSeparatedByString:@"-"];
+        if (ar.count==2) {
+            defaultProvince = ar[0];
+            defaultCity = ar[1];
+        }
+    }
+    [CZHAddressPickerView cityPickerViewWithProvince:defaultProvince city:defaultCity cityBlock:^(NSString *province, NSString *city) {
+        item.rightText = [NSString stringWithFormat:@"%@-%@",province,city];
+        [item reloadRowWithAnimation:UITableViewRowAnimationNone];
+        
+        NSMutableDictionary *param = [NSMutableDictionary dictionary];
+        [param setObject:province forKey:@"province"];
+        [param setObject:city forKey:@"city"];
+        [self updateUserInfo:param];
+    }];
+}
+
+- (void)updateUserInfo:(NSDictionary *)info {
+    WT(weakSelf);
+    [QLMBProgressHUDUtil showActivityMessageInWindow:@"正在加载"];
+    [QLMineNetWork updateUserInfo:info successHandler:^(id json) {
+        [QLMBProgressHUDUtil hideHUD];
+        [WTToast makeText:@"更新成功"];
+    } failHandler:^(NSString *message) {
+        [QLMBProgressHUDUtil hideHUD];
+        [WTToast makeText:message];
+    }];
+}
 @end

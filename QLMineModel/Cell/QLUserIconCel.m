@@ -79,12 +79,6 @@
     [[WTImagePickerUtil shareInstance] setDidFinishPickingPhotosHandle:^(NSArray<UIImage *> *photos, NSArray *assets) {
         if (photos.count>0) {
             [weakSelf.iconImg setImage:photos[0]];
-            [QLMineNetWork updateUserInfo:nil image:photos[0] successHandler:^(id json) {
-                ;
-            } failHandler:^(NSString *message) {
-                ;
-            }];
-            
         }
     }];
 }

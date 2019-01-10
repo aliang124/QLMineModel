@@ -41,12 +41,8 @@
     }];
 }
 
-+ (void)updateUserInfo:(NSDictionary *)info image:(UIImage *)icon successHandler:(void (^)(id json))successHandler failHandler:(void (^)(NSString *message))failHandler {
-    NSArray *imgArray = nil;
-    if (icon) {
-        imgArray = [NSArray arrayWithObject:[NSDictionary dictionaryWithObject:icon forKey:@"image"]];
-    }
-    [QLNetWorkingUtil uploadPic:QL_Net_Host path:QL_NetWorking_UpdateMemberInfo param:info files:imgArray success:^(id json) {
++ (void)updateUserInfo:(NSDictionary *)info successHandler:(void (^)(id json))successHandler failHandler:(void (^)(NSString *message))failHandler {
+    [QLNetWorkingUtil postDataWithHost:QL_Net_Host Path:QL_NetWorking_UpdateMemberInfo Param:info success:^(id json) {
         if (successHandler) {
             successHandler(json);
         }
