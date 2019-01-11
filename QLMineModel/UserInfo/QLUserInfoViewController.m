@@ -36,12 +36,21 @@
     };
     self.navBar.rightItemList = [NSArray arrayWithObject:itRight];
     
+    WTAddNotification(@"UpdateUserInfoSuccess", @selector(UpdateUserInfoSuccess));
+    [self getData];
+}
+
+- (void)getData {
     [QLMineNetWork getAccountMemberInfo:^(id json) {
         self.accountInfo = json;
         [self initForm];
     } failHandler:^(NSString *message) {
         [WTToast makeText:message];
     }];
+}
+
+- (void)UpdateUserInfoSuccess {
+    [self getData];
 }
 
 - (void)initForm {
@@ -111,11 +120,11 @@
 }
 
 - (void)updateUserInfo:(NSDictionary *)info {
-    WT(weakSelf);
     [QLMBProgressHUDUtil showActivityMessageInWindow:@"正在加载"];
     [QLMineNetWork updateUserInfo:info successHandler:^(id json) {
         [QLMBProgressHUDUtil hideHUD];
         [WTToast makeText:@"更新成功"];
+        WTPostNotification(@"UpdateUserInfoSuccess", nil);
     } failHandler:^(NSString *message) {
         [QLMBProgressHUDUtil hideHUD];
         [WTToast makeText:message];
