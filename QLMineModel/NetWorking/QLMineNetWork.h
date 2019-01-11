@@ -20,4 +20,8 @@
  ** info:个人信息字典
  */
 + (void)updateUserInfo:(NSDictionary *)info successHandler:(void (^)(id json))successHandler failHandler:(void (^)(NSString *message))failHandler;
+/*  粉丝
+ ** info:
+ */
++ (void)getFlowerFuns:(NSDictionary *)info successHandler:(void (^)(id json))successHandler failHandler:(void (^)(NSString *message))failHandler;
 @end

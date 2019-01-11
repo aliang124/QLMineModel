@@ -8,6 +8,8 @@
 
 #import "QLFunsViewController.h"
 #import "QLFunsCell.h"
+#import "QLMineNetWork.h"
+
 @implementation QLFunsViewController
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -15,6 +17,18 @@
     self.navBar.title = @"粉丝";
     self.formManager[@"QLFunsItem"] = @"QLFunsCell";
     [self initForm];
+    [self getFunsData];
+}
+
+- (void)getFunsData {
+    NSMutableDictionary *dic = [NSMutableDictionary dictionary];
+    [dic setObject:@"1" forKey:@"page"];
+    [dic setObject:@"10" forKey:@"count"];
+    [QLMineNetWork getFlowerFuns:nil successHandler:^(id json) {
+        NSLog(@"aaaaaa");
+    } failHandler:^(NSString *message) {
+        NSLog(@"bbbbb");
+    }];
 }
 
 - (void)initForm {
