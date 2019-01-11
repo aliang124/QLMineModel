@@ -190,13 +190,13 @@ CHECKOUT OPTIONS:
     :commit: 80c04a960eb8ba0628296065baf327626858e9a9
     :git: https://github.com/aliang124/QLHomeModel.git
   QLLoginModel:
-    :commit: 82046af62689d0428e1ec2ff45331776a9723701
+    :commit: e9174b39258c10fcb9d3934404010919051678ae
     :git: https://github.com/aliang124/QLLoginModel.git
   QLTieBaModel:
     :commit: a6153fb1871a5f5e644263a4e12487f1c7cb3179
     :git: https://github.com/aliang124/QLTieBaModel.git
   WTBaseCore:
-    :commit: 0d8f618f74695250952f05ba5176711d79a7621c
+    :commit: 5e10d00566080cb22b4acaef7c5bb0dea5a72bd9
     :git: https://github.com/jienliang000/WTBaseCore.git
   WTCyclePagerView:
     :commit: 5806905a2b767426934cd0a72b2acb121d860fa3

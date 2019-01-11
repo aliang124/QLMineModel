@@ -88,6 +88,7 @@
     self.formTable.scrollEnabled = NO;
     [self initForm];
     [self getAccountInfo];
+    WTAddNotification(@"UpdateUserInfoSuccess", @selector(getAccountInfo));
 }
 
 - (void)getAccountInfo {

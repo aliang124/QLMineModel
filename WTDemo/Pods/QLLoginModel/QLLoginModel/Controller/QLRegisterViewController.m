@@ -100,6 +100,10 @@
 }
 
 - (void)registerBtnPress {
+    //进入完善资料页面
+    QLWanShanViewController *wan = [QLWanShanViewController new];
+    [self.navigationController pushViewController:wan animated:YES];
+    return;
     [QLMBProgressHUDUtil showActivityMessageInWindow:@"正在加载"];
     [QLLoginNetWork registerWithPhone:self.phoneNameTextField.text password:self.passwordTextField.text code:self.verifyTextField.text successHandler:^(id json) {
         [QLMBProgressHUDUtil hideHUD];
