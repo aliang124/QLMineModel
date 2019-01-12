@@ -9,6 +9,7 @@
 #import "QLFunsViewController.h"
 #import "QLFunsCell.h"
 #import "QLMineNetWork.h"
+#import "WTLoadFailEmpty.h"
 
 @implementation QLFunsViewController
 - (void)viewDidLoad {
@@ -16,7 +17,8 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.navBar.title = @"粉丝";
     self.formManager[@"QLFunsItem"] = @"QLFunsCell";
-    [self initForm];
+    
+    [WTLoadingView1 showLoadingInView:self.view];
     [self getFunsData];
 }
 
@@ -26,8 +28,13 @@
     [dic setObject:@"10" forKey:@"count"];
     [QLMineNetWork getFlowerFuns:nil successHandler:^(id json) {
         NSLog(@"aaaaaa");
+        [WTEmptyView showEmptyInView:self.view image:[UIImage imageNamed:@"emptyImage"]];
+        [self initForm];
     } failHandler:^(NSString *message) {
-        NSLog(@"bbbbb");
+        [WTLoadFailView showFailInView:self.view retryPress:^{
+            [WTLoadingView1 showLoadingInView:self.view];
+            [self getFunsData];
+        }];
     }];
 }
 
