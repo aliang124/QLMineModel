@@ -7,9 +7,9 @@
 //
 #import "WTBaseCore.h"
 #import "QLBusiness.h"
-@interface QLMerchantListItem : WTBaseItem
+@interface QLHomeMerchantListItem : WTBaseItem
 @end
 
-@interface QLMerchantListCell : WTBaseCell
-@property (strong, readwrite, nonatomic) QLMerchantListItem *item;
+@interface QLHomeMerchantListCell : WTBaseCell
+@property (strong, readwrite, nonatomic) QLHomeMerchantListItem *item;
 @end

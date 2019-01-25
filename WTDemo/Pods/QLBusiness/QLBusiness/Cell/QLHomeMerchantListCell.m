@@ -5,11 +5,12 @@
 //  Created by jienliang on 2017/12/5.
 //  Copyright © 2017年 jienliang. All rights reserved.
 //
-#import "QLMerchantListCell.h"
+#import "QLHomeMerchantListCell.h"
 #import "WTBaseCore.h"
 #import "QLBusiness.h"
+#import "UIImageView+WebImage.h"
 
-@implementation QLMerchantListItem
+@implementation QLHomeMerchantListItem
 - (id)init{
     if (self = [super init]) {
         self.cellHeight = 108;
@@ -20,7 +21,7 @@
 
 @end
 
-@interface QLMerchantListCell()
+@interface QLHomeMerchantListCell()
 {
     UIImageView *iconImage;
     UILabel *titleLab;
@@ -32,13 +33,12 @@
 }
 @end
 
-@implementation QLMerchantListCell
+@implementation QLHomeMerchantListCell
 
 - (void)cellDidLoad
 {
     [super cellDidLoad];
     iconImage = [[UIImageView alloc] initWithFrame:CGRectMake(12, 12, 112, 84)];
-    iconImage.backgroundColor = [UIColor redColor];
     [self.contentView addSubview:iconImage];
     
     titleLab = [[UILabel alloc] initWithFrame:CGRectMake(iconImage.right+12, 16, WTScreenWidth-iconImage.right-12-12, 13)];
@@ -46,27 +46,27 @@
     titleLab.textColor = QL_UserName_TitleColor_Black;
     [self.contentView addSubview:titleLab];
     
-    ageLab = [[UILabel alloc] initWithFrame:CGRectMake(iconImage.right+12, titleLab.bottom+16, 34, 14)];
+    ageLab = [[UILabel alloc] initWithFrame:CGRectMake(iconImage.right+12, titleLab.bottom+9, 34, 14)];
     ageLab.backgroundColor = QL_NavBar_BgColor_Yellow;
     ageLab.font = WTFontSys(8);
     ageLab.textAlignment = NSTextAlignmentCenter;
     ageLab.textColor = QL_UserName_TitleColor_Black;
     [self.contentView addSubview:ageLab];
-
-    tagLab = [[UILabel alloc] initWithFrame:CGRectMake(iconImage.right+12, ageLab.bottom+26, 28, 14)];
+    
+    addrLab = [[UILabel alloc] initWithFrame:CGRectMake(titleLab.left, ageLab.bottom+7, titleLab.width, 9)];
+    addrLab.textColor = QL_DescColor_Gray;
+    addrLab.font = WTFontSys(10);
+    [self.contentView addSubview:addrLab];
+    
+    tagLab = [[UILabel alloc] initWithFrame:CGRectMake(iconImage.right+12, addrLab.bottom+9, 28, 14)];
     tagLab.backgroundColor = QL_TagColor_Green;
     tagLab.textColor = QL_TagTextColor_Green;
     tagLab.font = WTFontSys(10);
     tagLab.textAlignment = NSTextAlignmentCenter;
     [self.contentView addSubview:tagLab];
-
-    addrLab = [[UILabel alloc] initWithFrame:CGRectMake(tagLab.right+12, tagLab.top, WTScreenWidth-tagLab.right-12-12, 14)];
-    addrLab.textColor = QL_UserName_TitleColor_Black;
-    addrLab.font = WTFontSys(10);
-    [self.contentView addSubview:addrLab];
     
-    lineImg = [[UIImageView alloc] initWithFrame:CGRectMake(iconImage.right+12, 108-WT_Line_Height, WTScreenWidth-iconImage.right-12, WT_Line_Height)];
-    lineImg.backgroundColor = WT_Color_Line;
+    lineImg = [[UIImageView alloc] initWithFrame:CGRectMake(iconImage.right+12, 108-0.5, WTScreenWidth-iconImage.right-12, 0.5)];
+    lineImg.backgroundColor = QL_Border_LineColor;
     [self.contentView addSubview:lineImg];
 }
 
@@ -76,13 +76,14 @@
 - (void)cellWillAppear
 {
     [super cellWillAppear];
+    [iconImage setWebImageWithUrl:@"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1547976453468&di=0730fb64aadc80b0f2490a430f51aebb&imgtype=0&src=http%3A%2F%2Fimg5.duitang.com%2Fuploads%2Fitem%2F201105%2F31%2F20110531094303_d5JZB.jpg" placeHolder:nil];
+    
     titleLab.text = @"Lunaluz露娜家亲子餐厅";
     ageLab.text = @"0-12岁";
     tagLab.text = @"西餐";
     [tagLab sizeToFit];
     tagLab.width = tagLab.width+8;
-    addrLab.frame = CGRectMake(tagLab.right+12, tagLab.top, WTScreenWidth-tagLab.right-12-12, 14);
-    addrLab.text = @"西城区西直门外大街1号购物中心B1...";
+    addrLab.text = @"安徽省合肥市蜀山区长江西路288号好利来大酒店";
 }
 
 - (void)layoutSubviews
