@@ -10,6 +10,7 @@
 #import "QLBusiness.h"
 
 @interface QLFunsItem : RETableViewItem
+@property (nonatomic,copy) id info;
 @end
 
 @interface QLFunsCell : RETableViewCell
