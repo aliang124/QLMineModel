@@ -11,6 +11,7 @@
 
 @interface QLFunsItem : RETableViewItem
 @property (nonatomic,copy) id info;
+@property (nonatomic,copy) void (^guanZhuSuccess)(void);
 @end
 
 @interface QLFunsCell : RETableViewCell

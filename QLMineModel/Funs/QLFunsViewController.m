@@ -40,6 +40,8 @@
     [QLMineNetWork getFlowerFuns:dic successHandler:^(id json) {
         [WTLoadingView1 hideAllLoadingForView:self.view];
         [self.formTable.mj_header endRefreshing];
+        
+        self.totalPage = [[WTUtil strRelay:json[@"huxiang"]] intValue];
         if (self.isFromRefresh) {
             [self.listArray removeAllObjects];
         }
@@ -47,7 +49,6 @@
         if (ar && [ar isKindOfClass:[NSArray class]]) {
             [self.listArray addObjectsFromArray:ar];
         }
-        self.pageIndex = self.pageIndex + 1;
         [self initForm];
         self.isFromRefresh = NO;
     } failHandler:^(NSString *message) {
@@ -73,6 +74,9 @@
     for (int i = 0; i < self.listArray.count; i++) {
         QLFunsItem *itFuns = [[QLFunsItem alloc] init];
         itFuns.info = self.listArray[i];
+        itFuns.guanZhuSuccess = ^{
+            [bself.formTable.mj_header beginRefreshing];
+        };
         [section0 addItem:itFuns];
     }
 

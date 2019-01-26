@@ -8,6 +8,7 @@
 #import "QLFunsCell.h"
 #import "WTBaseCore.h"
 #import "UIImageView+WebImage.h"
+#import "QLMineNetWork.h"
 
 @implementation QLFunsItem
 - (id)init{
@@ -100,6 +101,7 @@
     guanZhuBtn.layer.borderColor = QL_Border_LineColor.CGColor;
     guanZhuBtn.layer.borderWidth = 0.5;
     [guanZhuBtn setBackgroundImage:[WTUtil createImageFromColor:[UIColor whiteColor]] forState:UIControlStateNormal];
+    [guanZhuBtn addTarget:self action:@selector(guanZhuBtnPress) forControlEvents:UIControlEventTouchUpInside];
     [self.contentView addSubview:guanZhuBtn];
     
     UIImageView *imgV = [[UIImageView alloc] initWithFrame:CGRectMake(9, 8, 12, 12)];
@@ -118,6 +120,7 @@
     mutualBtn.layer.borderColor = QL_Border_LineColor.CGColor;
     mutualBtn.layer.borderWidth = 0.5;
     [mutualBtn setBackgroundImage:[WTUtil createImageFromColor:QL_NavBar_BgColor_Yellow] forState:UIControlStateNormal];
+    [mutualBtn addTarget:self action:@selector(guanZhuBtnPress) forControlEvents:UIControlEventTouchUpInside];
     [self.contentView addSubview:mutualBtn];
     
     UIImageView *imgV = [[UIImageView alloc] initWithFrame:CGRectMake(10, 8, 12, 12)];
@@ -129,5 +132,19 @@
     titleLab.textColor = QL_UserName_TitleColor_Black;
     titleLab.text = @"互相关注";
     [mutualBtn addSubview:titleLab];
+}
+
+- (void)guanZhuBtnPress {
+    NSMutableDictionary *param = [NSMutableDictionary dictionary];
+    [param setObject:@"2" forKey:@"type"];
+    [param setObject:[WTUtil strRelay:self.item.info[@"fansId"]] forKey:@"objectId"];
+    [QLMineNetWork guanZhuUser:param successHandler:^(id json) {
+        [WTToast makeText:@"关注成功"];
+        if (self.item.guanZhuSuccess) {
+            self.item.guanZhuSuccess();
+        }
+    } failHandler:^(NSString *message) {
+        [WTToast makeText:@"关注失败"];
+    }];
 }
 @end
