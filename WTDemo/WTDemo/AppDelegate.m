@@ -22,27 +22,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [super application:application didFinishLaunchingWithOptions:launchOptions];
     [[QLLoginInfo sharedInstance] readLoginInfoFromFile];
-    
-    WT(weakSelf);
-    if (0) {
-        QLGuideViewController *vc = [[QLGuideViewController alloc] init];
-        vc.imageArray = @[@"launch1",@"launch2",@"launch3"];
-        vc.onCreateButton = ^UIButton *{
-            UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-            btn.layer.cornerRadius = 15;
-            btn.layer.masksToBounds = YES;
-            btn.layer.borderWidth = 1;
-            btn.layer.borderColor = [UIColor redColor].CGColor;
-            [btn setTitle:@"立即进入" forState:UIControlStateNormal];
-            [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
-            [btn addTarget:weakSelf action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
-            return btn;
-        };
-        self.window.rootViewController = vc;
-        [self.window makeKeyAndVisible];
-    } else {
-        [self initRoot];
-    }
+    [self initRoot];
     return YES;
 }
 
