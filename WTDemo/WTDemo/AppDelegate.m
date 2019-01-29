@@ -26,10 +26,6 @@
     return YES;
 }
 
-- (void)btnClick {
-    [self initRoot];
-}
-
 - (void)initRoot {
     WTTabBarItem *itIndex = [[WTTabBarItem alloc] init];
     itIndex.titleText = @"发现";
