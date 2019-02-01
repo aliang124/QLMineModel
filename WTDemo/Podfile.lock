@@ -65,8 +65,10 @@ PODS:
   - QLHomeModel (0.0.1):
     - QLHomeModel/Cell (= 0.0.1)
     - QLHomeModel/NetWorking (= 0.0.1)
+    - QLHomeModel/View (= 0.0.1)
   - QLHomeModel/Cell (0.0.1)
   - QLHomeModel/NetWorking (0.0.1)
+  - QLHomeModel/View (0.0.1)
   - QLLoginModel (0.0.1):
     - QLLoginModel/Controller (= 0.0.1)
     - QLLoginModel/NetWorking (= 0.0.1)
@@ -198,22 +200,22 @@ CHECKOUT OPTIONS:
     :commit: 727656369ad82ca2e04e22a759662b7baee2f8dd
     :git: https://github.com/aliang124/QLADLaunchModel.git
   QLBusiness:
-    :commit: c8bb8fdd8842c07a0dc43182837c5d6835c2d955
+    :commit: 1b6d362f20f694a10cc5c65f4217799063fcfef6
     :git: https://github.com/aliang124/QLBusiness.git
   QLCareModel:
-    :commit: c054a43cb9f5484cf15b1eaf356773dada960d3c
+    :commit: 64e90b16284b330a0bea537bea32552133415464
     :git: https://github.com/aliang124/QLCareModel.git
   QLHomeModel:
-    :commit: 89fbd714b7ae1ec4a1fb9a7e4146f8dd8e94d9c0
+    :commit: 90452d1a2b6ce8c0b1726ff5f9c1cf4083bd35dc
     :git: https://github.com/aliang124/QLHomeModel.git
   QLLoginModel:
     :commit: 3bf589f808b95d0dcdd5c734c1305896552d34ff
     :git: https://github.com/aliang124/QLLoginModel.git
   QLTieBaModel:
-    :commit: 6eaf6cc7e96c76926d0281a37beec293307083c2
+    :commit: 4ec7a80b0af9488a18a77aa70f850e8d8669feae
     :git: https://github.com/aliang124/QLTieBaModel.git
   WTBaseCore:
-    :commit: 5e10d00566080cb22b4acaef7c5bb0dea5a72bd9
+    :commit: e3e88dc02154d1c84c12ac5fe02117479e1a09ae
     :git: https://github.com/jienliang000/WTBaseCore.git
   WTCyclePagerView:
     :commit: 5806905a2b767426934cd0a72b2acb121d860fa3
@@ -248,7 +250,7 @@ SPEC CHECKSUMS:
   QLADLaunchModel: 892d37065da2b02475794ed59a9132ca3c5dc083
   QLBusiness: 998e0659a05b8e7e255e3c064d6252667883e880
   QLCareModel: d3bbba4b7aae0df90b6153ab9496bf22f301a799
-  QLHomeModel: c4cb910b387f1e98ea2391de187b15884e5b245e
+  QLHomeModel: 7626b2065be17aee9507b475af3deedc3ae95a23
   QLLoginModel: ba379e60d2afe6170803201999d962c047387abb
   QLTieBaModel: dd2557d0895b5309e451c8d39165f4725b7794c3
   TZImagePickerController: 9bf89512bb6de53e87897f2e17e607c126a199d6
