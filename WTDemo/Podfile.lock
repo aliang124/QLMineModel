@@ -78,6 +78,17 @@ PODS:
   - QLLoginModel/NetWorking (0.0.1)
   - QLLoginModel/Util (0.0.1)
   - QLLoginModel/View (0.0.1)
+  - QLMerchantModel (0.0.1):
+    - QLMerchantModel/Cell (= 0.0.1)
+    - QLMerchantModel/Controller (= 0.0.1)
+    - QLMerchantModel/Model (= 0.0.1)
+    - QLMerchantModel/NetWorking (= 0.0.1)
+    - QLMerchantModel/View (= 0.0.1)
+  - QLMerchantModel/Cell (0.0.1)
+  - QLMerchantModel/Controller (0.0.1)
+  - QLMerchantModel/Model (0.0.1)
+  - QLMerchantModel/NetWorking (0.0.1)
+  - QLMerchantModel/View (0.0.1)
   - QLTieBaModel (0.0.1):
     - QLTieBaModel/Cell (= 0.0.1)
     - QLTieBaModel/Detail (= 0.0.1)
@@ -155,6 +166,7 @@ DEPENDENCIES:
   - QLCareModel (from `https://github.com/aliang124/QLCareModel.git`)
   - QLHomeModel (from `https://github.com/aliang124/QLHomeModel.git`)
   - QLLoginModel (from `https://github.com/aliang124/QLLoginModel.git`)
+  - QLMerchantModel (from `https://github.com/aliang124/QLMerchantModel.git`)
   - QLTieBaModel (from `https://github.com/aliang124/QLTieBaModel.git`)
   - WTBaseCore (from `https://github.com/jienliang000/WTBaseCore.git`)
   - WTCyclePagerView (from `https://github.com/jienliang000/WTCyclePagerView.git`)
@@ -176,6 +188,8 @@ EXTERNAL SOURCES:
     :git: https://github.com/aliang124/QLHomeModel.git
   QLLoginModel:
     :git: https://github.com/aliang124/QLLoginModel.git
+  QLMerchantModel:
+    :git: https://github.com/aliang124/QLMerchantModel.git
   QLTieBaModel:
     :git: https://github.com/aliang124/QLTieBaModel.git
   WTBaseCore:
@@ -200,17 +214,20 @@ CHECKOUT OPTIONS:
     :commit: 727656369ad82ca2e04e22a759662b7baee2f8dd
     :git: https://github.com/aliang124/QLADLaunchModel.git
   QLBusiness:
-    :commit: 1b6d362f20f694a10cc5c65f4217799063fcfef6
+    :commit: e47e9cfa770fe30ef545b82198b71fb602923093
     :git: https://github.com/aliang124/QLBusiness.git
   QLCareModel:
     :commit: 64e90b16284b330a0bea537bea32552133415464
     :git: https://github.com/aliang124/QLCareModel.git
   QLHomeModel:
-    :commit: 90452d1a2b6ce8c0b1726ff5f9c1cf4083bd35dc
+    :commit: b9b6bec9ed74544c40a45bcbabc7d57a9c238eb8
     :git: https://github.com/aliang124/QLHomeModel.git
   QLLoginModel:
     :commit: 3bf589f808b95d0dcdd5c734c1305896552d34ff
     :git: https://github.com/aliang124/QLLoginModel.git
+  QLMerchantModel:
+    :commit: a73725cf183b3fc60eea960b0993d75f546a7900
+    :git: https://github.com/aliang124/QLMerchantModel.git
   QLTieBaModel:
     :commit: 4ec7a80b0af9488a18a77aa70f850e8d8669feae
     :git: https://github.com/aliang124/QLTieBaModel.git
@@ -252,6 +269,7 @@ SPEC CHECKSUMS:
   QLCareModel: d3bbba4b7aae0df90b6153ab9496bf22f301a799
   QLHomeModel: 7626b2065be17aee9507b475af3deedc3ae95a23
   QLLoginModel: ba379e60d2afe6170803201999d962c047387abb
+  QLMerchantModel: 56c96d89c03b56953630004324cfd52ec6167781
   QLTieBaModel: dd2557d0895b5309e451c8d39165f4725b7794c3
   TZImagePickerController: 9bf89512bb6de53e87897f2e17e607c126a199d6
   WTBaseCore: c46847e84d6a933554f3bed7ea1a94ed729131b3
@@ -266,6 +284,6 @@ SPEC CHECKSUMS:
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: c636ff32863a2a3afcf3e45a957c4925165489e2
+PODFILE CHECKSUM: 506731285f916450a435aec1778cca7095c1316e
 
 COCOAPODS: 1.4.0

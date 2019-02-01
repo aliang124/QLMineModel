@@ -11,7 +11,7 @@
 #import "QLSettingGroupCell.h"
 #import "QLSettingGroupCell1.h"
 #import "QLModifyPasswordViewController.h"
-#import "AppDelegate.h"
+#import <CTMediator.h>
 
 @interface QLSettingViewController ()
 
@@ -118,8 +118,7 @@
             if ([WTFile fileExistAtPath:fileName]) {
                 [WTFile fileDel:fileName];
             }
-            AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
-            [delegate initRoot];
+           [[CTMediator sharedInstance] performTarget:@"QLHomeModel" action:@"initRoot" params:nil shouldCacheTarget:NO];
         };
         [section0 addItem:itBtn];
     }

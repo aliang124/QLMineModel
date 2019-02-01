@@ -25,6 +25,7 @@ target "WTDemo" do
     pod 'QLCareModel', :git => "https://github.com/aliang124/QLCareModel.git"#关注模块
     pod 'QLTieBaModel', :git => "https://github.com/aliang124/QLTieBaModel.git"#浪吧模块
     pod 'QLLoginModel', :git => "https://github.com/aliang124/QLLoginModel.git" #登录模块
+    pod 'QLMerchantModel', :git => "https://github.com/aliang124/QLMerchantModel.git"#商家模块
     pod 'CTMediator', '~> 13'
 end
 
