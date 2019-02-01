@@ -7,11 +7,9 @@
 //
 
 #import "QLFormViewController.h"
-
-NS_ASSUME_NONNULL_BEGIN
-
 @interface QLGuanZhuTieZiViewController : QLFormViewController
+@property (nonatomic,strong) NSMutableArray *listArray;
+@property (nonatomic,assign) int pageIndex;
+@property (nonatomic,assign) int totalPage;
 
 @end
-
-NS_ASSUME_NONNULL_END

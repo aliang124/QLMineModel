@@ -33,7 +33,7 @@
     self.tabBar.backgroundColor = [UIColor whiteColor];
     self.tabBar.progressView.backgroundColor = QL_NavBar_BgColor_Yellow;
     self.tabBarHeight = 44;
-    self.tabBar.layout.cellWidth = CGRectGetWidth(self.view.frame)/4;
+    self.tabBar.layout.cellWidth = CGRectGetWidth(self.view.frame)/3;
     self.tabBar.layout.normalTextFont = [UIFont systemFontOfSize:14];
     self.tabBar.layout.selectedTextFont = [UIFont boldSystemFontOfSize:16];
     self.tabBar.layout.selectedTextColor = QL_NavBar_TitleColor_Black;
