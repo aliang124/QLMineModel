@@ -33,6 +33,7 @@
 		5060B19B21FC834E00CE93F4 /* QLHuiTieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5060B19A21FC834E00CE93F4 /* QLHuiTieViewController.m */; };
 		5060B19E21FC835D00CE93F4 /* QLTongZhiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5060B19D21FC835D00CE93F4 /* QLTongZhiViewController.m */; };
 		5060B1A121FC85CB00CE93F4 /* QLSiXinCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5060B1A021FC85CA00CE93F4 /* QLSiXinCell.m */; };
+		50A9F48322049D68000A2AFF /* Target_QLMineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A9F48122049D68000A2AFF /* Target_QLMineModel.m */; };
 		50DADCE12192811A00DA8BFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DADCE02192811A00DA8BFE /* AppDelegate.m */; };
 		50DADCE92192811B00DA8BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50DADCE82192811B00DA8BFE /* Assets.xcassets */; };
 		50DADCEC2192811B00DA8BFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DADCEA2192811B00DA8BFE /* LaunchScreen.storyboard */; };
@@ -92,6 +93,8 @@
 		5060B19D21FC835D00CE93F4 /* QLTongZhiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLTongZhiViewController.m; sourceTree = "<group>"; };
 		5060B19F21FC85CA00CE93F4 /* QLSiXinCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLSiXinCell.h; sourceTree = "<group>"; };
 		5060B1A021FC85CA00CE93F4 /* QLSiXinCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLSiXinCell.m; sourceTree = "<group>"; };
+		50A9F48122049D68000A2AFF /* Target_QLMineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_QLMineModel.m; sourceTree = "<group>"; };
+		50A9F48222049D68000A2AFF /* Target_QLMineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_QLMineModel.h; sourceTree = "<group>"; };
 		50DADCDC2192811A00DA8BFE /* WTDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50DADCDF2192811A00DA8BFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		50DADCE02192811A00DA8BFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -215,6 +218,10 @@
 		50DADCF62192854400DA8BFE /* QLMineModel */ = {
 			isa = PBXGroup;
 			children = (
+				50A9F48222049D68000A2AFF /* Target_QLMineModel.h */,
+				50A9F48122049D68000A2AFF /* Target_QLMineModel.m */,
+				50DADCF82192854400DA8BFE /* QLMineViewController.h */,
+				50DADCF72192854400DA8BFE /* QLMineViewController.m */,
 				503A80D521E628FC00201601 /* NetWorking */,
 				501026ED21D4F6110084F3C1 /* Funs */,
 				501026EB21D4F6110084F3C1 /* GuanZhu */,
@@ -225,8 +232,6 @@
 				50DADD112192E53600DA8BFE /* FeedBack */,
 				50DADD102192E53600DA8BFE /* Setting */,
 				50DADD062192B40D00DA8BFE /* Cell */,
-				50DADCF82192854400DA8BFE /* QLMineViewController.h */,
-				50DADCF72192854400DA8BFE /* QLMineViewController.m */,
 			);
 			name = QLMineModel;
 			path = ../../QLMineModel;
@@ -461,6 +466,7 @@
 				501026F121D4F64C0084F3C1 /* QLUserInfoViewController.m in Sources */,
 				5060B19521FC832900CE93F4 /* QLSiXinViewController.m in Sources */,
 				502EB8C021BE0FFC0011A103 /* QLBabyRecordViewController.m in Sources */,
+				50A9F48322049D68000A2AFF /* Target_QLMineModel.m in Sources */,
 				5060B19B21FC834E00CE93F4 /* QLHuiTieViewController.m in Sources */,
 				50EE215D21E85F8500E1D9D1 /* QLModifyNickCell.m in Sources */,
 				501026FD21D4FADB0084F3C1 /* QLUserInfoCell.m in Sources */,
