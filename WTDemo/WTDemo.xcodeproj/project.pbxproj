@@ -34,6 +34,10 @@
 		5060B19E21FC835D00CE93F4 /* QLTongZhiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5060B19D21FC835D00CE93F4 /* QLTongZhiViewController.m */; };
 		5060B1A121FC85CB00CE93F4 /* QLSiXinCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5060B1A021FC85CA00CE93F4 /* QLSiXinCell.m */; };
 		50A9F48322049D68000A2AFF /* Target_QLMineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A9F48122049D68000A2AFF /* Target_QLMineModel.m */; };
+		50A9F4922204BC60000A2AFF /* QLGuanZhuMerchantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A9F4912204BC60000A2AFF /* QLGuanZhuMerchantViewController.m */; };
+		50A9F4952204BC8C000A2AFF /* QLGuanZhuTieZiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A9F4942204BC8C000A2AFF /* QLGuanZhuTieZiViewController.m */; };
+		50A9F4982204BCA3000A2AFF /* QLGuanZhuUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A9F4972204BCA3000A2AFF /* QLGuanZhuUserViewController.m */; };
+		50A9F49B2204BE4A000A2AFF /* QLGuanZhuMerchantCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A9F49A2204BE4A000A2AFF /* QLGuanZhuMerchantCell.m */; };
 		50DADCE12192811A00DA8BFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DADCE02192811A00DA8BFE /* AppDelegate.m */; };
 		50DADCE92192811B00DA8BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50DADCE82192811B00DA8BFE /* Assets.xcassets */; };
 		50DADCEC2192811B00DA8BFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DADCEA2192811B00DA8BFE /* LaunchScreen.storyboard */; };
@@ -95,6 +99,14 @@
 		5060B1A021FC85CA00CE93F4 /* QLSiXinCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLSiXinCell.m; sourceTree = "<group>"; };
 		50A9F48122049D68000A2AFF /* Target_QLMineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_QLMineModel.m; sourceTree = "<group>"; };
 		50A9F48222049D68000A2AFF /* Target_QLMineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_QLMineModel.h; sourceTree = "<group>"; };
+		50A9F4902204BC60000A2AFF /* QLGuanZhuMerchantViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLGuanZhuMerchantViewController.h; sourceTree = "<group>"; };
+		50A9F4912204BC60000A2AFF /* QLGuanZhuMerchantViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLGuanZhuMerchantViewController.m; sourceTree = "<group>"; };
+		50A9F4932204BC8C000A2AFF /* QLGuanZhuTieZiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLGuanZhuTieZiViewController.h; sourceTree = "<group>"; };
+		50A9F4942204BC8C000A2AFF /* QLGuanZhuTieZiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLGuanZhuTieZiViewController.m; sourceTree = "<group>"; };
+		50A9F4962204BCA3000A2AFF /* QLGuanZhuUserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLGuanZhuUserViewController.h; sourceTree = "<group>"; };
+		50A9F4972204BCA3000A2AFF /* QLGuanZhuUserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLGuanZhuUserViewController.m; sourceTree = "<group>"; };
+		50A9F4992204BE4A000A2AFF /* QLGuanZhuMerchantCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLGuanZhuMerchantCell.h; sourceTree = "<group>"; };
+		50A9F49A2204BE4A000A2AFF /* QLGuanZhuMerchantCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLGuanZhuMerchantCell.m; sourceTree = "<group>"; };
 		50DADCDC2192811A00DA8BFE /* WTDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50DADCDF2192811A00DA8BFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		50DADCE02192811A00DA8BFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -131,6 +143,12 @@
 			children = (
 				501026F521D4F6920084F3C1 /* QLGuanZhuViewController.h */,
 				501026F621D4F6920084F3C1 /* QLGuanZhuViewController.m */,
+				50A9F4902204BC60000A2AFF /* QLGuanZhuMerchantViewController.h */,
+				50A9F4912204BC60000A2AFF /* QLGuanZhuMerchantViewController.m */,
+				50A9F4932204BC8C000A2AFF /* QLGuanZhuTieZiViewController.h */,
+				50A9F4942204BC8C000A2AFF /* QLGuanZhuTieZiViewController.m */,
+				50A9F4962204BCA3000A2AFF /* QLGuanZhuUserViewController.h */,
+				50A9F4972204BCA3000A2AFF /* QLGuanZhuUserViewController.m */,
 			);
 			path = GuanZhu;
 			sourceTree = "<group>";
@@ -240,6 +258,8 @@
 		50DADD062192B40D00DA8BFE /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				50A9F4992204BE4A000A2AFF /* QLGuanZhuMerchantCell.h */,
+				50A9F49A2204BE4A000A2AFF /* QLGuanZhuMerchantCell.m */,
 				5060B19F21FC85CA00CE93F4 /* QLSiXinCell.h */,
 				5060B1A021FC85CA00CE93F4 /* QLSiXinCell.m */,
 				50EE215C21E85F8500E1D9D1 /* QLModifyNickCell.h */,
@@ -467,7 +487,9 @@
 				5060B19521FC832900CE93F4 /* QLSiXinViewController.m in Sources */,
 				502EB8C021BE0FFC0011A103 /* QLBabyRecordViewController.m in Sources */,
 				50A9F48322049D68000A2AFF /* Target_QLMineModel.m in Sources */,
+				50A9F4922204BC60000A2AFF /* QLGuanZhuMerchantViewController.m in Sources */,
 				5060B19B21FC834E00CE93F4 /* QLHuiTieViewController.m in Sources */,
+				50A9F4982204BCA3000A2AFF /* QLGuanZhuUserViewController.m in Sources */,
 				50EE215D21E85F8500E1D9D1 /* QLModifyNickCell.m in Sources */,
 				501026FD21D4FADB0084F3C1 /* QLUserInfoCell.m in Sources */,
 				502EB8BD21BE0FAA0011A103 /* QLSettingViewController.m in Sources */,
@@ -483,8 +505,10 @@
 				50DADCE12192811A00DA8BFE /* AppDelegate.m in Sources */,
 				501026E021D47A890084F3C1 /* QLSettingGroupCell.m in Sources */,
 				5060B1A121FC85CB00CE93F4 /* QLSiXinCell.m in Sources */,
+				50A9F49B2204BE4A000A2AFF /* QLGuanZhuMerchantCell.m in Sources */,
 				5060B19821FC833F00CE93F4 /* QLDianPingViewController.m in Sources */,
 				502EB8B721BE0F8A0011A103 /* QLABoutViewController.m in Sources */,
+				50A9F4952204BC8C000A2AFF /* QLGuanZhuTieZiViewController.m in Sources */,
 				502EB8BA21BE0F9C0011A103 /* QLFeedBackViewController.m in Sources */,
 				501026DD21D474330084F3C1 /* QLSettingTitleCell.m in Sources */,
 				50DADD092192B46700DA8BFE /* QLMineHeadCell.m in Sources */,

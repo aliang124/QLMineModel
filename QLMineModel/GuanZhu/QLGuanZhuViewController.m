@@ -7,6 +7,9 @@
 //
 
 #import "QLGuanZhuViewController.h"
+#import "QLGuanZhuMerchantViewController.h"
+#import "QLGuanZhuTieZiViewController.h"
+#import "QLGuanZhuUserViewController.h"
 
 @interface QLGuanZhuViewController ()<WTTabPagerControllerDataSource,WTTabPagerControllerDelegate>
 @property (nonatomic, strong) NSArray *datas;
@@ -51,10 +54,13 @@
 
 - (UIViewController *)tabPagerController:(WTTabPagerController *)tabPagerController controllerForIndex:(NSInteger)index prefetching:(BOOL)prefetching {
     if (index==0) {
+        return [[QLGuanZhuMerchantViewController alloc] init];
     }
     if (index==1) {
+        return [[QLGuanZhuTieZiViewController alloc] init];
     }
     if (index==2) {
+        return [[QLGuanZhuUserViewController alloc] init];
     }
     UIViewController *VC = [[UIViewController alloc]init];
     return VC;
